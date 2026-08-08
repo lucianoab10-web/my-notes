@@ -1,4 +1,3 @@
 Welcome to my digital garden.
-[[cap. 3 materia y minerales.pdf]]
-[[Mi roca]]
-[[MyC-2602]]
+
+[[MyC]] [[CAL]] [[PyE]] [[FEX]] [[FdG]] 
