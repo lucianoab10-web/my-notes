@@ -1,0 +1,1 @@
+estudiar tarbuck capitulo 3 para myc
