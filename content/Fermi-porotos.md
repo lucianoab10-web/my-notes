@@ -1,4 +1,5 @@
-[[FEXINF1]]
+
+
 ## Análisis del problema: ¿Cuántos porotos caben en un saco de porotos?
 
 Antes de los postulados, nota que tus 6 ya son sólidos — pero hay un pequeño problema estructural: mezclan **dos estrategias distintas** sin conectarlas bien. Te explico y luego propongo los 5 que faltan.
