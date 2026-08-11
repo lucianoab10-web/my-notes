@@ -1,0 +1,2 @@
+- [ ] estudiar tarbuck capitulo 3 para myc
+- [ ] Hilo para hacer un pendulo y regla para el miercoles
