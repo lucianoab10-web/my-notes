@@ -1,6 +1,4 @@
 - [ ] estudiar tarbuck capitulo 3 para myc
 - [x] Hilo para hacer un pendulo y regla para el miercoles
-- [ ] Subir evidencia [[FEX1208]]
-- [ ] Termina [[myclab1]] antes de [[myc2008]]
-- [ ] 
+- [ ] Subir evidencia [[fex1208]]
 - [ ] 
