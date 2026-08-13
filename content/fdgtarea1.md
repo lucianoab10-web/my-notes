@@ -1,0 +1,26 @@
+![[fdgtarea1.jpg|322]]
+
+- minerales comunes en rocas ígneas
+	- Minerales mayores
+		- [[Plagioclasas]] (Pl)
+		- [[Olivino]] (Ol)
+		- [[Piroxenos]] (Px)
+		- [[Anfiboles]] (Amp)
+		- [[Biotitas]] (Bt)
+		- [[Feldespatos potásicos]] (Mcl -Kfs)
+		- [[Moscovita]] (Ms)
+		- [[Cuarzo]] (Qz)
+	- Minerales accesorios
+		- [[Magnetita]] (Mag)
+		- [[Rutilo]] (Rt)
+		- [[Ilmenita]] (Ilm)
+		- [[Carbonatos]] (Cb)
+		- [[Titanita]] ()
+		- [[Circón]]
+	- Minerales alteración
+		- [[Sericita]]
+		- [[Arcillas]]
+		- [[Epidota]]
+		- [[Clorita]]
+		- [[Serpentina]]
+		- [[Cuarzo secundario]]

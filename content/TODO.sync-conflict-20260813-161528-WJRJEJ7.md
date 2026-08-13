@@ -1,4 +1,0 @@
-- [ ] estudiar tarbuck capitulo 3 para myc
-- [x] Hilo para hacer un pendulo y regla para el miercoles
-- [ ] Subir evidencia [[fex1208]]
-- [ ] 
