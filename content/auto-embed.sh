@@ -1,28 +1,24 @@
 #!/usr/bin/env bash
 # auto-embed.sh
-# Para cada archivo maestro (dif.md, myc.md, etc.), busca todos los .md
-# cuyo nombre empiece con ese código + al menos un carácter más,
-# y reescribe la sección de embeds en el maestro.
+# Para cada maestro (dif.md, myc.md, etc.), agrega wikilinks [[hijo]]
+# solo si no están ya presentes. Detección case-insensitive.
 
 set -euo pipefail
 
 VAULT="${1:-$HOME/my-notes}"
 CODIGOS=("dif" "myc" "fdg" "pye" "fex")
 
-MARKER_START="<!-- auto-embed:start -->"
-MARKER_END="<!-- auto-embed:end -->"
-
 for CODIGO in "${CODIGOS[@]}"; do
   MAESTRO="$VAULT/${CODIGO}.md"
 
-  # Si el maestro no existe, créalo vacío
+  # Si el maestro no existe, créalo
   if [[ ! -f "$MAESTRO" ]]; then
     echo "# ${CODIGO}" > "$MAESTRO"
-    echo "" >> "$MAESTRO"
-    echo "$MARKER_START" >> "$MAESTRO"
-    echo "$MARKER_END" >> "$MAESTRO"
     echo "[auto-embed] Creado maestro: ${CODIGO}.md"
   fi
+
+  # Leer contenido del maestro en minúsculas para comparar
+  CONTENIDO_LOWER=$(tr '[:upper:]' '[:lower:]' < "$MAESTRO")
 
   # Buscar hijos: archivos que empiecen con el código + algo más
   mapfile -t HIJOS < <(
@@ -31,39 +27,16 @@ for CODIGO in "${CODIGOS[@]}"; do
       | xargs -I{} basename {} .md
   )
 
-  # Construir bloque de embeds
-  BLOQUE=""
+  AGREGADOS=0
   for HIJO in "${HIJOS[@]}"; do
-    BLOQUE+="[[${HIJO}]]"$'\n\n'
+    HIJO_LOWER=$(echo "$HIJO" | tr '[:upper:]' '[:lower:]')
+    # Solo agregar si el wikilink no existe ya (case-insensitive)
+    if ! echo "$CONTENIDO_LOWER" | grep -qF "[[${HIJO_LOWER}]]"; then
+      echo "" >> "$MAESTRO"
+      echo "[[${HIJO}]]" >> "$MAESTRO"
+      (( AGREGADOS++ ))
+    fi
   done
-  BLOQUE="${BLOQUE%$'\n\n'}"  # quitar último salto doble
 
-  # Reemplazar la sección entre markers en el maestro
-  # Usamos python3 para manipulación segura de texto multilínea
-  python3 - "$MAESTRO" "$MARKER_START" "$MARKER_END" "$BLOQUE" << 'PYEOF'
-import sys
-
-path, start_marker, end_marker, bloque = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4]
-
-with open(path, "r", encoding="utf-8") as f:
-    contenido = f.read()
-
-# Si no existen los markers, agregarlos al final
-if start_marker not in contenido:
-    contenido = contenido.rstrip("\n") + "\n\n" + start_marker + "\n" + end_marker + "\n"
-
-# Reemplazar entre markers
-antes  = contenido.split(start_marker)[0]
-despues = contenido.split(end_marker)[1]
-
-nuevo = antes + start_marker + "\n"
-if bloque.strip():
-    nuevo += "\n" + bloque + "\n\n"
-nuevo += end_marker + despues
-
-with open(path, "w", encoding="utf-8") as f:
-    f.write(nuevo)
-PYEOF
-
-  echo "[auto-embed] ${CODIGO}.md → ${#HIJOS[@]} hijo(s) embebido(s): ${HIJOS[*]:-ninguno}"
+  echo "[auto-embed] ${CODIGO}.md → ${#HIJOS[@]} hijo(s) total, ${AGREGADOS} nuevo(s) agregado(s)"
 done
