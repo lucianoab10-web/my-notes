@@ -6,8 +6,8 @@
 
 <!-- auto-embed:start -->
 
-![[fex1208]]
+[[fex1208]]
 
-![[fexinf1]]
+[[fexinf1]]
 
 <!-- auto-embed:end -->

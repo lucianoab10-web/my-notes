@@ -4,10 +4,10 @@
 
 <!-- auto-embed:start -->
 
-![[fdg1108]]
+[[fdg1108]]
 
-![[fdg1808]]
+[[fdg1808]]
 
-![[fdgtarea1]]
+[[fdgtarea1]]
 
 <!-- auto-embed:end -->

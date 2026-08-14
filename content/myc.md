@@ -5,12 +5,12 @@
 
 <!-- auto-embed:start -->
 
-![[myc1308]]
+[[myc1308]]
 
-![[myc2008]]
+[[myc2008]]
 
-![[myc2602]]
+[[myc2602]]
 
-![[myclab1]]
+[[myclab1]]
 
 <!-- auto-embed:end -->

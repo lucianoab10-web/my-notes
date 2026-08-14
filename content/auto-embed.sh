@@ -34,7 +34,7 @@ for CODIGO in "${CODIGOS[@]}"; do
   # Construir bloque de embeds
   BLOQUE=""
   for HIJO in "${HIJOS[@]}"; do
-    BLOQUE+="![[${HIJO}]]"$'\n\n'
+    BLOQUE+="[[${HIJO}]]"$'\n\n'
   done
   BLOQUE="${BLOQUE%$'\n\n'}"  # quitar último salto doble
 

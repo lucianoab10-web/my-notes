@@ -6,8 +6,8 @@
 
 <!-- auto-embed:start -->
 
-![[dif1308]]
+[[dif1308]]
 
-![[dif2708]]
+[[dif2708]]
 
 <!-- auto-embed:end -->
