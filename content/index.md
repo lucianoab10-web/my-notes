@@ -7,6 +7,8 @@ title: Índice
 - [[compartidos/myc1308+lab]]
 - [[compartidos/fdgGUIAminerales]]
 - [[compartidos/quc3admica-la-ciencia-central-brown]]
+- [[Untitled]]
+- [[2026-2]]
 - [[dif1308]]
 - [[compartidos/TARBUCK-y-LUTGENS-Ciencias-de-la-Tierra-8va-ed.-1.pdf]]
 - [[TODO]]
