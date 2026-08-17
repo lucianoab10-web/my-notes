@@ -1,0 +1,1 @@
+[[fdg-tabla-minerales.pdf]]
