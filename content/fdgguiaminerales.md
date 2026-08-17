@@ -1,0 +1,1 @@
+[[compartidos/fdgguiaminerales]]

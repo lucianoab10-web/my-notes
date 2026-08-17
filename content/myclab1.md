@@ -1,1 +1,1 @@
-[[myc1308+lab]]
+[[myc1308+lab.pdf]]

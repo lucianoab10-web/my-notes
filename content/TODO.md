@@ -1,7 +1,0 @@
-- [x] Hilo para hacer un pendulo y regla para el miercoles
-- [ ] Subir evidencia [[FEX1208]]
-- [ ] Terminar [[myclab1]] antes de [[myc2008]]
-- [ ] estudiar tarbuck capitulo 3 para myc
-- [ ] Tarea [[fdgtarea1]] antes de [[fdg1808]]
-- [x] Buscar forma de automatizar la apertura de pdfs (>a 25mb) desde google drive, en quartz.
-- [ ] 

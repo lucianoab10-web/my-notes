@@ -14,3 +14,9 @@
 [[myclab1]]
 
 <!-- auto-embed:end -->
+
+[[myc1308+lab]]
+
+[[myc1208]]
+
+[[myc0i08]]
