@@ -7,4 +7,4 @@
 - [ ] Leer > ([[TARBUCK-y-LUTGENS-Ciencias-de-la-Tierra-8va-ed.-1.pdf#page=387&selection=3,0,5,18&color=yellow|TARBUCK-y-LUTGENS-Ciencias-de-la-Tierra-8va-ed.-1, p.361]]) antes de [[fdg2408]]
 - [ ] Llevar delantal para próximo laboratorio de MYC [[myc2008]]
 - [ ] Llevar goma, regla e hilo para [[FEX1908]]
-- [ ] 
+- [ ] Imprimir [[01 medición y teoria de errores cfis328_parte 1.pdf]] [[02 medición y teoria de errores cfis328_parte 2.pdf]] para [[fex1908]] 
