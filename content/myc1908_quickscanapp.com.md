@@ -1,1 +1,1 @@
-[[compartidos/myc1908_quickscanapp.com]]
+[[compartidos/myc1908_quickscanapp.com.pdf]]

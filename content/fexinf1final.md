@@ -1,1 +1,1 @@
-[[compartidos/fexinf1final]]
+[[compartidos/fexinf1final.pdf]]

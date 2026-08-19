@@ -1,1 +1,1 @@
-[[compartidos/fdg-tabla-minerales]]
+[[compartidos/fdg-tabla-minerales.pdf]]

@@ -1,1 +1,1 @@
-[[compartidos/fdgguiaminerales]]
+[[compartidos/fdgguiaminerales.pdf]]

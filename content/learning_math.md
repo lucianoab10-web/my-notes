@@ -1,1 +1,1 @@
-[[compartidos/learning_math]]
+[[compartidos/learning_math.pdf]]

@@ -1,1 +1,1 @@
-[[compartidos/guia_semana2]]
+[[compartidos/guia_semana2.pdf]]

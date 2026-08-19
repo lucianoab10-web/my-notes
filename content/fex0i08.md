@@ -1,1 +1,1 @@
-[[compartidos/fex0i08]]
+[[compartidos/fex0i08.pdf]]

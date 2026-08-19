@@ -1,1 +1,1 @@
-[[compartidos/fdg1708_quickscanapp.com]]
+[[compartidos/fdg1708_quickscanapp.com.pdf]]

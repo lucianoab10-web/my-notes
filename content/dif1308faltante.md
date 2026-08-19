@@ -1,1 +1,1 @@
-[[compartidos/dif1308faltante]]
+[[compartidos/dif1308faltante.pdf]]

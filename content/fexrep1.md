@@ -1,1 +1,1 @@
-[[compartidos/fexrep1]]
+[[compartidos/fexrep1.pdf]]

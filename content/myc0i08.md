@@ -1,1 +1,1 @@
-[[compartidos/myc0i08]]
+[[compartidos/myc0i08.pdf]]
