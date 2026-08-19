@@ -12,3 +12,5 @@
 [[fdgguiaminerales]]
 
 [[fdg-tabla-minerales]]
+
+[[fdg1808_quickscanapp.com]]
