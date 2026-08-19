@@ -1,10 +1,10 @@
 - [x] Hilo para hacer un pendulo y regla para el miercoles
-- [ ] Subir evidencia [[FEX1208]]
+- [ ] Subir evidencia [[FEX1208]] y [[fex1908]]
 - [ ] Terminar [[myclab1]] antes de [[myc2008]]
-- [ ] estudiar tarbuck capitulo 3 para myc
-- [ ] Tarea [[fdgtarea1]] antes de [[fdg1808]]
+- [x] estudiar tarbuck capitulo 3 para myc
+- [x] Tarea [[fdgtarea1]] antes de [[fdg1808]]
 - [x] Buscar forma de automatizar la apertura de pdfs (>a 25mb) desde google drive, en quartz.
 - [ ] Leer > ([[TARBUCK-y-LUTGENS-Ciencias-de-la-Tierra-8va-ed.-1.pdf#page=387&selection=3,0,5,18&color=yellow|TARBUCK-y-LUTGENS-Ciencias-de-la-Tierra-8va-ed.-1, p.361]]) antes de [[fdg2408]]
 - [ ] Llevar delantal para próximo laboratorio de MYC [[myc2008]]
-- [ ] Llevar goma, regla e hilo para [[FEX1908]]
-- [ ] Imprimir [[01 medición y teoria de errores cfis328_parte 1.pdf]] [[02 medición y teoria de errores cfis328_parte 2.pdf]] para [[fex1908]] 
+- [x] Llevar goma, regla e hilo para [[FEX1908]]
+- [x] Imprimir [[01 medición y teoria de errores cfis328_parte 1.pdf]] [[02 medición y teoria de errores cfis328_parte 2.pdf]] para [[fex1908]] 
