@@ -4,6 +4,9 @@ title: Índice
 
 # Notas
 
+- [[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1.pdf]]
+- [[todo]]
+- [[fdg2408]]
 - [[fdgguiaminerales]]
 - [[pye1408]]
 - [[03 representación de datos cfis328]]
@@ -40,7 +43,6 @@ title: Índice
 - [[dif1308]]
 - [[quc3admica-la-ciencia-central-brown]]
 - [[fex1708]]
-- [[todo]]
 - [[dif]]
 - [[myc]]
 - [[fdg]]
@@ -60,7 +62,6 @@ title: Índice
 - [[fdg-tabla-minerales-completa]]
 - [[pye]]
 - [[fex]]
-- [[fdg2408]]
 - [[compartidos/fdg1708_quickscanapp.com.pdf]]
 - [[compartidos/fex1708.pdf]]
 - [[serie de bowen]]
@@ -75,7 +76,6 @@ title: Índice
 - [[microclina mc]]
 - [[ortoclasa or]]
 - [[2026-2]]
-- [[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1.pdf]]
 - [[compartidos/pye1408.pdf]]
 - [[compartidos/dif1308faltante.pdf]]
 - [[myclab1]]
