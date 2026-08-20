@@ -4,8 +4,8 @@ title: Índice
 
 # Notas
 
-- [[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1.pdf]]
 - [[todo]]
+- [[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1.pdf]]
 - [[fdg2408]]
 - [[fdgguiaminerales]]
 - [[pye1408]]
