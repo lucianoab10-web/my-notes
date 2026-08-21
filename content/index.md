@@ -4,7 +4,15 @@ title: Índice
 
 # Notas
 
+- [[dif]]
+- [[dif2008_quickscanapp.com]]
+- [[myc]]
+- [[myc2008_quickscanapp.com]]
+- [[gu%c3%ada+-+semana+3]]
+- [[compartidos/dif2008_quickscanapp.com.pdf]]
+- [[compartidos/myc2008_quickscanapp.com.pdf]]
 - [[todo]]
+- [[compartidos/gu%c3%ada+-+semana+3.pdf]]
 - [[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1.pdf]]
 - [[fdg2408]]
 - [[fdgguiaminerales]]
@@ -43,8 +51,6 @@ title: Índice
 - [[dif1308]]
 - [[quc3admica-la-ciencia-central-brown]]
 - [[fex1708]]
-- [[dif]]
-- [[myc]]
 - [[fdg]]
 - [[compartidos/fdg1808_quickscanapp.com.pdf]]
 - [[compartidos/myc1908_quickscanapp.com.pdf]]
