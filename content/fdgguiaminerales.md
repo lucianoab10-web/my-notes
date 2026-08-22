@@ -1,1 +1,1 @@
-[[compartidos/fdgguiaminerales.pdf]]
+annotation-target:: [[compartidos/fdgguiaminerales.pdf]]

@@ -1,1 +1,1 @@
-[[compartidos/carta-geologica-concepcion-talcahuano.pdf]]
+annotation-target:: [[compartidos/carta-geologica-concepcion-talcahuano.pdf]]

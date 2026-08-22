@@ -1,1 +1,1 @@
-[[compartidos/guia_semana2.pdf]]
+annotation-target:: [[compartidos/guia_semana2.pdf]]

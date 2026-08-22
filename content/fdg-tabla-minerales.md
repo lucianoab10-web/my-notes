@@ -1,1 +1,1 @@
-[[compartidos/fdg-tabla-minerales.pdf]]
+annotation-target:: [[compartidos/fdg-tabla-minerales.pdf]]

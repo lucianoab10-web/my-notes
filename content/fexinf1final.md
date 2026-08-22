@@ -1,1 +1,1 @@
-[[compartidos/fexinf1final.pdf]]
+annotation-target:: [[compartidos/fexinf1final.pdf]]

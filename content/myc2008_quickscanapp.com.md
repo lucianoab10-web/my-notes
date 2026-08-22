@@ -1,1 +1,1 @@
-[[compartidos/myc2008_quickscanapp.com.pdf]]
+annotation-target:: [[compartidos/myc2008_quickscanapp.com.pdf]]
