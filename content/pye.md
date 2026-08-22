@@ -25,3 +25,11 @@
 [[pye2108_quickscanapp.com]]
 
 [[pye1408]]
+
+[[compartidos/pye0708]]
+
+[[compartidos/pye2108_teoriaquickscanapp.com]]
+
+[[compartidos/pye2108_quickscanapp.com]]
+
+[[compartidos/pye1408]]

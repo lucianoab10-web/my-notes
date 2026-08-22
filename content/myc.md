@@ -46,3 +46,15 @@
 [[myc1208]]
 
 [[myc0i08]]
+
+[[compartidos/myc1308]]
+
+[[compartidos/myc1908_quickscanapp.com]]
+
+[[compartidos/myc2008_quickscanapp.com]]
+
+[[compartidos/myc1308+lab]]
+
+[[compartidos/myc1208]]
+
+[[compartidos/myc0i08]]

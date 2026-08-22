@@ -34,3 +34,13 @@
 [[fdg1708_quickscanapp.com]]
 
 [[fdgguiaminerales]]
+
+[[compartidos/fdg1808_quickscanapp.com]]
+
+[[compartidos/fdg-tabla-minerales]]
+
+[[compartidos/fdg1008]]
+
+[[compartidos/fdg1708_quickscanapp.com]]
+
+[[compartidos/fdgguiaminerales]]
