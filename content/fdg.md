@@ -24,3 +24,13 @@
 [[fdg1708_quickscanapp.com]]
 
 [[fdgguiaminerales]]
+
+[[fdg1808_quickscanapp.com]]
+
+[[fdg-tabla-minerales]]
+
+[[fdg1008]]
+
+[[fdg1708_quickscanapp.com]]
+
+[[fdgguiaminerales]]
