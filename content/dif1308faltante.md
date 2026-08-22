@@ -1,1 +1,1 @@
-annotation-target:: [[compartidos/dif1308faltante.pdf]]
+[[compartidos/dif1308faltante.pdf]]

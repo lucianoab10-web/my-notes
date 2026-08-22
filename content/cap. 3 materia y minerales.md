@@ -1,1 +1,1 @@
-annotation-target:: [[compartidos/cap. 3 materia y minerales.pdf]]
+[[compartidos/cap. 3 materia y minerales.pdf]]

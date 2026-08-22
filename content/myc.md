@@ -24,3 +24,15 @@
 [[myc1908_quickscanapp.com]]
 
 [[myc2008_quickscanapp.com]]
+
+[[myc1308]]
+
+[[myc1908_quickscanapp.com]]
+
+[[myc2008_quickscanapp.com]]
+
+[[myc1308+lab]]
+
+[[myc1208]]
+
+[[myc0i08]]

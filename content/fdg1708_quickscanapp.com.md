@@ -1,1 +1,1 @@
-annotation-target:: [[compartidos/fdg1708_quickscanapp.com.pdf]]
+[[compartidos/fdg1708_quickscanapp.com.pdf]]

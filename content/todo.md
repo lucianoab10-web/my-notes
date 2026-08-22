@@ -1,3 +1,3 @@
 - [ ] Subir evidencia [[FEX1208]] y [[fex1908]]
-- [ ] Leer > ([[TARBUCK-y-LUTGENS-Ciencias-de-la-Tierra-8va-ed.-1.pdf#page=387&selection=3,0,5,18|TARBUCK-y-LUTGENS-Ciencias-de-la-Tierra-8va-ed.-1, p.361]]) antes de [[fdg2408]]
+- [ ] Leer > ([[TARBUCK-y-LUTGENS-Ciencias-de-la-Tierra-8va-ed.-1.pdf#page=387&selection=3,0,5,18|TARBUCK-y-LUTGENS-Ciencias-de-la-Tierra-8va-ed.-1, p.361]]; [[tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1]]) antes de [[fdg2408]]
 - [ ] Estudiar https://recursosdigitales.unab.cl/rd/r/22cd0f5e-6edd-488d-888a-ebf3d5190c73 para (@2026-08-26) 

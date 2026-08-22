@@ -27,3 +27,21 @@
 [[dif19081908_quickscanapp.com]]
 
 [[dif2008_quickscanapp.com]]
+
+[[dif1308]]
+
+[[dif0608]]
+
+[[dif1208]]
+
+[[dif1108]]
+
+[[dif1308faltante]]
+
+[[dif2008_quickscanapp.com]]
+
+[[dif0608 1]]
+
+[[dif-lista de integrales]]
+
+[[dif19081908_quickscanapp.com]]

@@ -1,1 +1,1 @@
-annotation-target:: [[compartidos/fexrep1.pdf]]
+[[compartidos/fexrep1.pdf]]

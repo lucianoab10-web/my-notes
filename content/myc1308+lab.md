@@ -1,1 +1,1 @@
-annotation-target:: [[compartidos/myc1308+lab.pdf]]
+[[compartidos/myc1308+lab.pdf]]

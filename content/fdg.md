@@ -14,3 +14,13 @@
 [[fdg-tabla-minerales]]
 
 [[fdg1808_quickscanapp.com]]
+
+[[fdg1808_quickscanapp.com]]
+
+[[fdg-tabla-minerales]]
+
+[[fdg1008]]
+
+[[fdg1708_quickscanapp.com]]
+
+[[fdgguiaminerales]]

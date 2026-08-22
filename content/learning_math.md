@@ -1,1 +1,1 @@
-annotation-target:: [[compartidos/learning_math.pdf]]
+[[compartidos/learning_math.pdf]]
