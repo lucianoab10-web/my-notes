@@ -13,7 +13,6 @@ title: Índice
 
 ## Notas
 
-- [[Earth science - 15th ed -- Edward J_ Tarbuck, Frederick K_ Lutgens, Dennis G_ Tasa -- 15, 2017 -- Pearson Education, Inc]]
 - [[todo]]
 - [[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1-notas]]
 - [[compartidos/Earth science - 15th ed -- Edward J_ Tarbuck, Frederick K_ Lutgens, Dennis G_ Tasa -- 15, 2017 -- Pearson Education, Inc -- isbn13 9780134543536 -- ce3d8dd52e687406c205d14e27d4820c -- Anna’s Archive-notas]]
