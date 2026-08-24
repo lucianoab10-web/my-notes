@@ -2,13 +2,23 @@
 title: Índice
 ---
 
-# Notas
+# Índice
 
+## Ramos
+- [[dif]]
+- [[pye]]
+- [[myc]]
+- [[fdg]]
+- [[fex]]
+
+## Notas
+
+- [[Earth science - 15th ed -- Edward J_ Tarbuck, Frederick K_ Lutgens, Dennis G_ Tasa -- 15, 2017 -- Pearson Education, Inc]]
+- [[todo]]
 - [[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1-notas]]
 - [[compartidos/Earth science - 15th ed -- Edward J_ Tarbuck, Frederick K_ Lutgens, Dennis G_ Tasa -- 15, 2017 -- Pearson Education, Inc -- isbn13 9780134543536 -- ce3d8dd52e687406c205d14e27d4820c -- Anna’s Archive-notas]]
 - [[dif0608 1]]
 - [[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1]]
-- [[todo]]
 - [[compartidos/fdgguiaminerales]]
 - [[compartidos/pye1408]]
 - [[compartidos/03 representación de datos cfis328]]
@@ -51,16 +61,11 @@ title: Índice
 - [[compartidos/dif1308]]
 - [[compartidos/quc3admica-la-ciencia-central-brown]]
 - [[compartidos/fex1708]]
-- [[fdg]]
-- [[pye]]
-- [[myc]]
-- [[fex]]
 - [[03 representación de datos cfis328]]
 - [[David Rojas Caballero, Jorge Paredes - Compendio de geología general. 1 1 (2016, Macro Editorial (Ibd)) - libgen.li]]
 - [[dif-lista de integrales]]
 - [[cap. 3 materia y minerales]]
 - [[01 medición y teoria de errores cfis328_parte 1]]
-- [[Earth science - 15th ed -- Edward J_ Tarbuck, Frederick K_ Lutgens, Dennis G_ Tasa -- 15, 2017 -- Pearson Education, Inc -- isbn13 9780134543536 -- ce3d8dd52e687406c205d14e27d4820c -- Anna’s Archive]]
 - [[paper estimaciones fermi_revista_epsilon84_5(1) (1)]]
 - [[fex1008 - evidencia 1]]
 - [[02 medición y teoria de errores cfis328_parte 2]]
