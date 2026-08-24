@@ -14,7 +14,6 @@ title: Índice
 ## Notas
 
 - [[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1-notas]]
-- [[compartidos/Earth science - 15th ed -- Edward J_ Tarbuck, Frederick K_ Lutgens, Dennis G_ Tasa -- 15, 2017 -- Pearson Education, Inc -- isbn13 9780134543536 -- ce3d8dd52e687406c205d14e27d4820c -- Anna’s Archive-notas]]
 - [[todo]]
 - [[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1]]
 - [[compartidos/quc3admica-la-ciencia-central-brown]]
@@ -44,7 +43,6 @@ title: Índice
 - [[compartidos/fdg1708_quickscanapp.com]]
 - [[compartidos/fdg1008]]
 - [[compartidos/estimaciones_o_problemas_de_fermi_o_como_contar_sin_contar_202620]]
-- [[compartidos/Earth science - 15th ed -- Edward J_ Tarbuck, Frederick K_ Lutgens, Dennis G_ Tasa -- 15, 2017 -- Pearson Education, Inc -- isbn13 9780134543536 -- ce3d8dd52e687406c205d14e27d4820c -- Anna’s Archive]]
 - [[compartidos/dif-lista de integrales]]
 - [[compartidos/dif2008_quickscanapp.com]]
 - [[compartidos/dif19081908_quickscanapp.com]]
