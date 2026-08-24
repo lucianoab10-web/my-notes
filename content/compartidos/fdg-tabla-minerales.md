@@ -8,4 +8,4 @@ title: fdg-tabla-minerales
 
 [Abrir en Google Drive](https://drive.google.com/file/d/1UHH9kB9i0bF1poOZF1wPZTq4BuXp6Y3L/view?usp=sharing)
 
-[[fdg-tabla-minerales.pdf]]
+[[compartidos/fdg-tabla-minerales.pdf]]

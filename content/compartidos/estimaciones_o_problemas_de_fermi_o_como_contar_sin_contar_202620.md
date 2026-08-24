@@ -8,4 +8,4 @@ title: estimaciones_o_problemas_de_fermi_o_como_contar_sin_contar_202620
 
 [Abrir en Google Drive](https://drive.google.com/file/d/1NZm2EWG-kVAv78kTN1gfWOefQcknDC1N/view?usp=sharing)
 
-[[estimaciones_o_problemas_de_fermi_o_como_contar_sin_contar_202620.pdf]]
+[[compartidos/estimaciones_o_problemas_de_fermi_o_como_contar_sin_contar_202620.pdf]]

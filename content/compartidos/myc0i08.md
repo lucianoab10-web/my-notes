@@ -8,4 +8,4 @@ title: myc0i08
 
 [Abrir en Google Drive](https://drive.google.com/file/d/1lyZbKeUrywgfs0Ws4wJy8PoF3e02gvlY/view?usp=sharing)
 
-[[myc0i08.pdf]]
+[[compartidos/myc0i08.pdf]]

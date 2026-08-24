@@ -8,4 +8,4 @@ title: dif1308faltante
 
 [Abrir en Google Drive](https://drive.google.com/file/d/1_hUNKD9tP4WerwH28wCAXOtm_8ZRuUGf/view?usp=sharing)
 
-[[dif1308faltante.pdf]]
+[[compartidos/dif1308faltante.pdf]]

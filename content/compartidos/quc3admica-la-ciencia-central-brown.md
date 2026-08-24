@@ -8,4 +8,4 @@ title: quc3admica-la-ciencia-central-brown
 
 [Abrir en Google Drive](https://drive.google.com/file/d/194Mbdk8xwnu-KRnCsPpOD42XMJVvMQk0/view?usp=sharing)
 
-[[quc3admica-la-ciencia-central-brown.pdf]]
+[[compartidos/quc3admica-la-ciencia-central-brown.pdf]]

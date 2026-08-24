@@ -8,4 +8,4 @@ title: pye2108_teoriaquickscanapp.com
 
 [Abrir en Google Drive](https://drive.google.com/file/d/1Rwu2XJ96rxomL8JWqNUlnCzAP6qHI3Il/view?usp=sharing)
 
-[[pye2108_teoriaquickscanapp.com.pdf]]
+[[compartidos/pye2108_teoriaquickscanapp.com.pdf]]

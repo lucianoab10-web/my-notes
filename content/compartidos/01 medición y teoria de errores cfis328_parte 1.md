@@ -8,4 +8,4 @@ title: 01 medición y teoria de errores cfis328_parte 1
 
 [Abrir en Google Drive](https://drive.google.com/file/d/17kWAnXwAE-vVop-36Ke-pDEFWI1dohff/view?usp=sharing)
 
-[[01 medición y teoria de errores cfis328_parte 1.pdf]]
+[[compartidos/01 medición y teoria de errores cfis328_parte 1.pdf]]

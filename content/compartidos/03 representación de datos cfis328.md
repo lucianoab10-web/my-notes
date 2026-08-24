@@ -8,4 +8,4 @@ title: 03 representación de datos cfis328
 
 [Abrir en Google Drive](https://drive.google.com/file/d/1rhkFvhVYNthDuztmAo-f_-nCxLWQGyxJ/view?usp=sharing)
 
-[[03 representación de datos cfis328.pdf]]
+[[compartidos/03 representación de datos cfis328.pdf]]

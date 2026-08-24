@@ -8,4 +8,4 @@ title: guia_semana2
 
 [Abrir en Google Drive](https://drive.google.com/file/d/1ROAgtPhRCRoKHZ8oeoLyw5ipsFrWpdMp/view?usp=sharing)
 
-[[guia_semana2.pdf]]
+[[compartidos/guia_semana2.pdf]]

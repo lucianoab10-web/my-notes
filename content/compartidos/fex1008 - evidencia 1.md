@@ -8,4 +8,4 @@ title: fex1008 - evidencia 1
 
 [Abrir en Google Drive](https://drive.google.com/file/d/1Qfk5TdvsbbMd2RgtkAYGgZuWa4omrByh/view?usp=sharing)
 
-[[fex1008 - evidencia 1.pdf]]
+[[compartidos/fex1008 - evidencia 1.pdf]]

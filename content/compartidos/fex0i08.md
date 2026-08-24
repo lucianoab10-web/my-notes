@@ -8,4 +8,4 @@ title: fex0i08
 
 [Abrir en Google Drive](https://drive.google.com/file/d/1nkzl-R4NXyzr8qzVtWGR_OVTnka415tt/view?usp=sharing)
 
-[[fex0i08.pdf]]
+[[compartidos/fex0i08.pdf]]

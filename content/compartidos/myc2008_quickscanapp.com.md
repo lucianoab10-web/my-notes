@@ -8,4 +8,4 @@ title: myc2008_quickscanapp.com
 
 [Abrir en Google Drive](https://drive.google.com/file/d/17cv2f3dUR4Px5WOn2V5u0RBWgTymKOji/view?usp=sharing)
 
-[[myc2008_quickscanapp.com.pdf]]
+[[compartidos/myc2008_quickscanapp.com.pdf]]

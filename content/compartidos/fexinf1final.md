@@ -8,4 +8,4 @@ title: fexinf1final
 
 [Abrir en Google Drive](https://drive.google.com/file/d/1HSaC8PZ4uqsXUkE9VSD-o40p_voBRE9N/view?usp=sharing)
 
-[[fexinf1final.pdf]]
+[[compartidos/fexinf1final.pdf]]

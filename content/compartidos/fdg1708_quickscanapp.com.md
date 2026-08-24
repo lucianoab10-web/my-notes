@@ -8,4 +8,4 @@ title: fdg1708_quickscanapp.com
 
 [Abrir en Google Drive](https://drive.google.com/file/d/1_q7-FHygiao8pxiCn9igYnQtvKyMqm9Y/view?usp=sharing)
 
-[[fdg1708_quickscanapp.com.pdf]]
+[[compartidos/fdg1708_quickscanapp.com.pdf]]

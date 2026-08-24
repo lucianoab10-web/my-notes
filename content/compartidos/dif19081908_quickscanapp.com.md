@@ -8,4 +8,4 @@ title: dif19081908_quickscanapp.com
 
 [Abrir en Google Drive](https://drive.google.com/file/d/1AhplrIWcQtQ2wMTlxHW_-b_7Oy1X3OoO/view?usp=sharing)
 
-[[dif19081908_quickscanapp.com.pdf]]
+[[compartidos/dif19081908_quickscanapp.com.pdf]]

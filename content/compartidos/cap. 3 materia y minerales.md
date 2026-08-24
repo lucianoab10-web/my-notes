@@ -8,4 +8,4 @@ title: cap. 3 materia y minerales
 
 [Abrir en Google Drive](https://drive.google.com/file/d/1x19_WE0i9gA6rCosKwK_1WURIPOLKWzW/view?usp=sharing)
 
-[[cap. 3 materia y minerales.pdf]]
+[[compartidos/cap. 3 materia y minerales.pdf]]
