@@ -46,3 +46,5 @@
 [[compartidos/fdgguiaminerales]]
 
 [[compartidos/fex-pye-myc-fdg_tarbuck-2017-earth-science-15th-ed]]
+
+[[compartidos/fex-pye-myc-fdg_tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1]]

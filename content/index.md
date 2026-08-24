@@ -13,9 +13,10 @@ title: Índice
 
 ## Notas
 
+- [[compartidos/fex-pye-myc-fdg_tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1]]
+- [[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1]]
 - [[todo]]
 - [[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1-notas]]
-- [[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1]]
 - [[compartidos/quc3admica-la-ciencia-central-brown]]
 - [[compartidos/pye2108_teoriaquickscanapp.com]]
 - [[compartidos/pye2108_quickscanapp.com]]

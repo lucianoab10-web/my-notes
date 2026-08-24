@@ -8,6 +8,6 @@ title: tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1
 
 [Abrir en Google Drive](https://drive.google.com/file/d/1E6fQdITQR5b40_NeItHTVuTGtO_jdBb8/view?usp=sharing)
 
-[[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1.pdf]]
+[[fex-pye-myc-fdg_tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1.pdf]]
 
 
