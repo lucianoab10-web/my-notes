@@ -1,2 +1,0 @@
-[[Cristalografía]]
-[[Mineralogía descriptiva]]
