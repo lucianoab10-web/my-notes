@@ -13,10 +13,11 @@ title: Índice
 
 ## Notas
 
+- [[compartidos/fex-pye-myc-fdg_tarbuck-2017-earth-science-15th-ed]]
+- [[todo]]
 - [[compartidos/Earth science - 15th ed -- Edward J_ Tarbuck, Frederick K_ Lutgens, Dennis G_ Tasa -- 15, 2017 -- Pearson Education, Inc -- isbn13 9780134543536 -- ce3d8dd52e687406c205d14e27d4820c -- Anna’s Archive.pdf]]
 - [[compartidos/fex-claseactividad2]]
 - [[fex1208]]
-- [[todo]]
 - [[compartidos/fex-pye-myc-fdg_tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1]]
 - [[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1]]
 - [[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1-notas]]
@@ -36,7 +37,6 @@ title: Índice
 - [[compartidos/guia_semana2]]
 - [[compartidos/gu%c3%ada+-+semana+3]]
 - [[compartidos/fexrep1]]
-- [[compartidos/fex-pye-myc-fdg_tarbuck-2017-earth-science-15th-ed]]
 - [[compartidos/fexinf1final]]
 - [[compartidos/fex1708]]
 - [[compartidos/fex1008 - evidencia 1]]
