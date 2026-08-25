@@ -13,9 +13,12 @@ title: Índice
 
 ## Notas
 
+- [[compartidos/Earth science - 15th ed -- Edward J_ Tarbuck, Frederick K_ Lutgens, Dennis G_ Tasa -- 15, 2017 -- Pearson Education, Inc -- isbn13 9780134543536 -- ce3d8dd52e687406c205d14e27d4820c -- Anna’s Archive.pdf]]
+- [[compartidos/fex-claseactividad2]]
+- [[fex1208]]
+- [[todo]]
 - [[compartidos/fex-pye-myc-fdg_tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1]]
 - [[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1]]
-- [[todo]]
 - [[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1-notas]]
 - [[compartidos/quc3admica-la-ciencia-central-brown]]
 - [[compartidos/pye2108_teoriaquickscanapp.com]]
@@ -106,7 +109,6 @@ title: Índice
 - [[olivino ol]]
 - [[fdg1808]]
 - [[myc2008]]
-- [[fex1208]]
 - [[fdg1108]]
 - [[fexinf1]]
 - [[fermi-porotos]]
