@@ -15,11 +15,9 @@ title: Índice
 ## Compartidos
 
 - [[compartidos/fex-pye-myc-fdg_tarbuck-2017-earth-science-15th-ed]]
-- [[compartidos/quc3admica-la-ciencia-central-brown]]
-- [[compartidos/fex-pye-myc-fdg_tarbuck-2017-earth-science-15th-ed-compressed]]
-- [[compartidos/Earth science - 15th ed -- Edward J_ Tarbuck, Frederick K_ Lutgens, Dennis G_ Tasa -- 15, 2017 -- Pearson Education, Inc -- isbn13 9780134543536 -- ce3d8dd52e687406c205d14e27d4820c -- Anna’s Archive.pdf]]
-- [[compartidos/fex-claseactividad2]]
 - [[compartidos/fex-pye-myc-fdg_tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1]]
+- [[compartidos/quc3admica-la-ciencia-central-brown]]
+- [[compartidos/fex-claseactividad2]]
 - [[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1]]
 - [[compartidos/pye2108_teoriaquickscanapp.com]]
 - [[compartidos/pye2108_quickscanapp.com]]
