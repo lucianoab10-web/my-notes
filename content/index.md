@@ -15,13 +15,9 @@ title: Índice
 ## Compartidos
 
 - [[compartidos/2608_QuickScanApp.com_1]]
-- [[compartidos/tabla_65_sistemas_cristalinos]]
 - [[compartidos/fex-claseactividad2]]
-- [[compartidos/quc3admica-la-ciencia-central-brown]]
 - [[compartidos/Informe 2 Fisica Experimental]]
-- [[compartidos/fex-pye-myc-fdg_tarbuck-2017-earth-science-15th-ed]]
 - [[compartidos/fex-pye-myc-fdg_tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1]]
-- [[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1]]
 - [[compartidos/pye2108_teoriaquickscanapp.com]]
 - [[compartidos/pye2108_quickscanapp.com]]
 - [[compartidos/pye1408]]
