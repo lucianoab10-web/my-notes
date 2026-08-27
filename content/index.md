@@ -14,10 +14,11 @@ title: Índice
 
 ## Compartidos
 
+- [[compartidos/fex-claseactividad2]]
+- [[compartidos/quc3admica-la-ciencia-central-brown]]
+- [[compartidos/Informe 2 Fisica Experimental]]
 - [[compartidos/fex-pye-myc-fdg_tarbuck-2017-earth-science-15th-ed]]
 - [[compartidos/fex-pye-myc-fdg_tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1]]
-- [[compartidos/quc3admica-la-ciencia-central-brown]]
-- [[compartidos/fex-claseactividad2]]
 - [[compartidos/tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1]]
 - [[compartidos/pye2108_teoriaquickscanapp.com]]
 - [[compartidos/pye2108_quickscanapp.com]]
@@ -53,8 +54,6 @@ title: Índice
 - [[compartidos/dif1108]]
 - [[compartidos/dif0608]]
 - [[compartidos/dif0608 1]]
-- [[compartidos/David Rojas Caballero, Jorge Paredes - Compendio de geología general. 1 1 (2016, Macro Editorial (Ibd)) - libgen.li]]
-- [[compartidos/carta-geologica-concepcion-talcahuano]]
 - [[compartidos/cap. 3 materia y minerales]]
 - [[compartidos/03 representación de datos cfis328]]
 - [[compartidos/02 medición y teoria de errores cfis328_parte 2]]
