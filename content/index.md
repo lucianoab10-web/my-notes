@@ -14,6 +14,8 @@ title: Índice
 
 ## Compartidos
 
+- [[compartidos/2608_QuickScanApp.com_1]]
+- [[compartidos/tabla_65_sistemas_cristalinos]]
 - [[compartidos/fex-claseactividad2]]
 - [[compartidos/quc3admica-la-ciencia-central-brown]]
 - [[compartidos/Informe 2 Fisica Experimental]]
@@ -58,3 +60,11 @@ title: Índice
 - [[compartidos/03 representación de datos cfis328]]
 - [[compartidos/02 medición y teoria de errores cfis328_parte 2]]
 - [[compartidos/01 medición y teoria de errores cfis328_parte 1]]
+
+## Libros y Referencias (Zotero)
+
+- [[compartidos/zotero/Tarbuck and Lutgens - 2017 - Earth science]]
+- [[compartidos/zotero/Manual of Mineral Science (Cornelis Klein Barbara Dutrow) (z-library.sk, 1lib.sk, z-lib.sk)]]
+- [[compartidos/zotero/Caballero and Ángeles - COMPENDIO DE GEOLOGÍA GENERAL]]
+- [[compartidos/zotero/carta-geologica-concepcion-talcahuano]]
+- [[compartidos/zotero/Brown - 2003 - Chemistry the central science]]

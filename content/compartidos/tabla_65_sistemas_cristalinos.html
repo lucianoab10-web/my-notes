@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabla 6.5 — Sistemas Cristalinos</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      color: #1a1a18;
+      background: #f5f4f0;
+      padding: 2rem 1.5rem;
+    }
+
+    .wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 12px;
+      border: 0.5px solid #d3d1c7;
+      padding: 2rem 2rem 1.5rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    }
+
+    .table-header {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 1.25rem;
+    }
+    .table-num {
+      font-size: 11px;
+      font-weight: 600;
+      background: #e6f1fb;
+      color: #185fa5;
+      border-radius: 4px;
+      padding: 3px 8px;
+      white-space: nowrap;
+    }
+    .table-title {
+      font-size: 15px;
+      font-weight: 500;
+      color: #1a1a18;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    thead th {
+      background: #f1efe8;
+      color: #5f5e5a;
+      font-weight: 600;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 10px 13px;
+      border-bottom: 1.5px solid #b4b2a9;
+      border-right: 0.5px solid #d3d1c7;
+      text-align: left;
+    }
+    thead th:last-child { border-right: none; }
+
+    tbody td {
+      padding: 10px 13px;
+      border-bottom: 0.5px solid #d3d1c7;
+      border-right: 0.5px solid #d3d1c7;
+      vertical-align: top;
+      line-height: 1.6;
+      color: #1a1a18;
+    }
+    tbody td:last-child { border-right: none; }
+    tbody tr:last-of-type td { border-bottom: none; }
+    tbody tr:hover td { background: #fafaf7; }
+
+    .system-divider td { border-bottom: 1.5px solid #b4b2a9; }
+
+    .class-cell {
+      font-family: "Courier New", Courier, monospace;
+      font-size: 12.5px;
+      color: #3c3489;
+    }
+    .system-name {
+      font-weight: 600;
+      color: #1a1a18;
+    }
+    .overline { text-decoration: overline; }
+
+    .note-row td {
+      background: #f8f7f3;
+      color: #5f5e5a;
+      font-size: 11.5px;
+      font-style: italic;
+      line-height: 1.55;
+      border-top: 1.5px solid #b4b2a9;
+      border-bottom: none;
+    }
+
+    .source {
+      margin-top: 1.25rem;
+      font-size: 11px;
+      color: #888780;
+      text-align: right;
+    }
+
+    /* Print styles */
+    @media print {
+      body { background: white; padding: 0; }
+      .wrapper { box-shadow: none; border: none; border-radius: 0; padding: 1rem; }
+    }
+
+    /* Dark mode */
+    @media (prefers-color-scheme: dark) {
+      body { background: #1c1c1a; color: #e8e6df; }
+      .wrapper { background: #262624; border-color: #444441; box-shadow: none; }
+      .table-title { color: #e8e6df; }
+      .table-num { background: #0c447c; color: #b5d4f4; }
+      thead th { background: #2c2c2a; color: #888780; border-color: #5f5e5a; }
+      tbody td { color: #e8e6df; border-color: #444441; }
+      tbody tr:hover td { background: #2c2c2a; }
+      .system-name { color: #e8e6df; }
+      .class-cell { color: #afa9ec; }
+      .note-row td { background: #1c1c1a; color: #888780; border-color: #5f5e5a; }
+      .system-divider td { border-bottom-color: #5f5e5a; }
+      .source { color: #5f5e5a; }
+    }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+
+  <div class="table-header">
+    <span class="table-num">Tabla 6.5</span>
+    <span class="table-title">Simetría característica y relaciones entre los ejes cristalinos y la notación de simetría de los sistemas cristalinos</span>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width:14%">Clase cristalina</th>
+        <th style="width:11%">Sistema</th>
+        <th style="width:27%">Simetría característica</th>
+        <th>Notación de Hermann-Mauguin</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <!-- Triclínico -->
+      <tr class="system-divider">
+        <td class="class-cell">1, <span class="overline">1</span></td>
+        <td class="system-name">Triclínico</td>
+        <td>1 eje de rotación-inversión o identidad (simetría mínima)</td>
+        <td>Por su baja simetría, no impone restricciones cristalográficas.</td>
+      </tr>
+
+      <!-- Monoclínico -->
+      <tr class="system-divider">
+        <td class="class-cell">2, <em>m</em>, 2/<em>m</em></td>
+        <td class="system-name">Monoclínico</td>
+        <td>1 eje de rotación de orden 2 y/o plano especular</td>
+        <td>El eje binario se toma como eje <em>b</em>; el plano especular (plano <em>a</em>–<em>c</em>) es vertical (segunda configuración).</td>
+      </tr>
+
+      <!-- Ortorrómbico -->
+      <tr class="system-divider">
+        <td class="class-cell">222, <em>mm</em>2<br>2/<em>m</em>2/<em>m</em>2/<em>m</em></td>
+        <td class="system-name">Ortorrómbico</td>
+        <td>3 direcciones mutuamente perpendiculares con simetría binaria (2 o <em>m</em>)</td>
+        <td>Los símbolos indican los elementos de simetría en el orden <em>a</em>, <em>b</em>, <em>c</em>; los ejes binarios coinciden con los ejes cristalográficos.</td>
+      </tr>
+
+      <!-- Tetragonal -->
+      <tr class="system-divider">
+        <td class="class-cell">4, <span class="overline">4</span>, 4/<em>m</em><br>422, 4<em>mm</em><br><span class="overline">4</span>2<em>m</em>, 4/<em>m</em>2/<em>m</em>2/<em>m</em></td>
+        <td class="system-name">Tetragonal</td>
+        <td>1 eje de rotación de orden 4</td>
+        <td>El eje de orden 4 corresponde al eje <em>c</em>; el segundo símbolo (si aparece) indica las direcciones axiales (<em>a</em><sub>1</sub> y <em>a</em><sub>2</sub>); el tercer símbolo (si aparece) indica las direcciones a 45° respecto de <em>a</em><sub>1</sub> y <em>a</em><sub>2</sub>.</td>
+      </tr>
+
+      <!-- Hexagonal: orden 6 -->
+      <tr>
+        <td class="class-cell">6, <span class="overline">6</span>, 6/<em>m</em><br>622, 6<em>mm</em><br><span class="overline">6</span><em>m</em>2, 6/<em>m</em>2/<em>m</em>2/<em>m</em></td>
+        <td class="system-name" rowspan="2" style="border-bottom: 1.5px solid #b4b2a9;">Hexagonal*</td>
+        <td>1 eje de rotación de orden 6</td>
+        <td rowspan="2" style="border-bottom: 1.5px solid #b4b2a9;">El primer símbolo indica el eje <em>c</em>; el segundo y tercer símbolo (si aparecen) refieren respectivamente a elementos de simetría paralelos y perpendiculares a los ejes cristalográficos <em>a</em><sub>1</sub>, <em>a</em><sub>2</sub> y <em>a</em><sub>3</sub>.</td>
+      </tr>
+      <!-- Hexagonal: orden 3 -->
+      <tr class="system-divider">
+        <td class="class-cell">3, <span class="overline">3</span>, 32<br>3<em>m</em>, 3<span class="overline">2</span>/<em>m</em></td>
+        <td>1 eje de rotación de orden 3</td>
+      </tr>
+
+      <!-- Isométrico -->
+      <tr>
+        <td class="class-cell">23, 2/<em>m</em><span class="overline">3</span><br>432, <span class="overline">4</span>3<em>m</em><br>4/<em>m</em><span class="overline">3</span>2/<em>m</em></td>
+        <td class="system-name">Isométrico</td>
+        <td>4 ejes de orden 3, cada uno inclinado 54°44′ respecto de los ejes cristalográficos (véase Fig. 6.18)</td>
+        <td>El primer símbolo refiere a los tres ejes cristalográficos <em>a</em><sub>1</sub>, <em>a</em><sub>2</sub> y <em>a</em><sub>3</sub>; el segundo indica 4 direcciones diagonales de simetría ternaria (entre vértices del cubo); el tercer símbolo (si aparece) refiere a 6 direcciones entre las aristas del cubo.</td>
+      </tr>
+
+      <!-- Nota al pie -->
+      <tr class="note-row">
+        <td colspan="4">
+          *La orientación convencional de los elementos de simetría en dos clases del sistema hexagonal no es inmediata. Estas son <span class="overline">6</span><em>m</em>2 y 3<em>m</em>. La posición del eje de orden 6 o 3 es inequívoca. Sin embargo, la ubicación del siguiente elemento de simetría no es obvia. En <span class="overline">6</span><em>m</em>2, la tercera entrada (ejes de rotación binarios) coincide con las perpendiculares a <em>a</em><sub>1</sub>, <em>a</em><sub>2</sub> y <em>a</em><sub>3</sub>; los planos <em>m</em> son coincidentes con esas mismas direcciones. En 3<em>m</em>, los planos <em>m</em> se ubican en direcciones perpendiculares a <em>a</em><sub>1</sub>, <em>a</em><sub>2</sub> y <em>a</em><sub>3</sub>.
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <p class="source">Traducido de Klein &amp; Dutrow — Manual of Mineral Science, Tabla 6.5</p>
+</div>
+</body>
+</html>
