@@ -1,34 +1,35 @@
 
 > [!wikilinked]
-> [[int1208.pdf]]
-> [[int2008.pdf]]
+> [int1208.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1ZLU3T-FANISkB1I1tYfZyng_WT2thnUM/view)
+> [int2008.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1SJV6ik6YcaiKHmRi-Tj0pKsyekuthShw/view)
 > [[int-ejercicios-integrales.md]]
-> [[int2708.pdf]]
-> [[int-lista de integrales.pdf]]
-> [[int1308faltante.pdf]]
-> [[int0608.pdf]]
-> [[int0309.pdf]]
-> [[int1108.pdf]]
-> [[int1308.pdf]]
-> [[int1908.pdf]]
-> [[int2508.pdf]]
-> [[int0109.pdf]]
-> [[int0209.pdf]]
-> [[intfunciones-trigonometricas.pdf]]
-> [[int0109.pdf]]
-> [[int-controles 1-3.pdf]]
-> [[Int1709 et al.pdf]]
-> [[Int2209.pdf]]
-> [[Int2309.pdf]]
-> [[Int2909.pdf]]
-> [[Cálculo integral.pdf]]
-> [[Guía_ Solemne1.pdf]]
-> [[Guía_ Solemne2.pdf]]
-> [[Algunas soluciones_Guía_ Solemne1.pdf]]
-> [[Tema II. la integral definida.pdf]]
-> [[Soluciones guia S2.pdf]]
-> [[guia_integrales.pdf]]
-> [[Int0809.pdf]]
-> [[Int3009.pdf]]
+> [int2708.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1F3R3cUZ5rEzkVepzT6XXs42SR0iSu3MG/view)
+> [int-lista de integrales.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/16owMVGIHH0EyFr92r2IC-51YnHp1CVpF/view)
+> [int1308faltante.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1b4EErOFaLp16imUUgdw96-nLeofcXwCw/view)
+> [int0608.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1NTra0kX6Mr4tQsTCgVCo4txLsE2RwFgz/view)
+> [int0309.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1ufLUZENK03kvxmXZ9GXvtecb1oDXnTWz/view)
+> [int1108.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1db2-M3-eVDDtDdxO_cMKFmCf0cC1SZby/view)
+> [int1308.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1hb2Nllb9jRwRmJ7E2FMSB68G2I6eTFnd/view)
+> [int1908.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1ogXGIZXbVYAQi2PTgr4RVAK9aORsgK_d/view)
+> [int2508.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1MqYDo1YCdQl0RXwvqqQW9BCh34iQMy_Z/view)
+> [int0109.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1I_hBh3aADYeBdBMfxoRb9pH1N21XKC0y/view)
+> [int0209.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1tKPcKssZhuLYZGeepum2OodZop0_S0BW/view)
+> [intfunciones-trigonometricas.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1UWMGJMq7thNIosUeSe00Qnsjpet2yBg9/view)
+> [int0109.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1I_hBh3aADYeBdBMfxoRb9pH1N21XKC0y/view)
+> [int-controles 1-3.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1N7XbTgHVRYkycGRaOnzgt9sNkzTzVJhn/view)
+> [Int1709 et al.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1RJOzGNcDtYOxNsEA1SKNmPW7GkQykfEn/view)
+> [Int2209.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1XR3mkm3My5j03vb20hybhJdlX6WGCYQk/view)
+> [Int2309.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1tUz9GjzqwJKI5YbJ7qn4Ca6xPRCJV9Fp/view)
+> [Int2909.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1l-UN5PhmCpskTI80MO28D4Ix2tFFt--B/view)
+> [Cálculo integral.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1_T_Y1WKn4fWIXUm7ygcgX_jA-TGIbayx/view)
+> [Guía_ Solemne1.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1GS7f00YyXVNwbfyCDdq_EiwWmbDiz_ve/view)
+> [Guía_ Solemne2.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/15RSiYWyHDGc3aFJUTtU8j0aB2H9unAMO/view)
+> [Algunas soluciones_Guía_ Solemne1.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1Wbc-jn5ncMiG1h5WTIUondYUYzvH9-sN/view)
+> [Tema II. la integral definida.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1OteTHT72linKC5rlPqupz1bGMvImmzJR/view)
+> [Soluciones guia S2.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1xBULYV3KVTLbplLSN860Bic5u9AYYTdb/view)
+> [guia_integrales.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1TqiK92F8CFgydKTyULc8oY7qM08xpBul/view)
+> [Int0809.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1Mub0bOIUy2chRVvUyETyxIk8jvRNs54J/view)
+> [Int3009.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1APNyL3ev-MkmfCrd-KpuJUbxWRX-NhrZ/view)
+> [Int0610.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/139bX2c11n48oUgjJMVqQPUGRQBp0Hbud/view)
 
 

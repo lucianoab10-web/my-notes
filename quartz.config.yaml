@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: my-notes-8ox.pages.dev
+  baseUrl: lucianoab10-web.github.io/my-notes
   ignorePatterns:
     - private
     - templates
@@ -132,6 +132,11 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
+    options:
+      title: Explorer
+      folderClickBehavior: link
+      folderDefaultState: open
+      useSavedState: false
     layout:
       position: left
       priority: 50
