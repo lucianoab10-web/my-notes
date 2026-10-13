@@ -1,66 +1,7 @@
----
-title: Índice
----
+﻿# Ãndice de Apuntes
 
-# Índice
+## Ramos Activos
 
-## Ramos
+## Ramos Pasados
 
-- [[dif]]
-- [[pye]]
-- [[myc]]
-- [[fdg]]
-- [[fex]]
-
-## Compartidos
-
-- [[compartidos/2608_QuickScanApp.com_1]]
-- [[compartidos/fex-claseactividad2]]
-- [[compartidos/Informe 2 Fisica Experimental]]
-- [[compartidos/fex-pye-myc-fdg_tarbuck-y-lutgens-ciencias-de-la-tierra-8va-ed.-1]]
-- [[compartidos/pye2108_teoriaquickscanapp.com]]
-- [[compartidos/pye2108_quickscanapp.com]]
-- [[compartidos/pye1408]]
-- [[compartidos/pye0708]]
-- [[compartidos/paper estimaciones fermi_revista_epsilon84_5(1) (1)]]
-- [[compartidos/myc2008_quickscanapp.com]]
-- [[compartidos/myc1908_quickscanapp.com]]
-- [[compartidos/myc1308]]
-- [[compartidos/myc1308+lab]]
-- [[compartidos/myc1208]]
-- [[compartidos/myc0i08]]
-- [[compartidos/learning_math]]
-- [[compartidos/guia_semana2]]
-- [[compartidos/gu%c3%ada+-+semana+3]]
-- [[compartidos/fexrep1]]
-- [[compartidos/fexinf1final]]
-- [[compartidos/fex1708]]
-- [[compartidos/fex1008 - evidencia 1]]
-- [[compartidos/fex0i08]]
-- [[compartidos/fdg-tabla-minerales]]
-- [[compartidos/fdgguiaminerales]]
-- [[compartidos/fdg1808_quickscanapp.com]]
-- [[compartidos/fdg1708_quickscanapp.com]]
-- [[compartidos/fdg1008]]
-- [[compartidos/estimaciones_o_problemas_de_fermi_o_como_contar_sin_contar_202620]]
-- [[compartidos/dif-lista de integrales]]
-- [[compartidos/dif2008_quickscanapp.com]]
-- [[compartidos/dif19081908_quickscanapp.com]]
-- [[compartidos/dif1308]]
-- [[compartidos/dif1308faltante]]
-- [[compartidos/dif1208]]
-- [[compartidos/dif1108]]
-- [[compartidos/dif0608]]
-- [[compartidos/dif0608 1]]
-- [[compartidos/cap. 3 materia y minerales]]
-- [[compartidos/03 representación de datos cfis328]]
-- [[compartidos/02 medición y teoria de errores cfis328_parte 2]]
-- [[compartidos/01 medición y teoria de errores cfis328_parte 1]]
-
-## Libros y Referencias (Zotero)
-
-- [[compartidos/zotero/Tarbuck and Lutgens - 2017 - Earth science]]
-- [[compartidos/zotero/Manual of Mineral Science (Cornelis Klein Barbara Dutrow) (z-library.sk, 1lib.sk, z-lib.sk)]]
-- [[compartidos/zotero/Caballero and Ángeles - COMPENDIO DE GEOLOGÍA GENERAL]]
-- [[compartidos/zotero/carta-geologica-concepcion-talcahuano]]
-- [[compartidos/zotero/Brown - 2003 - Chemistry the central science]]
+## Compartidos y Otros Apuntes
