@@ -1,0 +1,16 @@
+
+> [!wikilinked]
+> [[fdgGUIAminerales.pdf]]
+> [[fdg-tabla-minerales.pdf]]
+> [[fdg1108]]
+> [[fdg1708_quickscanapp.com.pdf]]
+> [[fdg-tabla-minerales]]
+> [[fdg2408]]
+> [[fdg1808_quickscanapp.com.pdf]]
+> [[fdg1008.pdf]]
+> [[fdg-tabla-minerales-completa.pdf]]
+> [[fdg0109_QuickScanApp.com.pdf]]
+> [[Fdg2109.pdf]]
+> [[Fdglab2209.pdf]]
+> [[Fdg3108.pdf]]
+
