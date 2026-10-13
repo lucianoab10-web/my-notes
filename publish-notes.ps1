@@ -42,7 +42,8 @@ if ($json) {
     Write-Host "4. Inyectando enlaces de Google Drive en notas matrices..." -ForegroundColor Cyan
     $archivosMd = Get-ChildItem -Path $quartzContentDir -Filter "*.md" -Recurse
     foreach ($archivo in $archivosMd) {
-        $contenido = Get-Content -Path $archivo.FullName -Raw -Encoding UTF8
+        # Usando clase de .NET universal para evitar problemas de versión de PowerShell
+        $contenido = [System.IO.File]::ReadAllText($archivo.FullName, [System.Text.Encoding]::UTF8)
         $modificado = $false
 
         foreach ($nombrePdf in $diccionario.Keys) {
@@ -56,7 +57,7 @@ if ($json) {
             }
         }
         if ($modificado) {
-            Set-Content -Path $archivo.FullName -Value $contenido -NoNewline -Encoding UTF8
+            [System.IO.File]::WriteAllText($archivo.FullName, $contenido, [System.Text.Encoding]::UTF8)
         }
     }
 } else {
@@ -71,6 +72,3 @@ cd C:\Users\Luciano\Documents\my-notes-quartz
 git add .
 git commit -m "Actualizacion automatica: Notas y Enlaces rclone a Drive"
 git push origin main
-
-Write-Host "¡Proceso terminado exitosamente!" -ForegroundColor Green
-Read-Host -Prompt "Presiona Enter para salir..."
