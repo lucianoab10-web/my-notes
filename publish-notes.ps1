@@ -1,50 +1,76 @@
 # ==============================================================================
-# Script de sincronización de Obsidian a Quartz (PowerShell)
+# Script de publicación para Quartz (Inyecta enlaces de Drive usando rclone)
 # ==============================================================================
 
-# 1. Definir rutas
 $quartzContentDir = "C:\Users\Luciano\Documents\my-notes-quartz\content"
 $obsidianVault = "C:\Users\Luciano\iCloudDrive\iCloud~md~obsidian\my-notes\compartidos"
+$RclonePath = "C:\Users\Luciano\Tools\rclone\rclone.exe"
+$RemotePath = "gdrive:compartidos-varios"
 
-# Las carpetas específicas que SI quieres copiar a la web
-$carpetasASincronizar = @(
-    "clases",
-    "notas-y-apuntes"
-)
+$carpetasASincronizar = @("clases", "notas-y-apuntes")
 
-Write-Host "Iniciando sincronización con Quartz..." -ForegroundColor Cyan
-
-# 2. Limpiar la carpeta content actual de Quartz (para evitar archivos fantasma viejos)
+Write-Host "1. Limpiando directorio content antiguo..." -ForegroundColor Cyan
 if (Test-Path $quartzContentDir) {
-    Write-Host "Limpiando directorio content antiguo..."
-    # Se borra todo EXCEPTO el archivo index.md principal (si quieres conservarlo)
     Get-ChildItem -Path $quartzContentDir -Exclude "index.md" | Remove-Item -Recurse -Force
 } else {
     New-Item -ItemType Directory -Path $quartzContentDir | Out-Null
 }
 
-# 3. Copiar las carpetas seleccionadas
+Write-Host "2. Copiando carpetas de Obsidian a Quartz..." -ForegroundColor Cyan
 foreach ($carpeta in $carpetasASincronizar) {
     $origen = Join-Path -Path $obsidianVault -ChildPath $carpeta
-    $destino = Join-Path -Path $quartzContentDir -ChildPath $carpeta
-    
     if (Test-Path $origen) {
-        Write-Host "Copiando: $carpeta ..." -ForegroundColor Yellow
         Copy-Item -Path $origen -Destination $quartzContentDir -Recurse -Force
-    } else {
-        Write-Host "ADVERTENCIA: No se encontro la carpeta $origen" -ForegroundColor Red
     }
 }
 
-Write-Host "Archivos copiados con exito." -ForegroundColor Green
+Write-Host "3. Obteniendo IDs de Google Drive usando rclone..." -ForegroundColor Cyan
+$json = & $RclonePath lsjson $RemotePath --files-only 2>$null
 
-# 4. Construir Quartz y subir a GitHub (npx quartz sync)
-Write-Host "Construyendo el sitio y subiendo a GitHub..." -ForegroundColor Cyan
+if ($json) {
+    $archivosDrive = $json | ConvertFrom-Json
+    $diccionario = @{}
+    
+    # Armar diccionario con los enlaces de los PDFs
+    foreach ($archivo in $archivosDrive) {
+        if ($archivo.Name -match "\.pdf$") {
+            $url = "https://drive.google.com/file/d/$($archivo.ID)/view"
+            $diccionario[$archivo.Name] = $url
+        }
+    }
+
+    Write-Host "4. Inyectando enlaces de Google Drive en notas matrices..." -ForegroundColor Cyan
+    $archivosMd = Get-ChildItem -Path $quartzContentDir -Filter "*.md" -Recurse
+    foreach ($archivo in $archivosMd) {
+        $contenido = Get-Content -Path $archivo.FullName -Raw -Encoding UTF8
+        $modificado = $false
+
+        foreach ($nombrePdf in $diccionario.Keys) {
+            # Busca estrictamente [[nombre.pdf]]
+            $regex = "\[\[" + [regex]::Escape($nombrePdf) + "\]\]"
+            if ($contenido -match $regex) {
+                $urlDrive = $diccionario[$nombrePdf]
+                $reemplazo = "[$nombrePdf ↗ Abrir en Drive]($urlDrive)"
+                $contenido = $contenido -replace $regex, $reemplazo
+                $modificado = $true
+            }
+        }
+        if ($modificado) {
+            Set-Content -Path $archivo.FullName -Value $contenido -NoNewline -Encoding UTF8
+        }
+    }
+} else {
+    Write-Host "ADVERTENCIA: No se pudo conectar con rclone para obtener los links." -ForegroundColor Yellow
+}
+
+Write-Host "5. Eliminando archivos PDF fisicos para no saturar GitHub..." -ForegroundColor Cyan
+Get-ChildItem -Path $quartzContentDir -Filter "*.pdf" -Recurse | Remove-Item -Force
+
+Write-Host "6. Subiendo a GitHub..." -ForegroundColor Cyan
 cd C:\Users\Luciano\Documents\my-notes-quartz
+git add .
+git commit -m "Actualizacion automatica: Notas y Enlaces rclone a Drive"
+git push origin main
 
-# El comando 'quartz sync' hace todo: git add, git commit y git push
-npx quartz sync
-
-Write-Host "¡Proceso terminado exitosamente! Tu web se actualizara en unos minutos." -ForegroundColor Green
-
+Write-Host "¡Proceso terminado exitosamente!" -ForegroundColor Green
 Read-Host -Prompt "Presiona Enter para salir..."

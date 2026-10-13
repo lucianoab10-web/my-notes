@@ -1,6 +1,6 @@
 ﻿# Notas: EARTHS~1
 
-> Generado automaticamente desde Zotero - 2026-10-13 13:12
+> Generado automaticamente desde Zotero - 2026-10-13 13:37
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
