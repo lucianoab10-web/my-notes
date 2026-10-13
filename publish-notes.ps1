@@ -46,3 +46,5 @@ cd C:\Users\Luciano\Documents\my-notes-quartz
 npx quartz sync
 
 Write-Host "¡Proceso terminado exitosamente! Tu web se actualizara en unos minutos." -ForegroundColor Green
+
+Read-Host -Prompt "Presiona Enter para salir..."
