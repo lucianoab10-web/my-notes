@@ -1,6 +1,6 @@
 # Notas: Paleontología -- García, Pedro & Sour, Francisco -- 2024 -- Universidad Nacional Autónoma de México (UNAM) -- isbn13 9786073095150 -- 21aa7f423bf111f49e26
 
-> Generado automaticamente desde Zotero - 2026-10-13 20:12
+> Generado automaticamente desde Zotero - 2026-10-13 22:37
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
