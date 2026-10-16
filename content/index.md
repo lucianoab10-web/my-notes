@@ -12,6 +12,7 @@
 ## Ramos Pasados
 
 ## Compartidos y Otros Apuntes
+- [[notas-y-apuntes/Benedetto 2018 comprimido-notas 2]]
 - [[notas-y-apuntes/Benedetto 2018 comprimido-notas(1)]]
 - [[notas-y-apuntes/Benedetto 2018 comprimido-notas]]
 - [[notas-y-apuntes/Ciencias de la tierra (2a_ ed_) -- Pérez Riobo, Analía & Vrba, Ana -- 2a_ edición ampliada, Ituzaing-notas-2]]
@@ -26,13 +27,14 @@
 - [[notas-y-apuntes/Manual of Mineral Science (Cornelis Klein Barbara Dutrow) (z-library.sk, 1lib.sk, z-lib.sk)-notas-2]]
 - [[notas-y-apuntes/Manual20Mineral2C20Edition28Manual20Mineralogy%29-notas-2]]
 - [[notas-y-apuntes/Manual20Mineral2C20Edition28Manual20Mineralogy%29-notas]]
+- [[notas-y-apuntes/Mineralogy for amateurs -- Sinkankas, John, author, illustrator -- New York, N_Y, New York State, 19-notas]]
 - [[notas-y-apuntes/mineralogytext00danarich-notas]]
 - [[notas-y-apuntes/nhess-24-4267-2024-notas]]
 - [[notas-y-apuntes/Ore Deposit Geology -- John     Ridley -- 1, 2013 -- Cambridge University Press (Virtual Publishing)-notas-2]]
 - [[notas-y-apuntes/Ore Deposit Geology -- John     Ridley -- 1, 2013 -- Cambridge University Press (Virtual Publishing)-notas]]
-- [[notas-y-apuntes/Paleontología -- García, Pedro & Sour, Francisco -- 2024 -- Universidad Nacional Autónoma de México-notas 2]]
 - [[notas-y-apuntes/Paleontología -- García, Pedro & Sour, Francisco -- 2024 -- Universidad Nacional Autónoma de México-notas(1)]]
 - [[notas-y-apuntes/Paleontología -- García, Pedro & Sour, Francisco -- 2024 -- Universidad Nacional Autónoma de México-notas-2]]
+- [[notas-y-apuntes/Paleontología -- García, Pedro & Sour, Francisco -- 2024 -- Universidad Nacional Autónoma de México-notas]]
 - [[notas-y-apuntes/PDF-notas-2]]
 - [[notas-y-apuntes/PDF-notas]]
 - [[notas-y-apuntes/PETROG~2-notas-2]]
@@ -43,6 +45,7 @@
 - [[notas-y-apuntes/The Audubon Society field guide to North American rocks and -- Chesterman, Charles Wesley, 1913-, Na-notas]]
 - [[notas-y-apuntes/The blue planet _ an introduction to earth system science _ -- Brian J_ Skinner, Barbara W_ Murck ---notas-2]]
 - [[notas-y-apuntes/The blue planet _ an introduction to earth system science _ -- Brian J_ Skinner, Barbara W_ Murck ---notas]]
+- [[notas-y-apuntes/Winter y Winter - 2010 - Principles of igneous and metamorphic petrology.PDF-notas 2]]
 - [[notas-y-apuntes/Winter y Winter - 2010 - Principles of igneous and metamorphic petrology.PDF-notas(1)]]
 - [[notas-y-apuntes/Winter y Winter - 2010 - Principles of igneous and metamorphic petrology.PDF-notas-2]]
 - [[notas-y-apuntes/Winter y Winter - 2010 - Principles of igneous and metamorphic petrology.PDF-notas]]
