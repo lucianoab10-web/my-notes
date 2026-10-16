@@ -12,8 +12,8 @@
 ## Ramos Pasados
 
 ## Compartidos y Otros Apuntes
-- [[notas-y-apuntes/Benedetto 2018 comprimido-notas 2]]
 - [[notas-y-apuntes/Benedetto 2018 comprimido-notas(1)]]
+- [[notas-y-apuntes/Benedetto 2018 comprimido-notas]]
 - [[notas-y-apuntes/Ciencias de la tierra (2a_ ed_) -- Pérez Riobo, Analía & Vrba, Ana -- 2a_ edición ampliada, Ituzaing-notas-2]]
 - [[notas-y-apuntes/Ciencias de la tierra (2a_ ed_) -- Pérez Riobo, Analía & Vrba, Ana -- 2a_ edición ampliada, Ituzaing-notas]]
 - [[notas-y-apuntes/CRISTALOGRAFIA_PARA_QUIMICOS_Teoria_y_pr-notas]]
@@ -26,6 +26,7 @@
 - [[notas-y-apuntes/Manual of Mineral Science (Cornelis Klein Barbara Dutrow) (z-library.sk, 1lib.sk, z-lib.sk)-notas-2]]
 - [[notas-y-apuntes/Manual20Mineral2C20Edition28Manual20Mineralogy%29-notas-2]]
 - [[notas-y-apuntes/Manual20Mineral2C20Edition28Manual20Mineralogy%29-notas]]
+- [[notas-y-apuntes/mineralogytext00danarich-notas]]
 - [[notas-y-apuntes/nhess-24-4267-2024-notas]]
 - [[notas-y-apuntes/Ore Deposit Geology -- John     Ridley -- 1, 2013 -- Cambridge University Press (Virtual Publishing)-notas-2]]
 - [[notas-y-apuntes/Ore Deposit Geology -- John     Ridley -- 1, 2013 -- Cambridge University Press (Virtual Publishing)-notas]]
@@ -42,8 +43,8 @@
 - [[notas-y-apuntes/The Audubon Society field guide to North American rocks and -- Chesterman, Charles Wesley, 1913-, Na-notas]]
 - [[notas-y-apuntes/The blue planet _ an introduction to earth system science _ -- Brian J_ Skinner, Barbara W_ Murck ---notas-2]]
 - [[notas-y-apuntes/The blue planet _ an introduction to earth system science _ -- Brian J_ Skinner, Barbara W_ Murck ---notas]]
-- [[notas-y-apuntes/Winter y Winter - 2010 - Principles of igneous and metamorphic petrology.PDF-notas 2]]
 - [[notas-y-apuntes/Winter y Winter - 2010 - Principles of igneous and metamorphic petrology.PDF-notas(1)]]
 - [[notas-y-apuntes/Winter y Winter - 2010 - Principles of igneous and metamorphic petrology.PDF-notas-2]]
+- [[notas-y-apuntes/Winter y Winter - 2010 - Principles of igneous and metamorphic petrology.PDF-notas]]
 - [[notas-y-apuntes/[International Union of Crystallography Texts on Crystallography 21] Hammond, Christopher - The Basi-notas-2]]
 - [[notas-y-apuntes/[International Union of Crystallography Texts on Crystallography 21] Hammond, Christopher - The Basi-notas]]

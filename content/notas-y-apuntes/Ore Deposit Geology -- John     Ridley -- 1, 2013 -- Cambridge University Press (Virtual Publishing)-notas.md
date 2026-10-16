@@ -1,6 +1,6 @@
 ﻿# Notas: Ore Deposit Geology -- John     Ridley -- 1, 2013 -- Cambridge University Press (Virtual Publishing) -- isbn13 9781107022225 -- 6bfae65ab55098d1bc3a23
 
-> Generado automaticamente desde Zotero - 2026-10-13 22:37
+> Generado automaticamente desde Zotero - 2026-10-15 21:37
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]

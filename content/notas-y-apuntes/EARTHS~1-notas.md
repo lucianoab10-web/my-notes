@@ -1,9 +1,27 @@
 ﻿# Notas: EARTHS~1
 
-> Generado automaticamente desde Zotero - 2026-10-13 22:37
+> Generado automaticamente desde Zotero - 2026-10-15 21:37
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
+
+> Cinder cones are quite small and form during a single eruptive phase that lasts a few days to a few years. - p. 169
+
+> Volcanic landforms come in a wide variety of shapes and sizes, and each volcano has a unique eruptive history. Nevertheless, volcanologists have been able to classify volcanic landforms and determine their eruptive patterns - p. 169
+
+> Located at the summit of most volcanic cones is a somewhat funnel-shaped depression called a crater (crater = bowl). - p. 169
+
+> Some volcanoes have very large circular depressions, called calderas, which have diameters that are greater than 1 kilometer (0.6 mile) and that in rare cases exceed 50 kilometers (30 miles). - p. 170
+
+> During early stages of growth, most volcanic discharges come from a central summit vent. As a volcano matures, material also tends to be emitted from fissures that develop along the flanks (sides) or at the base of the volcano. Continued activity from a flank eruption may produce one or more small parasitic cones - p. 170
+
+> Many of these vents, however, emit only gases and are appropriately called fumaroles (fumus = smoke - p. 170
+
+> Most shield volcanoes begin on the ocean floor as seamounts (submarine volcanoes), and a few of them grow large enough to form volcanic islands. In fact, many oceanic islands are either a single shield volcano or, more often, the coalescence of two or more shields built upon massive amounts of pillow lavas - p. 170
+
+> Like Hawaii’s other shield volcanoes, Mauna Loa has flanks with gentle slopes of only a few degrees. This low angle is due to the very hot, fluid lava that traveled “fast and far” from the vent. In addition, most of the lava (perhaps 80 percent) flowed through a well-developed system of lava tubes. Another feature common to active shield volcanoes is one or more large, steep-walled calderas that occupy the summit - p. 170
+
+> As the name suggests, cinder cones (also called scoria cones) are built from ejected lava fragments that begin to harden in flight to produce the vesicular rock scoria - p. 172
 
 > As shown in Figure 6.33, when a typical geothermal gradient is compared to the curve showing the melting points for the mantle rock peridotite, the temperature at which peridotite melts is higher than the geothermal gradient at all depths. Thus, under normal conditions, the mantle is solid. However, tectonic processes trigger melting though various means, including reducing the mantle rock’s melting point. - p. 188
 
@@ -46,4 +64,11 @@
 > smoothly across. If they do, there is nothing left but to conclude that the pieces were in fact joined in this way.”* - p. 97
 
 > ° of the equator, in subtropical or tropical climates.  How could extensive ice sheets form near the equator? One proposal suggested that our planet experienced a period of extreme global cooling. Wegener rejected this explanation because during the same span of geologic time, large tropical swamps existed in several locations in the Northern Hemisphere. The lush vegetation in those swamps was eventually buried and converted to coal - p. 97
+
+## [Highlight]
+
+
+## [Rojo]
+
+> Volcanic activity frequently begins when a fissure (crack) develops in Earth’s crust as magma moves forcefully toward the surface. As the gas-rich magma moves up through a fissure, its path is usually localized into a somewhat pipe-shaped conduit that terminates at a surface opening called a vent (Figure 6.11). The coneshaped structure we call a volcanic cone is often created by successive eruptions of lava, pyroclastic material, or frequently a combination of both, often separated by long periods of inactivity. - p. 169
 
