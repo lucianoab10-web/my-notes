@@ -24,6 +24,7 @@
 - [[notas-y-apuntes/Fermi-porotos]]
 - [[notas-y-apuntes/FORMAS CRISTALINAS-notas]]
 - [[notas-y-apuntes/jara 2021 OROGENIA ANDINA-notas]]
+- [[notas-y-apuntes/MANUAL DE MINERALOGÍA 4ED_ VOLUMEN 1 -- Cornelis Klein; Cornelius S_ Jr Hurlburt -- None -- Reverte;-notas]]
 - [[notas-y-apuntes/Manual of Mineral Science (Cornelis Klein Barbara Dutrow) (z-library.sk, 1lib.sk, z-lib.sk)-notas-2]]
 - [[notas-y-apuntes/Manual20Mineral2C20Edition28Manual20Mineralogy%29-notas-2]]
 - [[notas-y-apuntes/Manual20Mineral2C20Edition28Manual20Mineralogy%29-notas]]

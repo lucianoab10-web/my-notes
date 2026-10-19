@@ -1,6 +1,6 @@
 ﻿# Notas: Elements of mineralogy, by Brian Mason and L_G_ Berry -- Berry, L_G -- Series of books in geology, San Francisco, 1968 -- San Francisco W_H_ Freeman -
 
-> Generado automaticamente desde Zotero - 2026-10-19 16:57
+> Generado automaticamente desde Zotero - 2026-10-19 17:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
@@ -16,6 +16,7 @@
 > The use of Miller indices gives rise to_another, often used statement of the Second Law of Crystallography, or the [Law of Simple Rational Indices} the Miller indices of any crystal face are either small whole numbers or zero. - p. 21
 
 > The similar faces of a crystal constitute a form, the term being used in a special sense. A form comprises all those faces on a crystal required by the class symmetry if one such face is present. For example, in a triclinic crystal with a center of symmetry each form will comprise two faces, parallel to each other and on opposite sides of the crystal. This is an example of an open form, so called because it does not enclose space. If the faces of a single form are sufficient to enclose  |  space, it is known as a closed form. - p. 23
+
 
 > ratio of sillimanite is 0.975:1:0.752. - p. 36
 
