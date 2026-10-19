@@ -17,6 +17,7 @@
 - [[notas-y-apuntes/Ciencias de la tierra (2a_ ed_) -- Pérez Riobo, Analía & Vrba, Ana -- 2a_ edición ampliada, Ituzaing-notas-2]]
 - [[notas-y-apuntes/Ciencias de la tierra (2a_ ed_) -- Pérez Riobo, Analía & Vrba, Ana -- 2a_ edición ampliada, Ituzaing-notas]]
 - [[notas-y-apuntes/CRISTALOGRAFIA_PARA_QUIMICOS_Teoria_y_pr-notas]]
+- [[notas-y-apuntes/Crystallography_ Introduction to the Study of Minerals -- Celia Marcos -- Springer Textbooks in Eart-notas]]
 - [[notas-y-apuntes/EARTHS~1-notas-2]]
 - [[notas-y-apuntes/EARTHS~1-notas]]
 - [[notas-y-apuntes/Elements of mineralogy, by Brian Mason and L_G_ Berry -- Berry, L_G -- Series of books in geology, S-notas]]
