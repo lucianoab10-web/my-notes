@@ -1,6 +1,6 @@
 ﻿# Notas: Elements of mineralogy, by Brian Mason and L_G_ Berry -- Berry, L_G -- Series of books in geology, San Francisco, 1968 -- San Francisco W_H_ Freeman -
 
-> Generado automaticamente desde Zotero - 2026-10-16 19:57
+> Generado automaticamente desde Zotero - 2026-10-17 22:47
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
