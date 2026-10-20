@@ -1,7 +1,7 @@
 
 > [!wikilinked]
 > [Pye1109.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1JfDpfbPT7Y4m6g3a1814EUZxQByb0O7d/view)
-> [Repaso pye certamen 1.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1g1-JEYiY4h-VGp2cRxLBjqOGMZB58AA8/view)
+> [[Repaso pye certamen 1.pdf]]
 > [pye2108_teoriaquickscanapp.com.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1swEOP9YIPlE1iGf_ZcsJ2fQPZskJ3NFh/view)
 > [pye-lab0409-as.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1l43vNczmmzxAHrjws8lxVkLlK0ZYVULo/view)
 > [pye-lab0210.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1z81NgVE8sn7F32oehmOD59h9D5ms0iZD/view)

@@ -16,7 +16,7 @@
 > [int0209.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1tKPcKssZhuLYZGeepum2OodZop0_S0BW/view)
 > [intfunciones-trigonometricas.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1UWMGJMq7thNIosUeSe00Qnsjpet2yBg9/view)
 > [int0109.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1I_hBh3aADYeBdBMfxoRb9pH1N21XKC0y/view)
-> [int-controles 1-3.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1N7XbTgHVRYkycGRaOnzgt9sNkzTzVJhn/view)
+> [[int-controles 1-3.pdf]]
 > [Int1709 et al.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1RJOzGNcDtYOxNsEA1SKNmPW7GkQykfEn/view)
 > [Int2209.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1XR3mkm3My5j03vb20hybhJdlX6WGCYQk/view)
 > [Int2309.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1tUz9GjzqwJKI5YbJ7qn4Ca6xPRCJV9Fp/view)
