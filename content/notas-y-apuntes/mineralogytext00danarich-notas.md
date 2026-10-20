@@ -1,6 +1,6 @@
 ﻿# Notas: mineralogytext00danarich
 
-> Generado automaticamente desde Zotero - 2026-10-19 20:57
+> Generado automaticamente desde Zotero - 2026-10-19 21:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]

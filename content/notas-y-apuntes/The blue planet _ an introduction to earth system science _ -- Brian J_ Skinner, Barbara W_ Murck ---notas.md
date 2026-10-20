@@ -1,6 +1,6 @@
 ﻿# Notas: The blue planet _ an introduction to earth system science _ -- Brian J_ Skinner, Barbara W_ Murck -- 3rd ed_, Hoboken, NJ, New Jersey, 2011 -- John -- 9780471236436 -- b120bb57b205bf96
 
-> Generado automaticamente desde Zotero - 2026-10-19 20:57
+> Generado automaticamente desde Zotero - 2026-10-19 21:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
