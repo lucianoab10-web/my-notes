@@ -1,6 +1,6 @@
 ﻿# Notas: jara 2021 OROGENIA ANDINA
 
-> Generado automaticamente desde Zotero - 2026-10-20 18:57
+> Generado automaticamente desde Zotero - 2026-10-21 16:52
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
