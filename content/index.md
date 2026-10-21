@@ -21,6 +21,7 @@
 - [[notas-y-apuntes/EARTHS~1-notas-2]]
 - [[notas-y-apuntes/EARTHS~1-notas]]
 - [[notas-y-apuntes/Elements of mineralogy, by Brian Mason and L_G_ Berry -- Berry, L_G -- Series of books in geology, S-notas]]
+- [[notas-y-apuntes/Essentials of Igneous and Metamorphic Petrology -- Frost B_R_, Frost C_D_ -- Cambridge, 2013 -- Camb-notas]]
 - [[notas-y-apuntes/fdg-apuntes-certamen1]]
 - [[notas-y-apuntes/Fermi-porotos]]
 - [[notas-y-apuntes/FORMAS CRISTALINAS-notas]]
