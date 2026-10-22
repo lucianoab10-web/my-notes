@@ -1,6 +1,6 @@
 ﻿# Notas: EARTHS~1
 
-> Generado automaticamente desde Zotero - 2026-10-21 20:57
+> Generado automaticamente desde Zotero - 2026-10-21 21:27
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
@@ -108,6 +108,8 @@
 > Numerous fissure eruptions have buried the landscape, creating a lava plateau nearly 1500 meters (1 mile) thick. Some of the lava remained molten long enough to flow 150 kilometers (90 miles) from its source. The term flood basalts appropriately describes these extrusions - p. 183
 
 > As the volcano succumbs to forces of weathering and erosion, the rock occupying the volcanic conduit, which is highly resistant to weathering, may remain standing above the surrounding terrain long after the cone has been worn away. Shiprock, New Mexico, is a widely recognized and spectacular example of these structures, which geologists call volcanic necks (or plugs) - p. 183
+
+
 
 
 
