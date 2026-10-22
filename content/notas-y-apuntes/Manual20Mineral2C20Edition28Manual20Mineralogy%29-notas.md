@@ -1,6 +1,6 @@
 ﻿# Notas: Manual20Mineral2C20Edition28Manual20Mineralogy%29
 
-> Generado automaticamente desde Zotero - 2026-10-21 21:27
+> Generado automaticamente desde Zotero - 2026-10-22 12:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
