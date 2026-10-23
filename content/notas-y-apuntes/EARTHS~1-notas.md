@@ -1,6 +1,6 @@
 ﻿# Notas: EARTHS~1
 
-> Generado automaticamente desde Zotero - 2026-10-22 18:17
+> Generado automaticamente desde Zotero - 2026-10-22 21:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
@@ -127,6 +127,12 @@
 
 > Ring of  Fire Most of Earth’s major volcanoes are located in a zone around the Pacific called the Ring of Fire. Another large group of active volcanoes lies unseen along the midocean ridge system. - p. 191
 
+
+
+
+
+
+
 > Igneous Compositions  Igneous rocks are composed mainly of silicate minerals. - p. 61
 
 > Chemical analysis shows that silicon and oxygen—usually expressed as the silica (SiO2) content of a magma—are by far the most abundant constituents of igneous rocks. - p. 61
@@ -165,4 +171,6 @@
 ## [Rojo]
 
 > Volcanic activity frequently begins when a fissure (crack) develops in Earth’s crust as magma moves forcefully toward the surface. As the gas-rich magma moves up through a fissure, its path is usually localized into a somewhat pipe-shaped conduit that terminates at a surface opening called a vent (Figure 6.11). The coneshaped structure we call a volcanic cone is often created by successive eruptions of lava, pyroclastic material, or frequently a combination of both, often separated by long periods of inactivity. - p. 169
+
+
 
