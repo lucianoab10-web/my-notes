@@ -1,6 +1,6 @@
 # Notas: Paleontología -- García, Pedro & Sour, Francisco -- 2024 -- Universidad Nacional Autónoma de México (UNAM) -- isbn13 9786073095150 -- 21aa7f423bf111f49e26
 
-> Generado automaticamente desde Zotero - 2026-10-24 11:57
+> Generado automaticamente desde Zotero - 2026-10-24 12:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
@@ -32,6 +32,11 @@
 > Como resultado de la meteorización el material sedimentario presenta una extensa gama de tamaños, el cual será transportado por corrientes efímeras, formadas en las épocas de lluvias - p. 116
 
 > Medio glacial y periglacial  Ambos medios se caracterizan por localizarse en regiones de latitudes altas o de elevadas altitudes. La meteorización mecánica es predominante y el hielo es el agente de transporte, lo cual hace que sus sedimentos presenten una inmadurez mineralógica elevada, esto es, el sedimento detrítico está formado por la roca original. - p. 117
+
+> Características de los depósitos  Los depósitos más importantes del medio glacial nos indican, como en otros casos, condiciones del medio sedimentario, ellos son los tills o morrenas (algunos autores reservan el término morrena para referirse al aspecto morfológico del depósito, empleando el de till con significado petrográfico). El término till se emplea para sedimentos glaciales sin consolidar, mientras que se da el nombre de tillita a los tills ya endurecidos - p. 117
+
+> Generalmente los tills y tillitas están formados por gravas y clastos de tamaños que pueden llegar a las dimensiones de bloques, incluidos en una masa de grano más fino en la que puede predominar la fracción arena o bien la fracción arcilla. - p. 118
+
 
 > Medio fluvial  Constituye uno de los medios continentales de mayor importancia estratigráfica, puesto que en ellos se han acumulado gran cantidad de sedimentos a lo largo de toda la historia de la Tierra. Sus depósitos tienen una amplia distribución geográfica. - p. 122
 

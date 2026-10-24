@@ -44,6 +44,8 @@
 - [[notas-y-apuntes/PDF-notas]]
 - [[notas-y-apuntes/PETROG~2-notas-2]]
 - [[notas-y-apuntes/PETROG~2-notas]]
+- [[notas-y-apuntes/Principles of sedimentology and stratigraphy -- Boggs Jr_, Sam -- Fifth edtion, Upper Saddle River,-notas]]
+- [[notas-y-apuntes/Sedimentology and Stratigraphy -- Gary Nichols -- 2nd ed_, Hoboken, NJ, New Jersey, 2009 -- Wiley; W-notas]]
 - [[notas-y-apuntes/Tarbuck - Ciencias de la Tierra. Una introducción a la geología física.pdf-notas-2]]
 - [[notas-y-apuntes/Tarbuck - Ciencias de la Tierra. Una introducción a la geología física.pdf-notas]]
 - [[notas-y-apuntes/The Audubon Society field guide to North American rocks and -- Chesterman, Charles Wesley, 1913-, Na-notas-2]]

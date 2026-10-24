@@ -1,6 +1,6 @@
 ﻿# Notas: FisicaUniversitariaVolumen1-Openstax- En español-comprimido
 
-> Generado automaticamente desde Zotero - 2026-10-24 11:57
+> Generado automaticamente desde Zotero - 2026-10-24 12:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]

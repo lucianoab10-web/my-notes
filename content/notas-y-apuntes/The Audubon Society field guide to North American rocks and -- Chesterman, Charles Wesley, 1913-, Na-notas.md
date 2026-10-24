@@ -1,6 +1,6 @@
 ﻿# Notas: The Audubon Society field guide to North American rocks and -- Chesterman, Charles Wesley, 1913-, National Audubon Society -- New York, New York -- isbn13
 
-> Generado automaticamente desde Zotero - 2026-10-24 11:57
+> Generado automaticamente desde Zotero - 2026-10-24 12:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
