@@ -1,6 +1,6 @@
 ﻿# Notas: EARTHS~1
 
-> Generado automaticamente desde Zotero - 2026-10-24 18:57
+> Generado automaticamente desde Zotero - 2026-10-24 20:56
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
@@ -148,6 +148,8 @@
 > Basaltic rocks contain a high percentage of dark silicate minerals, so geologists refer to them as mafic (from magnesium and ferrum, the Latin word for iron). Because of their high iron content, mafic rocks are typically darker and denser than granitic rocks. Rocks of basaltic composition include basalt and gabbro. They make up the ocean floor as well as many of the volcanic islands located within the ocean basins. - p. 62
 
 > Geothermal gradient The gradual increase in temperature with depth in the crust. The average is 30°C per kilometer in the upper crust - p. 746
+
+> When rock is intruded by magma, contact  metamorphism may take place, as the magma heats the adjacent rock to temperatures that cause metamorphic changes.  • During mountain building, great quantities of rock  are subjected to pressures and high temperatures associated with large-scale deformation called regional metamorphism. - p. 76
 
 > As shown in Figure 3.29, foliation in metamorphic environments is ultimately driven by compressional stresses that shorten rock units, causing mineral grains in preexisting rocks to develop parallel, or nearly parallel, alignments. Examples of foliation include the parallel alignment of platy (flat and disk-like) minerals such as the micas; elongated or  flattened pebbles that are characteristic of metaconglomerates; compositional banding, in which dark and light minerals separate, generating a layered appearance; and rock cleavage, in which rocks can be easily split into tabular slabs - p. 78
 
