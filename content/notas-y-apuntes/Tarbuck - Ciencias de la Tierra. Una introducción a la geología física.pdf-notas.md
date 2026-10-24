@@ -1,6 +1,6 @@
 ﻿# Notas: Tarbuck - Ciencias de la Tierra. Una introducción a la geología física.pdf
 
-> Generado automaticamente desde Zotero - 2026-10-24 10:57
+> Generado automaticamente desde Zotero - 2026-10-24 11:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
@@ -16,6 +16,8 @@
 > Minerales índice y grado metamórfico  Además de los cambios de textura, encontramos cambios correspondientes de mineralogía conforme nos desplazamos de las zonas de metamorfismo de grado bajo a las de metamorfismo de grado alto. Una transición idealizada e - p. 247
 
 > A través del estudio de las rocas metamórficas en sus ambientes naturales (llamado estudio de campo) y a través de estudios experimentales, los investigadores han descubierto que ciertos minerales son buenos indicadores del ambiente metamórfico en el cual se formaron. Utilizando esos minerales índice, los geólogos distinguen entre diferentes zonas de metamorfismo regional. - p. 248
+
+> Los glaciares forman parte de dos ciclos fundamentales del sistema Tierra: el ciclo hidrológico y el ciclo de las rocas - p. 506
 
 > Aunque es verdad que cada muestra del mismo mineral tiene la misma estructura interna, algunos elementos son capaces de reunirse de más de una forma. Por tanto, dos minerales con propiedades totalmente diferentes pueden tener exactamente la misma composición química. Minerales de este tipo se dice que son polimorfos (poli muchos; morfo forma). El grafito y el diamante son ejemplos particularmente buenos de polimorfismo porque consisten exclusivamente en carbono y, sin embargo, tienen propiedades drásticamente diferentes. - p. 87
 
