@@ -1,6 +1,6 @@
 ﻿# Notas: Ciencias de la tierra (2a_ ed_) -- Pérez Riobo, Analía & Vrba, Ana -- 2a_ edición ampliada, Ituzaingó, 2019 -- Editorial Maipue -- isbn13 9789874490
 
-> Generado automaticamente desde Zotero - 2026-10-23 19:57
+> Generado automaticamente desde Zotero - 2026-10-24 10:53
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]

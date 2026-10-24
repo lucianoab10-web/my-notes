@@ -24,6 +24,8 @@
 - [[notas-y-apuntes/Essentials of Igneous and Metamorphic Petrology -- Frost B_R_, Frost C_D_ -- Cambridge, 2013 -- Camb-notas]]
 - [[notas-y-apuntes/fdg-apuntes-certamen1]]
 - [[notas-y-apuntes/Fermi-porotos]]
+- [[notas-y-apuntes/FisicaUniversitariaVolumen1-Openstax- En español-comprimido-notas]]
+- [[notas-y-apuntes/FisicaUniversitariaVolumen2-WEB-notas]]
 - [[notas-y-apuntes/FORMAS CRISTALINAS-notas]]
 - [[notas-y-apuntes/jara 2021 OROGENIA ANDINA-notas]]
 - [[notas-y-apuntes/MANUAL DE MINERALOGÍA 4ED_ VOLUMEN 1 -- Cornelis Klein; Cornelius S_ Jr Hurlburt -- None -- Reverte;-notas]]

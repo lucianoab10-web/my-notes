@@ -1,6 +1,6 @@
 ﻿# Notas: PETROG~2
 
-> Generado automaticamente desde Zotero - 2026-10-23 19:57
+> Generado automaticamente desde Zotero - 2026-10-24 10:53
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
@@ -40,9 +40,15 @@
 
 > El concepto de rocas como  sistemas termodinámicos - p. 181
 
+> Estos sistemas son complejos, las fases son los minerales y [luidos y los componenles Son los elementos mayontnríos o combinaciones de ellos El hecho de que l. mayoría de los minerales de las roC3S sean soluciones sólidas no ideales introduce un factor de complejidad conside rablc en el estudio de las rocas metamórficas C0l110 sistcmns icrmodmamicos. hasta el pumo de que se ha desenrollado toda un" disciphna cspecífica dcd icada ,,1 estudio del metamorfismo, - p. 181
+
 > La sobresaruracion en la fase mineral correspondiente de un equilibrio particular es una condición sine '1un non para vencer la barrera energéi ica del crecuruento cristahno (véase § 4.4). Los magmas crrstalizan al perder calor)' descender la lemperalura pOI' debajo del equilibno, generando la sobresaturación requerida para la formación de cristales. Sin embargo, las meas metamórficas pueden cnsrahzar ramo enfriandose (rctrometamorfismo) como calentándose {mcramorfismo progrado). - p. 188
 
 > 8.5.2. Equilibrio textural - p. 192
+
+> lo, gp nos "c :1COI>1!.1J sigulcnd" el prtnctplo b.I<lCCl de 111111illliZ¡lr b él1ngl" libre Inlérl ••d.•1del 'l>tem.l. n:ductend" 1':11.e1ll" !tIsuperr"lc de contaclo entre los el'lstalc. )'/0 ravol'Cc.el1do 1.'5 contJCICl' gmno-gmno con menM energln libré in. tcrl.lC1,", ESta form., de energl., llene UII Vtlk'r IlIudw menor .1 1.1 .ncrgl~ hhn: <{ulmle.,. () Icr",odil1~mk~. quc e; 1.1rc$purI,,-.ble de 1,1(urnlJcKln UCl1uev,). cl'l;,t"le~, 5111 emb~rgo. eS b encr¡;l" rcsp,'nsablc en g'':'111 medid.1 tic I.!s tcxtur"s de b.s roC.\5 Il1el••IlIÓdicIlS, L, minlmlz,'dón de energf;l hbre IntcrfaClII1puede dnrse dur.tnlc d proccsu de blastcsis. en cuyu casClCII1>C0I10dnllento de unJ textura de cqu.hbrio, dedueid.I.1 PMtir de la d.stnbuclón de los Ilmlles de grano. puede ser II1dimll\'J de un cqutllbno terrnodmám.co, - p. 192
+
+**Comentario:** Los granos se acoplan siguiendo el principio básico de minimizar la energía libre interfacial del sistema, reduciendo para ello la superficie de contacto entre los cristales y/o favoreciendo los contactos grano-grano con menor energía libre interfacial. Esta forma de energía tiene un valor mucho menor a la energía libre química, o termodinámica, que es la responsable de la formación de nuevos cristales. Sin embargo, es la energía responsable en gran medida de las texturas de las rocas metamórficas. La minimización de energía libre interfacial puede darse durante el proceso de blastesis, en cuyo caso el reconocimiento de una textura de equilibrio, deducida a partir de la distribución de los límites de grano, puede ser indicativa de un equilibrio termodinámico. No obstante, el reajuste textural puede darse con posterioridad...»
 
 > TI'XIII rcr grafloblastica  Se caructcnzo por una d isposicion de los mmer.dcs forrnando un .lgregado en mosaico regulor con Irecuentes uniones rriples a 120· (Flgur.l 8.Un). E. 1.1 textura común de 1.15roC3S rnonornincrahcas COl1l0 cu.ircuas. mármoles. piroxcnnas, creciera - p. 201
 
