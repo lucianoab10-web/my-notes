@@ -1,6 +1,6 @@
 ﻿# Notas: Tarbuck - Ciencias de la Tierra. Una introducción a la geología física.pdf
 
-> Generado automaticamente desde Zotero - 2026-10-24 10:53
+> Generado automaticamente desde Zotero - 2026-10-24 10:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
