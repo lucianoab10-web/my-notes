@@ -1,6 +1,6 @@
 ﻿# Notas: EARTHS~1
 
-> Generado automaticamente desde Zotero - 2026-10-25 15:57
+> Generado automaticamente desde Zotero - 2026-10-25 16:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
@@ -133,6 +133,8 @@
 
 
 
+> Water and Carbonic Acid - p. 240
+
 > With few exceptions, Earth’s land surface is covered by regolith (rhegos = blanket, lithos = stone), a layer of rock and mineral fragments produced by weathering. Some would call this material soil, but soil is more than an accumulation of weathered debris. Soil is a combination of mineral and organic matter, water, and air—the portion of the regolith that supports the growth of plants. - p. 243
 
 
@@ -149,6 +151,8 @@
 > Rocks that contain at least 45 percent dark silicate minerals and calcium-rich plagioclase feldspar (but no quartz) are said to have a basaltic composition - p. 62
 
 > Basaltic rocks contain a high percentage of dark silicate minerals, so geologists refer to them as mafic (from magnesium and ferrum, the Latin word for iron). Because of their high iron content, mafic rocks are typically darker and denser than granitic rocks. Rocks of basaltic composition include basalt and gabbro. They make up the ocean floor as well as many of the volcanic islands located within the ocean basins. - p. 62
+
+> Differential weathering The variation in the rate and degree of weathering caused by factors such as mineral makeup, degree of jointing, and climate. - p. 744
 
 > Geothermal gradient The gradual increase in temperature with depth in the crust. The average is 30°C per kilometer in the upper crust - p. 746
 

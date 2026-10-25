@@ -1,6 +1,6 @@
 # Notas: Winter y Winter - 2010 - Principles of igneous and metamorphic petrology.PDF
 
-> Generado automaticamente desde Zotero - 2026-10-25 15:57
+> Generado automaticamente desde Zotero - 2026-10-25 16:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
@@ -82,6 +82,11 @@
 > Fiamme Compressed pumice fragments in a tuff. - p. 52
 
 > In any rock or metamorphic formation which has arrived at a chemical equilibrium through metamorphism at constant temperature and pressure conditions, the mineral composition is controlled only by the chemical composition. We are led to a general conception which the writer proposes to call metamorphic facies. - p. 538
+
+
+> The high P/T series, for example, typically occurs in subduction zones where “normal” isotherms are de ressed  by thesubduction ofcool lithosphere faster than it can equilibrate thermally (see Figures 16.15 and 16.16). The facies sequence here is (zeolite facies)—(prehnite—pumpellyite facies)—blueschist facies—eclogite facies. Facies in parentheses may not be developed. ium P/Tseries is characotfecormmoinsortogiencic belts (Barrovian type), where the sequence is (zeolite facies) —(prehnite —pumpellyite facies)—greenschist facies— amphibolite facies —(granulite facies). - p. 541
+
+> The low P/T serieiss _ characteristic-of highheat-flow orogenic |belts (Buchan or Ryoke-Abukuma type), rift areas1,s,oorFcontact metamorphism. , The sequence of facies may bealow-pressveursrieon of the  medium P/T series described above (but with cordierite and/or andalusite in aluminous rocks) or the sequence (zeolite facies) —albite—epidote hornfels fac—hoirneblesnde hornfels facies-pyroxene hornfels facies. - p. 541
 
 > The two types ocfrust, the mantle, and the core are distinguished on the basis of composition. An alternative way to considetrhe subdivisionsof the Earth is based on rheological properties (right side of Figure 1.3). Using these criteria (how materials respond to deformation), we can consider the crust plus the more rigid portion of the uppermost mantle above the low-velocity layertobehave as a strong, coherent unit, collectivelym+anic UTS  Osphere iissthin (~5O km) near warm mid-ocean ridges \and thickens toabout 110-km when cool andmature.‘The }.  ithosphere iis 22000 to 250 kkmm thick uunnddeerr tthhee stable continen; al shields (McKenzie and Priestly,2008). The mo mantle immediately below the lithosphere is called aie asthenosphere (from the Greek asthenes, “without strength’). The asthenosphere is important to plate tectonics because the ductility is thought to provide the zone of dislocation upon which the rigid lithospheric plates may differentially move. From a rheological standpoint, the mantle below the asthenosphere is called the mesosphere. - p. 6
 
