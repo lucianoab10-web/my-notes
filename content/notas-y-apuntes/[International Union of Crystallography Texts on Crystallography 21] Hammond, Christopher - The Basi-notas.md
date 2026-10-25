@@ -1,4 +1,4 @@
-﻿# Notas: [International Union of Crystallography Texts on Crystallography 21] Hammond, Christopher - The Basi
+# Notas: [International Union of Crystallography Texts on Crystallography 21] Hammond, Christopher - The Basi
 
 > Generado automaticamente desde Zotero - 2026-09-28 21:22
 > Coleccion: GEOLOGIA

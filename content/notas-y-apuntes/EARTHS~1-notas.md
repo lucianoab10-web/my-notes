@@ -1,6 +1,6 @@
 ﻿# Notas: EARTHS~1
 
-> Generado automaticamente desde Zotero - 2026-10-25 16:57
+> Generado automaticamente desde Zotero - 2026-10-25 18:03
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
@@ -135,7 +135,23 @@
 
 > Water and Carbonic Acid - p. 240
 
+> Although pure water is nonreactive, a small amount of dissolved material is generally all that is needed to activate it. Oxygen dissolved in water will oxidize some materials - p. 240
+
+> Carbon dioxide (CO2) dissolves in water (H2O) to form carbonic acid (H2CO3) - p. 240
+
+> Carbonic acid ionizes to form the very reactive hydrogen ion (H+) and the bicarbonate ion (HCO3).  Acids such as carbonic acid readily decompose many minerals and produce certain products that are water soluble. - p. 240
+
+
+
+
+
+
+
+
+
+
 > With few exceptions, Earth’s land surface is covered by regolith (rhegos = blanket, lithos = stone), a layer of rock and mineral fragments produced by weathering. Some would call this material soil, but soil is more than an accumulation of weathered debris. Soil is a combination of mineral and organic matter, water, and air—the portion of the regolith that supports the growth of plants. - p. 243
+
 
 
 > Igneous Compositions  Igneous rocks are composed mainly of silicate minerals. - p. 61
