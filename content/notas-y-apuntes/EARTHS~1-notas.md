@@ -1,6 +1,6 @@
 ﻿# Notas: EARTHS~1
 
-> Generado automaticamente desde Zotero - 2026-10-25 15:04
+> Generado automaticamente desde Zotero - 2026-10-25 15:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
@@ -131,6 +131,9 @@
 
 
 
+
+
+> With few exceptions, Earth’s land surface is covered by regolith (rhegos = blanket, lithos = stone), a layer of rock and mineral fragments produced by weathering. Some would call this material soil, but soil is more than an accumulation of weathered debris. Soil is a combination of mineral and organic matter, water, and air—the portion of the regolith that supports the growth of plants. - p. 243
 
 
 > Igneous Compositions  Igneous rocks are composed mainly of silicate minerals. - p. 61
