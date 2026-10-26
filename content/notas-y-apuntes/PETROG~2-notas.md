@@ -1,6 +1,6 @@
 ﻿# Notas: PETROG~2
 
-> Generado automaticamente desde Zotero - 2026-10-25 20:57
+> Generado automaticamente desde Zotero - 2026-10-25 21:37
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
@@ -49,6 +49,7 @@
 > lo, gp nos "c :1COI>1!.1J sigulcnd" el prtnctplo b.I<lCCl de 111111illliZ¡lr b él1ngl" libre Inlérl ••d.•1del 'l>tem.l. n:ductend" 1':11.e1ll" !tIsuperr"lc de contaclo entre los el'lstalc. )'/0 ravol'Cc.el1do 1.'5 contJCICl' gmno-gmno con menM energln libré in. tcrl.lC1,", ESta form., de energl., llene UII Vtlk'r IlIudw menor .1 1.1 .ncrgl~ hhn: <{ulmle.,. () Icr",odil1~mk~. quc e; 1.1rc$purI,,-.ble de 1,1(urnlJcKln UCl1uev,). cl'l;,t"le~, 5111 emb~rgo. eS b encr¡;l" rcsp,'nsablc en g'':'111 medid.1 tic I.!s tcxtur"s de b.s roC.\5 Il1el••IlIÓdicIlS, L, minlmlz,'dón de energf;l hbre IntcrfaClII1puede dnrse dur.tnlc d proccsu de blastcsis. en cuyu casClCII1>C0I10dnllento de unJ textura de cqu.hbrio, dedueid.I.1 PMtir de la d.stnbuclón de los Ilmlles de grano. puede ser II1dimll\'J de un cqutllbno terrnodmám.co, - p. 192
 
 **Comentario:** Los granos se acoplan siguiendo el principio básico de minimizar la energía libre interfacial del sistema, reduciendo para ello la superficie de contacto entre los cristales y/o favoreciendo los contactos grano-grano con menor energía libre interfacial. Esta forma de energía tiene un valor mucho menor a la energía libre química, o termodinámica, que es la responsable de la formación de nuevos cristales. Sin embargo, es la energía responsable en gran medida de las texturas de las rocas metamórficas. La minimización de energía libre interfacial puede darse durante el proceso de blastesis, en cuyo caso el reconocimiento de una textura de equilibrio, deducida a partir de la distribución de los límites de grano, puede ser indicativa de un equilibrio termodinámico. No obstante, el reajuste textural puede darse con posterioridad...»
+
 
 
 
