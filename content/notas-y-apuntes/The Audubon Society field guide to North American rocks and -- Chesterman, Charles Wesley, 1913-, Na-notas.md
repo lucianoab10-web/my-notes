@@ -1,6 +1,6 @@
 ﻿# Notas: The Audubon Society field guide to North American rocks and -- Chesterman, Charles Wesley, 1913-, National Audubon Society -- New York, New York -- isbn13
 
-> Generado automaticamente desde Zotero - 2026-10-26 17:42
+> Generado automaticamente desde Zotero - 2026-10-26 17:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
@@ -26,6 +26,9 @@
 > The plagioclase feldspars are also called the soda-lime feldspars and lime-soda feldspars. They range in composition from mostly albite (Ab) to mostly anorthite (An): - p. 512
 
 > Feldspar Composition Albite Ab 10o-An  Oligoclase Ab 90—An 10 Andes ine Ab 70-An 30 Labradorite Ab 30—An 70 Bytownite Ab 10—An90 A northite Ab -A n 100 - p. 512
+
+
+
 
 > Igneous Rock The following terms are commonly  Textures used to describe the textures of igneous  rocks: Glassy Amorphous, lacking any crystalline  mineral grains; may have the appearance of glass (obsidian) or have a  cellular or vesicular structure like "glass foam" (pumice). Aphanitic Dense, composed of crystalline mineral  grains too small to be seen with the naked eye. Porphyritic Having a relatively small number of  clearly distinguishable crystals  (phenocrysts) in a finer-grained groundmass. Aphanitic- Visible but generally small phenocrysts porphyritic distributed through an aphanitic  groundmass. Phaneritic Even-granular, with all crystals visible  to the naked eye and approximately of  equal size. Phaneritic- Uneven-granular, with relatively large porphyritic phenocrysts in a phaneritic  groundmass. Pegmatitic Very coarse uneven-granular, with  crystals of all sizes distributed unevenly throughout the rock. Fragmental Consisting of pyroclastic fragments  (produced by volcanic explosions) as in tuff and volcanic breccia. Fragmental  rocks are classified as volcanic igneous rocks even though they actually form through a sedimentary process. - p. 598
 
