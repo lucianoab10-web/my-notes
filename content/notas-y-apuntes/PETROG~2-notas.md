@@ -1,6 +1,6 @@
 ﻿# Notas: PETROG~2
 
-> Generado automaticamente desde Zotero - 2026-10-26 21:57
+> Generado automaticamente desde Zotero - 2026-10-26 22:32
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
@@ -65,6 +65,8 @@
 
 
 > El término I'IZ<lrra es de uso común en 1.1 literatura gcológic~", )' debe preservarse, pero limitándose J las rO~.I.rOll,ldJ~ele metamorfismo de grado muy bajo de sedimentos luuuco s. - p. 211
+
+
 
 
 ## [Rojo]
