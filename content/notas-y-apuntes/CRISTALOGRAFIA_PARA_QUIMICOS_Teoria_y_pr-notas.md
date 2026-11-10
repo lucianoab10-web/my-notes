@@ -1,6 +1,6 @@
 ﻿# Notas: CRISTALOGRAFIA_PARA_QUIMICOS_Teoria_y_pr
 
-> Generado automaticamente desde Zotero - 2026-11-10 13:57
+> Generado automaticamente desde Zotero - 2026-11-10 14:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
