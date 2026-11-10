@@ -29,6 +29,11 @@ $quartzConfigPath = Join-Path -Path $quartzRepoDir -ChildPath 'quartz.config.yam
 $obsidianVault = 'C:\Users\Luciano\iCloudDrive\iCloud~md~obsidian\my-notes\compartidos';$RclonePath = 'C:\Users\Luciano\Tools\rclone\rclone.exe';
 $RemotePath = 'gdrive:compartidos-varios';$expectedBaseUrl = 'lucianoab10-web.github.io/my-notes';
 
+# Decision de privacidad del usuario: estos PDF de personal/trabajos nunca se enlazan
+# en la web, aunque exista un archivo con el mismo nombre en el inventario de Drive.
+# Se compara el nombre completo exacto (sin distinguir mayusculas), no un nombre aproximado.
+$privatePdfNames = @('int-controles 1-3.pdf', 'Repaso pye certamen 1.pdf');
+
 $clasesOrigen = Join-Path -Path $obsidianVault -ChildPath 'clases';
 $clasesPasadasOrigen = Join-Path -Path $clasesOrigen -ChildPath 'clases-pasadas';
 $notasOrigen = Join-Path -Path $obsidianVault -ChildPath 'notas-y-apuntes';
@@ -195,7 +200,13 @@ function Resolve-PdfUrl([string]$Target) {
     $normalizado = [Uri]::UnescapeDataString($Target).Replace('\', '/');
     $normalizado = ($normalizado -replace '^\./', '').TrimStart('/');
     $nombre = [System.IO.Path]::GetFileName($normalizado);
-    $resultado = @{ Url = $null; Aproximado = $false; Motivo = 'no esta en Drive' };
+    $resultado = @{ Url = $null; Aproximado = $false; Motivo = 'no esta en Drive'; Privado = $false };
+
+    if ($privatePdfNames -contains $nombre) {
+        $resultado.Privado = $true;
+        $resultado.Motivo = 'archivo privado';
+        return $resultado;
+    }
 
     if ($pdfUrlByPath.ContainsKey($normalizado)) { $resultado.Url = $pdfUrlByPath[$normalizado]; return $resultado; }
     if ($duplicatePdfNames.ContainsKey($nombre)) { $resultado.Motivo = 'nombre repetido en Drive: pon la ruta en el enlace'; return $resultado; }
@@ -212,6 +223,7 @@ function Resolve-PdfUrl([string]$Target) {
 $unresolvedPdfLinks = [System.Collections.Generic.List[string]]::new();
 $enlacesResueltos = 0;
 $enlacesAproximados = 0;
+$enlacesPrivados = 0;
 $wikilinkPattern = '(?i)!?\[\[(?<target>[^\]|#]+\.pdf)(?:\|(?<alias>[^\]]+))?\]\]';
 $markdownPdfPattern = '(?i)\[(?<label>[^\]]+)\]\((?<target>(?!https?://|mailto:)[^)\s]+\.pdf)(?:\s+"[^"]*")?\)';
 
@@ -222,6 +234,13 @@ foreach ($archivo in(Get-ChildItem -LiteralPath $quartzContentDir -Filter '*.md'
     foreach ($m in [regex]::Matches($contenido, $wikilinkPattern)) {
         $target = $m.Groups['target'].Value.Trim();
         $resultado = Resolve-PdfUrl $target;
+        if ($resultado.Privado) {
+            $alias = $m.Groups['alias'].Value.Trim();
+            if ([string]::IsNullOrWhiteSpace($alias)) { $alias = [System.IO.Path]::GetFileName([Uri]::UnescapeDataString($target).Replace('\', '/')); }
+            $contenido = $contenido.Replace($m.Value, "$alias (archivo privado)");
+            $enlacesPrivados++;
+            continue;
+        }
         if ($resultado.Url) {
             $alias = $m.Groups['alias'].Value.Trim();
             if ([string]::IsNullOrWhiteSpace($alias)) { $alias = [System.IO.Path]::GetFileName($target.Replace('\', '/')); }
@@ -237,6 +256,12 @@ foreach ($archivo in(Get-ChildItem -LiteralPath $quartzContentDir -Filter '*.md'
     foreach ($m in [regex]::Matches($contenido, $markdownPdfPattern)) {
         $target = $m.Groups['target'].Value.Trim();
         $resultado = Resolve-PdfUrl $target;
+        if ($resultado.Privado) {
+            $label = $m.Groups['label'].Value.Trim();
+            $contenido = $contenido.Replace($m.Value, "$label (archivo privado)");
+            $enlacesPrivados++;
+            continue;
+        }
         if ($resultado.Url) {
             $label = $m.Groups['label'].Value.Trim();
             if ($label -notmatch '(?i)abrir en drive') { $label = "$label ↗ Abrir en Drive"; }
@@ -255,6 +280,7 @@ foreach ($archivo in(Get-ChildItem -LiteralPath $quartzContentDir -Filter '*.md'
 }
 
 Write-Host "   $enlacesResueltos enlace(s) a PDF convertidos a Drive." -ForegroundColor Gray;
+if ($enlacesPrivados -gt 0) { Write-Host "   $enlacesPrivados referencia(s) privadas mostradas solo como texto (archivo privado)." -ForegroundColor Gray; }
 if ($enlacesAproximados -gt 0) { Write-Host "   ($enlacesAproximados se resolvieron por nombre aproximado: sin tildes ni simbolos)" -ForegroundColor Gray; }
 
 if ($unresolvedPdfLinks.Count -gt 0) {
@@ -265,6 +291,7 @@ if ($unresolvedPdfLinks.Count -gt 0) {
 }
 
 # Freno SOLO para el caso catastrofico: si ninguna referencia se pudo enlazar, algo falla al leer la lista de Drive.
+# Las referencias privadas se cuentan aparte y no participan en este freno ni en los avisos de PDF ausentes.
 $totalReferencias = $enlacesResueltos + $unresolvedPdfLinks.Count;
 if ($enlacesResueltos -eq 0 -and $totalReferencias -ge 5) {
     throw "Ninguna de las $totalReferencias referencias a PDF coincidio con los $pdfCount PDF de Drive. Probablemente falla la lectura de la lista de Drive; no se publica para no romper los enlaces del sitio.";
