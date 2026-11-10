@@ -1,6 +1,6 @@
 ﻿# Notas: PETROG~2
 
-> Generado automaticamente desde Zotero - 2026-11-10 19:57
+> Generado automaticamente desde Zotero - 2026-11-10 20:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
