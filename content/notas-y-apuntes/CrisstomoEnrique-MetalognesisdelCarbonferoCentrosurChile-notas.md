@@ -1,6 +1,6 @@
 ﻿# Notas: CrisstomoEnrique-MetalognesisdelCarbonferoCentrosurChile
 
-> Generado automaticamente desde Zotero - 2026-11-10 17:57
+> Generado automaticamente desde Zotero - 2026-11-10 18:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
