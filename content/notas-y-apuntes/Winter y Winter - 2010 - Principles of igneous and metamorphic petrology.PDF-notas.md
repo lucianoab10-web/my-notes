@@ -1,6 +1,6 @@
-# Notas: Winter y Winter - 2010 - Principles of igneous and metamorphic petrology.PDF
+﻿# Notas: Winter y Winter - 2010 - Principles of igneous and metamorphic petrology.PDF
 
-> Generado automaticamente desde Zotero - 2026-10-27 19:57
+> Generado automaticamente desde Zotero - 2026-11-10 13:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
@@ -18,6 +18,7 @@
 > 4. Advection is similar to convection but involves the  transfer of heat with rocks that are otherwise in motion. For example, if a hot region at depth is uplifted by either tectonism, induced flow, or erosion and isostatic rebound, heat rises physically (although passively) with the rocks. - p. 14
 
 > ‘Convection works well in the liquid core and in the somewhat fluid sub-lithospheric mantle. Convection is also a primary method of heat transfer in hydrothermal systems above magma bodies or within the upper oceanic crust, where water is free to circulate above hot rock material. Beyond these areas, however, conduction and advection are the only available methods of heat transfer. - p. 14
+
 
 > Magma generation is largely controlled by plate tectonic processes. Magmas are generated in six principal settings:  Mid-ocean ridges (oceanic divergent plate boundaries) Continental rifts (incipient continental plate boundaries) e Island arcs (intra-oceanic subduction zones) ¢ Continental arcs (ocean-continent subduction zones) ¢ Back-arc basins (divergence behind the leading edge of the overriding plate at subduction zones) ¢ Hotspots (rising plumes that can penetrate either oceanic or continental lithospheric plates) - p. 20
 
@@ -52,6 +53,9 @@
 > he IUGS maintains that a true pyroclastic rock must contain at least 75% pyroclasts. The fragments may be individual crystals, glass, or rock fragments. Individual crystals in pyroclastic rocks are referred to as “crystal fragments,” not “phenocrysts,” because their origin is uncertain. Glass  may occur as pumice, ash-sized fragments of shattered thin pumice vesicle-walls, or as dense angular or rounded  droplet-shaped pieces. - p. 30
 
 > Lithic tuff would contain a predominance of rock fragments, vitric tuff a predominance of pumice and glass fragments, and crystal tuff a predominance of crystal fragments. Again, it is good practice to include a compositional name whenever possible, based on a chemical analysis, the color index, or crystal fragment mineralogy. A name such as rhyolitic lapilli tuff is thus a complete and descriptive name for a light pink, tan, or very light gray pyroclastic rock dominated by lapilli-sized fragments. - p. 30
+
+
+
 
 > Phenocrysts are an exception, resulting from slower cooling beneath the surface prior to eruption. Upon eruption, the remaining liquid crystallizes to - p. 43
 
