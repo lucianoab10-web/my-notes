@@ -1,6 +1,6 @@
 
 > [!wikilinked]
-> [fex-claseactividad2.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/13-I5CmPFFatbK7ZI1_Vip2CMfcaFJzFT/view)
+> [no olvidar.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/11BuIjZIZ13EgMbdd5itISlZTryc4vApu/view)
 > [[fex-inf3]]
 > [fex1708.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1IUQ4MMdX9ebA9_E8P2_9ZTitR1bG2KI-/view)
 > [[fex0909]]

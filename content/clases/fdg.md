@@ -16,4 +16,6 @@
 > [myclabTextura y fabrica.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1XcaSXuf4Ua9f-ReESZ6MwJY-4UIvnIrK/view)
 > [Fdg2809.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1llS7C9DA4xWHg1mQ4ae84-XsYcdu7Lsr/view)
 > [Fdg0510.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/15qNJh1k6Ac4R2JULs2bqqrKYFTFMDrpJ/view)
+> [[Pegmatita Poñen]]
+> [FDG-0311.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1l7tAZOFVZNEIK4PZWvZ1OfCtwJRq-T_T/view)
 

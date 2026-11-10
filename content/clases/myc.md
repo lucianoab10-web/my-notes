@@ -22,3 +22,5 @@
 > [Myc0710.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1lB1P4L5N1COvGK20upwEjPntNXeyM5b8/view)
 > [Myclab0810.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1o6fa72s6J1tVc1BmQg6GYcx22NXjErL5/view)
 > [[Lista minerales lab2]]
+> [MYC-0411.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1I70KrjQcRNo38WHYqbbVEMreLTodejVw/view)
+> [MYC-0811.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/11G8NzRuog-REgiscug28qPiCkxwMXt1Q/view)
