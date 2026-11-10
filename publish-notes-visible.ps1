@@ -164,6 +164,19 @@ Get-ChildItem -LiteralPath $clasesOrigen -Force |
 Copy-Item -LiteralPath $clasesPasadasOrigen -Destination $quartzContentDir -Recurse -Force;
 Copy-Item -LiteralPath $notasOrigen -Destination $quartzContentDir -Recurse -Force;
 
+# Las paginas informativas de OAuth viven fuera de content para conservarlas
+# cuando la publicacion regenera las notas. No se modifica el vault de Obsidian.
+$syncInfoSource = Join-Path $quartzRepoDir 'site-pages\sincronizador';
+if (Test-Path -LiteralPath $syncInfoSource -PathType Container) {
+    $syncInfoDestination = Join-Path $quartzContentDir 'sincronizador';
+    New-Item -ItemType Directory -Path $syncInfoDestination -Force | Out-Null;
+    foreach ($syncInfoPage in @('index.md', 'privacidad.md')) {
+        $syncInfoPageSource = Join-Path $syncInfoSource $syncInfoPage;
+        if (-not (Test-Path -LiteralPath $syncInfoPageSource -PathType Leaf)) { throw "Falta la pagina informativa de OAuth: $syncInfoPage"; }
+        Copy-Item -LiteralPath $syncInfoPageSource -Destination (Join-Path $syncInfoDestination $syncInfoPage) -Force;
+    }
+}
+
 Write-Host '4. Autogenerando el Índice Histórico (index.md)...' -ForegroundColor Cyan;
 $indexContent = "# Índice de Apuntes`n`n";
 
