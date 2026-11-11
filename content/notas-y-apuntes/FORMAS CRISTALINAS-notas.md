@@ -1,6 +1,6 @@
 ﻿# Notas: FORMAS CRISTALINAS
 
-> Generado automaticamente desde Zotero - 2026-11-11 18:28
+> Generado automaticamente desde Zotero - 2026-11-11 18:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
