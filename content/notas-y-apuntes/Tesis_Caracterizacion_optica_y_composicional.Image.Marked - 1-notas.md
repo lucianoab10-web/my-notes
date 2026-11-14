@@ -1,6 +1,6 @@
 ﻿# Notas: Tesis_Caracterizacion_optica_y_composicional.Image.Marked - 1
 
-> Generado automaticamente desde Zotero - 2026-11-14 15:38
+> Generado automaticamente desde Zotero - 2026-11-14 15:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
