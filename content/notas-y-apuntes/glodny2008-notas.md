@@ -1,6 +1,6 @@
 ﻿# Notas: glodny2008
 
-> Generado automaticamente desde Zotero - 2026-11-13 20:57
+> Generado automaticamente desde Zotero - 2026-11-14 15:38
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
