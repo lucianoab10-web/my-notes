@@ -1,6 +1,6 @@
-# Notas: Winter y Winter - 2010 - Principles of igneous and metamorphic petrology.PDF
+﻿# Notas: Winter y Winter - 2010 - Principles of igneous and metamorphic petrology.PDF
 
-> Generado automaticamente desde Zotero - 2026-11-14 16:32
+> Generado automaticamente desde Zotero - 2026-11-15 12:18
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]

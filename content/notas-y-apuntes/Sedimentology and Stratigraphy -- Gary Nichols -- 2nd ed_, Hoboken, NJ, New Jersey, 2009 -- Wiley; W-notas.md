@@ -1,6 +1,6 @@
 ﻿# Notas: Sedimentology and Stratigraphy -- Gary Nichols -- 2nd ed_, Hoboken, NJ, New Jersey, 2009 -- Wiley; Wiley-Blackwell -- isbn13 9781118687772 -- 03baaa871d85
 
-> Generado automaticamente desde Zotero - 2026-11-14 16:32
+> Generado automaticamente desde Zotero - 2026-11-15 12:18
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
