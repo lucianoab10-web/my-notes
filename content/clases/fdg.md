@@ -18,6 +18,6 @@
 > [Fdg0510.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/15qNJh1k6Ac4R2JULs2bqqrKYFTFMDrpJ/view)
 > [[Pegmatita Poñen]]
 > [FDG-0311.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1l7tAZOFVZNEIK4PZWvZ1OfCtwJRq-T_T/view)
-> [1111_QuickScanApp.com.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1JnFjJjca6zjSyJlCYYtO4EBl16LjPVfc/view)
+> [[1111_QuickScanApp.com.pdf]]
 > [FDG0911.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1H5c2uTmjRzqA0gAFVSrY_QToWpOZvQe3/view)
 
