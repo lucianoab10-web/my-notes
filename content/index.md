@@ -59,6 +59,7 @@
 - [[notas-y-apuntes/The Audubon Society field guide to North American rocks and -- Chesterman, Charles Wesley, 1913-, Na-notas]]
 - [[notas-y-apuntes/The blue planet _ an introduction to earth system science _ -- Brian J_ Skinner, Barbara W_ Murck ---notas-2]]
 - [[notas-y-apuntes/The blue planet _ an introduction to earth system science _ -- Brian J_ Skinner, Barbara W_ Murck ---notas]]
+- [[notas-y-apuntes/whitney_p185_10-notas]]
 - [[notas-y-apuntes/Winter y Winter - 2010 - Principles of igneous and metamorphic petrology.PDF-notas(1)]]
 - [[notas-y-apuntes/Winter y Winter - 2010 - Principles of igneous and metamorphic petrology.PDF-notas-2]]
 - [[notas-y-apuntes/Winter y Winter - 2010 - Principles of igneous and metamorphic petrology.PDF-notas]]
