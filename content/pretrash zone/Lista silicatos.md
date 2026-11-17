@@ -33,9 +33,9 @@ Sorosilicatos
 27. [x] [[Epidota]]
 28. [x] [[Zoisita]]
 Ciclosilicatos
-29. [ ] [[Turmalina]]
-30. [ ] [[Cordierita]]
-31. [ ] [[Berilo]]
+29. [x] [[Turmalina]]
+30. [x] [[Cordierita]]
+31. [x] [[Berilo]]
 Tectosilicatos
 32. [ ] [[Crisocola]]
 33. [ ] [[Cuarzo]]
