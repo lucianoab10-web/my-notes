@@ -71,25 +71,25 @@
 | Enargita | Predominantemente tabular, también prismática; estriada en varias caras. Frágil; opaca | Manganita es más dura que enargita y tiene raya marrón rojiza | Mineral de cobre común. Vetas mesotermales con galena, pirita y calcopirita; reemplazo hidrotermal diseminado con calcopirita, pirita y bornita; mineral tardío en yacimientos de baja temperatura. A menudo con varios por ciento de antimonio; anisotropía muy fuerte |
 | Esfalerita | Tetraedros y dodecaedros, normalmente complejos y deformados; hasta 30 cm; también fibrosa, botroidal, estalactítica, masiva. Frágil; concoidal; transparente a translúcida, opaca si es rica en hierro | No es tan pesada como galena; sin exfoliación cúbica; más pesada que siderita (solo tres direcciones de exfoliación) | Comparte entornos con galena. Carbonatitas y calizas con galena, fluorita y cerusita; vetas hipotermales y mesotermales con galena, arsenopirita y cuarzo; depósitos hidrotermales con galena, pirita y calcopirita; carbón y caliza. Generalmente con algo de hierro, manganeso y cadmio |
 
-![Arsenopirita: cristal maclado en forma de cruz](imagen:1)
+**Imagen pendiente:** Arsenopirita: cristal maclado en forma de cruz (referencia imagen:1)
 
-![Covelina: cristales azules iridiscentes sobre cuarzo](imagen:2)
+**Imagen pendiente:** Covelina: cristales azules iridiscentes sobre cuarzo (referencia imagen:2)
 
-![Calcosina: agregado de cristales prismáticos grises](imagen:3)
+**Imagen pendiente:** Calcosina: agregado de cristales prismáticos grises (referencia imagen:3)
 
-![Rejalgar: cristales rojos sobre matriz](imagen:4)
+**Imagen pendiente:** Rejalgar: cristales rojos sobre matriz (referencia imagen:4)
 
-![Oropimente: cristales anaranjados sobre matriz](imagen:5)
+**Imagen pendiente:** Oropimente: cristales anaranjados sobre matriz (referencia imagen:5)
 
-![Bornita: superficie con pátina iridiscente](imagen:6)
+**Imagen pendiente:** Bornita: superficie con pátina iridiscente (referencia imagen:6)
 
-![Pirrotina: masa metálica bronce](imagen:7)
+**Imagen pendiente:** Pirrotina: masa metálica bronce (referencia imagen:7)
 
-![Galena: cubo gris plomo con calcita](imagen:8)
+**Imagen pendiente:** Galena: cubo gris plomo con calcita (referencia imagen:8)
 
-![Molibdenita: cristal laminar sobre cuarzo](imagen:9)
+**Imagen pendiente:** Molibdenita: cristal laminar sobre cuarzo (referencia imagen:9)
 
-![Tenantita: cristal tetraédrico con bordes modificados por cubo](imagen:10)
+**Imagen pendiente:** Tenantita: cristal tetraédrico con bordes modificados por cubo (referencia imagen:10)
 
 > **Definición:** Serie tenantita–tetrahedrita: serie de dos miembros; la tetrahedrita es el miembro rico en antimonio y la tennantita el miembro rico en arsénico.
 
@@ -127,19 +127,19 @@
 | Limonita | Terrosa, fibrosa, botroidal, estalactítica; comúnmente pseudomorfa tras pirita, marcasita o siderita. Concoidal, astillosa; superficie con aspecto de barniz | La goethita tiene estructura sedosa y fibrosa | Mezcla de minerales de hierro secundarios. Resulta de la alteración de minerales con hierro, especialmente sulfuros (pirita, marcasita, arsenopirita), cerca de la superficie |
 | Brucita | Agregados tabulares amplios, a menudo subparalelos; también foliada, escamosa, fibrosa. Séctil; transparente | Talco y pirofilita son más blandos; moscovita es algo más dura y elástica. Las placas son flexibles; las fibras, elásticas | Se forma a bajas temperaturas. Con calcita y wollastonita en pegmatitas de sienita nefelínica; con magnesita y talco en serpentinitas; con aragonito y magnesita en hornfels. Alteración habitual del periclasa en mármol; vetas de baja temperatura en calizas metamórficas y esquistos cloríticos; serpentinización de dunitas |
 
-![Hematita: agregado botroidal metálico](imagen:11)
+**Imagen pendiente:** Hematita: agregado botroidal metálico (referencia imagen:11)
 
-![Magnetita: octaedros sobre matriz](imagen:12)
+**Imagen pendiente:** Magnetita: octaedros sobre matriz (referencia imagen:12)
 
-![Rutilo: maclas rojas sobre pseudomorfo de ilmenita y hematita](imagen:13)
+**Imagen pendiente:** Rutilo: maclas rojas sobre pseudomorfo de ilmenita y hematita (referencia imagen:13)
 
-![Rutilo: cristal rojo-marrón de Chile](imagen:14)
+**Imagen pendiente:** Rutilo: cristal rojo-marrón de Chile (referencia imagen:14)
 
-![Ilmenita: en granodiorita rosada](imagen:15)
+**Imagen pendiente:** Ilmenita: en granodiorita rosada (referencia imagen:15)
 
-![Pirolusita: masa botroidal negra](imagen:16)
+**Imagen pendiente:** Pirolusita: masa botroidal negra (referencia imagen:16)
 
-![Brucita: agregado de placas hexagonales](imagen:17)
+**Imagen pendiente:** Brucita: agregado de placas hexagonales (referencia imagen:17)
 
 > **Ojo:** La nota dice que la magnetita tiene clivaje «Ninguno», pero en observaciones indica «puede tener octaédrico en cuatro direcciones». Las dos afirmaciones no se resuelven en el texto.
 
@@ -169,7 +169,7 @@
 | Siderita | Romboédrica, de caras curvas; color marrón. Frágil; irregular; translúcida | Esfalerita, dolomita y calcita no se vuelven magnéticas al calentarse; siderita sí. Siderita efervesce ligeramente en ácido (calcita, vigorosamente); esfalerita no efervesce | Grandes depósitos en pizarra, arcilla o capas de carbón; carbonatitas (con barita y calcopirita); vetas hipotermales (con calcita, rodocrosita, galena); reemplazo hidrotermal tipo lode (con galena, pirita, esfalerita). Componente de minerales de hierro sedimentarios y de formaciones de hierro metamórficas; vetas metálicas hidrotermales; ocasional en pegmatitas; concreciones. Asociada a cuarzo, barita, fluorita y pirita. Grupo de la calcita |
 | Cerusita | Placas tabulares planas (cristales pequeños estriados); entrelazada en redes y grupos en estrella; masiva, granular, fibrosa. Frágil; concoidal; transparente a translúcida; maclada; fluorescente | Ligeramente más dura que la anglesita y carece de su exfoliación | Mineral secundario de plomo, generalmente formado a partir de galena en la zona de alteración de depósitos masivos y diseminados; con galena, malaquita, barita y smithsonita; en carbonatitas con galena y barita. Común en la zona oxidada de yacimientos de plomo. Asociada a anglesita, smithsonita, malaquita, azurita, fosgenita, piromorfita, galena. Grupo del aragonito |
 
-![Calcita: sin imagen incluida en la nota](imagen:0)
+**Imagen pendiente:** Calcita: sin imagen incluida en la nota (referencia imagen:0)
 
 > **Relación:** Aragonito → calcita: el aragonito se transforma en calcita a lo largo del tiempo geológico (según la nota).
 
@@ -201,7 +201,7 @@
 | Antlerita | Tabular grueso {010} o prismático corto [001], de hasta 2 cm; fibrosa, en vetas transversales, en fieltro, granular. Frágil; translúcida | Menos común que la brochantita, con la que está emparentada y a veces es visualmente similar; puede confundirse con ella | Mineral secundario en la zona oxidada de yacimientos de cobre en regiones áridas y condiciones de alta acidez. Metaestable respecto a la brochantita a temperatura ambiente; se forma normalmente a 60–80 °C. Poco común. Asociada a brochantita, atacamita, calcantita, krönkita, natrocalcita, linarita, yeso |
 | Brochantita | Cristales aciculares; color verde vívido (según la nota). Su hábito prismático se menciona en la ficha de malaquita | Ficha con casi todos los campos vacíos (ver Puntos por revisar) | Ver Puntos por revisar |
 
-![Anhidrita: sin imagen incluida en la nota](imagen:0)
+**Imagen pendiente:** Anhidrita: sin imagen incluida en la nota (referencia imagen:0)
 
 > **Relación:** Yeso ⇌ anhidrita: la anhidrita se forma por deshidratación del yeso, y los suelos de yeso se forman por hidratación de la anhidrita (según la nota).
 
@@ -223,7 +223,7 @@
 | Fluorita | Cúbicos o gemelos de penetración (comunes); octaédricos menos frecuentes; dodecaedros raros; masas exfoliables, granulares, columnares. Frágil; transparente a translúcida; fluorescente | Más dura que la calcita y mucho más blanda que el cuarzo. Su clivaje octaédrico perfecto y la forma cúbica son sus rasgos más útiles | Carbonatitas (con albita y pirita); hornfels (con calcita y espinela); vetas epitermales (con calcita, rodocrosita, calcedonia); reemplazo hidrotermal tipo lode (con galena, barita, pirita). Accesorio en granito, pegmatitas y sienitas; en torno a fumarolas; vetas de baja a alta temperatura; cemento de areniscas. Asociada a cuarzo, dolomita, calcita, barita, celestina, sulfuros, casiterita, topacio, wolframita, scheelita, apatita |
 | Halita | Cubo simple, raramente octaédrico; caras cavernosas («cristales de trampa»); granular, compacta. Frágil; concoidal; transparente. Fluorescente; sabor salado | Es fácilmente soluble en agua y tiene sabor salado; la criolita no tiene estas propiedades y es más dura | Común en depósitos de evaporitas de sedimentarias químicas, con yeso, thenardita y bórax. Forma capas inmensas en rocas de asociación evaporítica; también sublimados volcánicos, eflorescencias y depósitos cavernosos; inclusiones fluidas; metamorfismo de grado intermedio. Asociada a silvita, polihalita, kieserita, carnallita, yeso, anhidrita, dolomita |
 
-![Fluorita: sin imagen incluida en la nota](imagen:0)
+**Imagen pendiente:** Fluorita: sin imagen incluida en la nota (referencia imagen:0)
 
 > **Ojo:** En la halita, «Mejores marcas» indica «cristales cúbicos sin brillo», mientras que la ficha de propiedades da brillo vítreo.
 
@@ -253,7 +253,7 @@
 | Azufre | Bipirámides empinadas, a veces tabulares; granular, fibroso, compacto, terroso, reniforme, estalactítico, incrustante. Frágil; concoidal; transparente a translúcido | Pocos minerales comunes se confunden con él. Mejores marcas: cristales amarillos transparentes y suavidad | Se deposita por sublimación directa de gases volcánicos. Frecuente en basaltos volcánicos. A menudo asociado a cinabrio y estibina. Puede contener pequeñas cantidades de selenio |
 | Plata | Cristales raros (cubos, octaedros, dodecaedros, grupos paralelos); granos, escamas, placas, hilos, reticulados, arborescentes. Maleable a dúctil; opaca | Más blanca y más dura que el plomo; más blanda que el platino. Mejores marcas: color blanco, maleabilidad y dureza | Distribuida en pequeñas cantidades. En basaltos, con cobre, calcosina y pumpellyita; en vetas hipotermales y mesotermales, con cuarzo, uraninita y nichelina. Origen hidrotermal primario, y secundario en zonas oxidadas. Asociada a acantita, clorargirita, embolita, sulfosales de plata, oro, cobre |
 
-![Oro: sin imagen incluida en la nota](imagen:0)
+**Imagen pendiente:** Oro: sin imagen incluida en la nota (referencia imagen:0)
 
 > **Ojo:** La ficha de oro indica «Copper group» en su campo de tipo, sin explicación en la nota.
 
@@ -275,7 +275,7 @@
 | Atacamita | Cristales delgados de hasta 10 cm, prismáticos a lo largo de [001], estriados; tabulares o pseudooctaédricos; fibrosa; macla {110}. Concoidal; translúcida a transparente | Puede confundirse con brochantita | Mineral secundario por oxidación de otros minerales de cobre, especialmente en condiciones áridas y salinas. Puede transformarse en malaquita y crisocola (pseudomorfos). Producto de oxidación; en yacimientos fumarólicos; en «fumarolas negras» submarinas; alteración de bronces y cobres antiguos. Polimórfica con botallackita, clinoatacamita y paratacamita. Asociada a cuprita, brochantita, linarita, caledonita, malaquita, crisocola, paratacamita, botallackita. En Chile se encuentra en Copiapó, Carrizal, Tierra Amarilla, Remolinos (Atacama) y Collahurasi (Tarapacá) |
 | Nigerita | Forma plana en {0001}, con {1011} poco desarrolladas y otras caras trigonales; puede formar recubrimientos orientados sobre gahnita. Frágil; de transparente a translúcida | La nota no indica especies similares | Rocas de cuarzo y silimanita relacionadas con pegmatitas graníticas con estaño (distrito de Egbe, Nigeria) y gneis de riebeckita (La Guía, España). En Egbe, asociada a cuarzo, silimanita, andalusita, moscovita, granate, casiterita, gahnita, crisoberilo, columbita, apatita; en La Guía, a cuarzo, albita, microclina, riebeckita, biotita ferrosa, egirina, circón, fluorita |
 
-![Atacamita: sin imagen incluida en la nota](imagen:0)
+**Imagen pendiente:** Atacamita: sin imagen incluida en la nota (referencia imagen:0)
 
 > **Ojo:** En la nigerita, los campos de tipo, mejores marcas, especies similares, dureza y clivaje están vacíos; sus datos provienen de fuentes citadas por la nota, que no incluyen esos campos.
 

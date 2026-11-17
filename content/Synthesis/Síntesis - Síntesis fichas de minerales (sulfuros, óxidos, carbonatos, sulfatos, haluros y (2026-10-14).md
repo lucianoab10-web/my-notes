@@ -79,7 +79,7 @@ En las fichas más recientes las propiedades se separan por fuente: *Audubon Soc
 
   Se forma en una amplia variedad de condiciones hidrotermales (de baja a alta temperatura) y en carbón, caliza y otros yacimientos sedimentarios. Cristales tetraédricos o dodecaédricos, normalmente complejos y deformados, con caras curvas y cónicas, de hasta 30 cm; también fibrosa, botrioidal, estalactítica, con clivaje, de grano grueso a fino o masiva. Fractura conchoidal. Frágil. Generalmente con algo de hierro, manganeso y cadmio.
 
-![Cristal de tennantita: tetraedro {111} con aristas modificadas por el cubo {100}, con esquema de ambas formas (Tsumeb, Namibia; cristales hasta 35 mm)](imagen:10)
+**Imagen pendiente:** Cristal de tennantita: tetraedro {111} con aristas modificadas por el cubo {100}, con esquema de ambas formas (Tsumeb, Namibia; cristales hasta 35 mm) (referencia imagen:10)
 
 ---
 

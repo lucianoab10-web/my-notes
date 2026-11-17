@@ -50,7 +50,7 @@
 
 La figura 4.1 muestra: (a) granoblástica, (b) lepidoblástica, (c) nematoblástica y (d) porfidoblástica. En (d) se ven cristales grandes rodeados por una matriz foliada.
 
-![Los cuatro tipos de texturas cristaloblásticas](imagen:2)
+**Imagen pendiente:** Los cuatro tipos de texturas cristaloblásticas (referencia imagen:2)
 
 ### Evolución del tamaño de cristales en texturas no foliadas (nota 2)
 
@@ -73,7 +73,7 @@ La figura combina dos tipos de **estructura** con cuatro tipos de **fábrica** (
 
 > **Ojo:** en la imagen, el pie «Figura 1.4: combinaciones entre *estructura nodulosa* y fábrica» está bajo el bloque titulado «Estructura masiva». El pie «Figura 1.3: combinaciones entre *estructura masiva* y fábrica» está bajo el bloque «Estructura nodulosa». Los pies parecen intercambiados. Las notas tampoco definen los ejes X, Y, Z.
 
-![Combinaciones posibles entre estructura (masiva y nodulosa) y fábrica](imagen:16)
+**Imagen pendiente:** Combinaciones posibles entre estructura (masiva y nodulosa) y fábrica (referencia imagen:16)
 
 ## Clasificación de rocas metamórficas
 
@@ -209,7 +209,7 @@ GMB, GB, GM y GA = grado muy bajo, bajo, medio y alto.
 | Corteza, alrededor del magma ascendente bajo los volcanes | Zona de alta temperatura / baja presión |
 | Profundidad (~100 km o más), sobre la placa que subduce | Zona de alta temperatura / alta presión; fusión parcial |
 
-![Ambientes metamórficos según el modelo de tectónica de placas](imagen:9)
+**Imagen pendiente:** Ambientes metamórficos según el modelo de tectónica de placas (referencia imagen:9)
 
 ### Metamorfismo regional (notas 15 y 16)
 

@@ -313,6 +313,12 @@ function Resolve-PdfUrl([string]$Target, [string]$SourceNote = '', [switch]$Requ
 
 function Get-MarkdownLink([string]$Label, [string]$Path) {
     $encoded = (($Path.Replace('\','/') -split '/') | ForEach-Object { [Uri]::EscapeDataString($_) }) -join '/';
+    # Quartz decodes with decodeURI, which deliberately keeps reserved escapes.
+    # Leave safe path characters literal so a comma becomes ',' in both slugs,
+    # rather than a filename slug containing the text '-percent2c-'.
+    foreach ($character in @(',', ';', '=', '$', '@', '+', '&', ':')) {
+        $encoded = $encoded.Replace([Uri]::EscapeDataString($character), $character);
+    }
     return '[' + $Label.Replace('[','\[').Replace(']','\]') + '](' + $encoded + ')';
 }
 
@@ -396,6 +402,13 @@ foreach ($archivo in(Get-ChildItem -LiteralPath $quartzContentDir -Filter '*.md'
     $sourceNote = $sourceNoteByContent[$archivo.FullName];
 
     if ($sourceNote) {
+        # Some generated notes contain placeholders such as (imagen:3), with
+        # no actual image file. Keep the description visible without a broken
+        # image or a made-up asset. Only the publication copy is changed.
+        $contenido = [regex]::Replace($contenido, '(?i)!\[(?<description>[^\]]*)\]\(imagen:(?<number>\d+)\)', {
+            param($placeholder)
+            '**Imagen pendiente:** ' + $placeholder.Groups['description'].Value + ' (referencia imagen:' + $placeholder.Groups['number'].Value + ')';
+        });
         foreach ($imageMatch in [regex]::Matches($contenido, $wikiImagePattern)) {
             $assetPath = Resolve-ImageAsset $imageMatch.Groups['target'].Value $sourceNote;
             if ($assetPath) {

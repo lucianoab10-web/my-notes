@@ -46,7 +46,7 @@
 | **Proglacial** | Influido por el hielo que se derrite, sin contacto directo | **Glaciofluvial**, **glaciolacustre**, **glaciomarino** (donde los glaciares se adentran en el océano) |
 | **Periglacial** | Se extiende más allá del proglacial y se superpone a él | La nota no detalla sus componentes |
 
-![Ambientes glaciales y proglaciales asociados](imagen:3)
+**Imagen pendiente:** Ambientes glaciales y proglaciales asociados (referencia imagen:3)
 
 La figura (basada en Edwards) sitúa espacialmente los ambientes y elementos siguientes:
 
@@ -111,7 +111,7 @@ La nota no define estos elementos.
 
 ### Principales depósitos glaciares (Corrales et al., 1977)
 
-![Principales tipos de depósitos glaciares](imagen:1)
+**Imagen pendiente:** Principales tipos de depósitos glaciares (referencia imagen:1)
 
 - La figura muestra: **morrena frontal**, **morrena lateral**, **capas de till**, **campo de drumlins**, **eskers** y **kames**.
 - La nota no los describe en el texto.

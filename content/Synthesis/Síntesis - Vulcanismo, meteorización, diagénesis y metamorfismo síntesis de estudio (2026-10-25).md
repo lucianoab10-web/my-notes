@@ -94,7 +94,7 @@ Las **erupciones de fisura** emiten basalto fluido que forma **mesetas de basalt
 
 ### Zonas volcánicas de los Andes
 
-![Mapa de las zonas volcánicas de los Andes (NVZA, CVZA, SVZA, AVZA)](imagen:8)
+**Imagen pendiente:** Mapa de las zonas volcánicas de los Andes (NVZA, CVZA, SVZA, AVZA) (referencia imagen:8)
 
 - Hay cuatro zonas, de norte a sur: **Norte (NVZA)**, **Central (CVZA)**, **Sur (SVZA)** y **Austral (AVZA)**. El mapa está modificado de Stern (2004).
 - Las zonas están separadas por segmentos sin volcanes:
@@ -131,7 +131,7 @@ Las **erupciones de fisura** emiten basalto fluido que forma **mesetas de basalt
 
 ### Clima y profundidad de la meteorización
 
-![Modelo latitudinal: clima, biomas y profundidad de la meteorización](imagen:3)
+**Imagen pendiente:** Modelo latitudinal: clima, biomas y profundidad de la meteorización (referencia imagen:3)
 
 | Bioma (latitud) | Rasgo del perfil |
 |---|---|
@@ -183,7 +183,7 @@ disuelven en el agua subterránea. Ese mismo carbonato de calcio reprecipita en 
 • Fases de la sílice: Microorganismos hechos de sílice amorfa (Ópalo-A) se disuelven, y los fluidos ricos en sílice cristalizan como cementos de cuarzo que unen los granos de arena circundantes.
 • Formación de arcillas autigénicas: Tal como sugeriste, minerales inestables como los feldespatos o fragmentos de vidrio volcánico sufren disolución. Los iones liberados cristalizan en los poros como minerales de arcilla completamente nuevos (esmectita, caolinita o illita), formando una nueva fase mineral autigénica
 
-![Esquema de las etapas de la diagénesis: eogénesis, mesogénesis y telogénesis](imagen:9)
+**Imagen pendiente:** Esquema de las etapas de la diagénesis: eogénesis, mesogénesis y telogénesis (referencia imagen:9)
 
 > **Proceso:** el esquema de la nota 22 sigue esta secuencia.
 > 1. **Depósito**.
@@ -244,7 +244,7 @@ Se manifiesta de cuatro formas:
 
 > **Idea clave:** una estructura mineral es más estable en un rango particular de P y T. Fuera de ese rango se transforma en un polimorfo más estable. Ejemplos: grafito–diamante, calcita–aragonito, cianita–andalucita–sillimanita (nota 2).
 
-![Diagrama de fases del Al₂SiO₅: campos de andalucita, cianita y sillimanita](imagen:2)
+**Imagen pendiente:** Diagrama de fases del Al₂SiO₅: campos de andalucita, cianita y sillimanita (referencia imagen:2)
 
 | Polimorfo de Al₂SiO₅ | Condiciones | Contexto |
 |---|---|---|
@@ -265,7 +265,7 @@ En el diagrama, los tres campos se encuentran en un punto triple cercano a 500 �
 
 ### Series de facies (Miyashiro, 1973, 1994)
 
-![Diagrama P–T de las tres series de facies con el diagrama de Al₂SiO₅](imagen:6)
+**Imagen pendiente:** Diagrama P–T de las tres series de facies con el diagrama de Al₂SiO₅ (referencia imagen:6)
 
 | Serie | Contexto tectónico | Secuencia de facies (entre paréntesis: puede no desarrollarse) |
 |---|---|---|

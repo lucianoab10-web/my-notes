@@ -1,6 +1,6 @@
 ﻿# Notas: Essentials of Igneous and Metamorphic Petrology -- Frost B_R_, Frost C_D_ -- Cambridge, 2013 -- Cambridge University Press (Virtual Publishing) -- isbn13
 
-> Generado automaticamente desde Zotero - 2026-11-17 13:47
+> Generado automaticamente desde Zotero - 2026-11-17 13:52
 > Coleccion: GEOLOGIA
 
 ## [Rojo]

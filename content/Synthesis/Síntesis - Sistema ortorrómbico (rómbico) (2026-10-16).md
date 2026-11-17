@@ -28,7 +28,7 @@
 
 ## Parámetros cristalográficos
 
-![Ejes cristalográficos ortorrómbicos y convenciones](imagen:12)
+**Imagen pendiente:** Ejes cristalográficos ortorrómbicos y convenciones (referencia imagen:12)
 
 - Hay tres ejes, **a, b y c**, con ángulos axiales **α = β = γ = 90°**.
 - El eje unitario estándar es **b**.
@@ -41,7 +41,7 @@
 
 Son cuatro: simple (**P**), centrada en el cuerpo (**I**), centrada en la base (**C**) y centrada en las caras (**F**).
 
-![Las cuatro redes de Bravais ortorrómbicas: P, I, C, F](imagen:1)
+**Imagen pendiente:** Las cuatro redes de Bravais ortorrómbicas: P, I, C, F (referencia imagen:1)
 
 ### Orientación en proyección estereográfica
 
@@ -74,7 +74,7 @@ Son cuatro: simple (**P**), centrada en el cuerpo (**I**), centrada en la base (
 | 47 | Biesfenoide rómbico | 4 |
 | 27 | Pirámide rómbica | 4 |
 
-![Pinacoides, prismas de 1.er, 2.º y 3.er orden y pedión](imagen:9)
+**Imagen pendiente:** Pinacoides, prismas de 1.er, 2.º y 3.er orden y pedión (referencia imagen:9)
 
 ### Pinacoides y pedión
 
@@ -143,7 +143,7 @@ Son cuatro: simple (**P**), centrada en el cuerpo (**I**), centrada en la base (
 
 - Otras formas especiales citadas: bipirámide {111}.
 
-![Proyección estereográfica de la clase 2/m 2/m 2/m y estereogramas pequeños de las clases 222 y mm2](imagen:7)
+**Imagen pendiente:** Proyección estereográfica de la clase 2/m 2/m 2/m y estereogramas pequeños de las clases 222 y mm2 (referencia imagen:7)
 
 ### Clase piramidal rómbica: la clase hemimórfica
 
@@ -167,7 +167,7 @@ Son cuatro: simple (**P**), centrada en el cuerpo (**I**), centrada en la base (
 - **Forma característica**: biesfenoide rómbico {111}.
 - **Mineral asociado**: epsomita (imagen 5, cristal con caras m y z).
 
-![Estereograma de la clase «Sphenoidal» y cristal de epsomita](imagen:5)
+**Imagen pendiente:** Estereograma de la clase «Sphenoidal» y cristal de epsomita (referencia imagen:5)
 
 ### Cuarta clase: discrepancia en la nota
 
