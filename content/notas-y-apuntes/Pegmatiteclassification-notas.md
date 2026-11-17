@@ -1,6 +1,6 @@
-﻿# Notas: Pegmatiteclassification
+# Notas: Pegmatiteclassification
 
-> Generado automaticamente desde Zotero - 2026-11-17 15:57
+> Generado automaticamente desde Zotero - 2026-11-17 16:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]

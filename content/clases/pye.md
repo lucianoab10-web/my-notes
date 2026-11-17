@@ -6,7 +6,8 @@
 > [pye-lab0409-as.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1l43vNczmmzxAHrjws8lxVkLlK0ZYVULo/view)
 > [pye-lab0210.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1z81NgVE8sn7F32oehmOD59h9D5ms0iZD/view)
 > [Pyelab0910.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1fgTTnkXCmfj2ZY3H1dZcrqInAhq48JfX/view)
-> [[1611_QuickScanApp.com_1.pdf]]
+> [1611_QuickScanApp.com_1.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/100kictHWAYJScSyR57Zhe1W7HNCgwUzg/view)
+> [1611_QuickScanApp.com.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1QnbzLMRc39ii9ie3_K0mpgsk2xvEVlQG/view)
 
 [PyE0708.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1QWWb08GbVxJhvT0y8ZOYRlhApFC7BNzy/view)
 [pye1408.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1pg36sF9C4_ku8B8t9J4_NzOemIGJQ-o7/view)

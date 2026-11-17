@@ -24,3 +24,4 @@
 > [[Lista minerales lab2]]
 > [MYC-0411.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1I70KrjQcRNo38WHYqbbVEMreLTodejVw/view)
 > [MYC-0811.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/11G8NzRuog-REgiscug28qPiCkxwMXt1Q/view)
+> [1611_QuickScanApp.com_2.pdf ↗ Abrir en Drive](https://drive.google.com/file/d/1D4xv_OLTrbISs-H41mUS2xU-Eyj5F6cZ/view)
