@@ -1,6 +1,6 @@
 ﻿# Notas: PDF
 
-> Generado automaticamente desde Zotero - 2026-11-16 21:57
+> Generado automaticamente desde Zotero - 2026-11-16 22:02
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
