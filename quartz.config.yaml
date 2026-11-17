@@ -78,6 +78,16 @@ plugins:
     options:
       markdownLinkResolution: shortest
     order: 60
+  - source: "./plugins/mineralogy-links"
+    enabled: true
+    options:
+      mapPath: site-data/mineralogy-links.json
+      sourceBaseUrl: https://lucianoab10-web.github.io/my-notes/
+    order: 55
+  - source: "./plugins/mineralogy-redirects"
+    enabled: true
+    options:
+      mapPath: site-data/mineralogy-links.json
   - source: "@quartz-community/description"
     enabled: true
     order: 70

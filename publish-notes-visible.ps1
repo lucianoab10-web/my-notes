@@ -15,7 +15,9 @@ param(
     [string[]]$AdditionalFolders = @('pretrash zone', 'Synthesis', 'Reviews', 'Flashcards'),
     [string]$AdditionalRemoteFolder = '_vault',
     [switch]$PrepareOnly,
-    [string]$DriveInventoryPath = ''
+    [string]$DriveInventoryPath = '',
+    [string]$MineralSourcePath = '',
+    [string]$MineralConfigPath = 'C:\Users\Luciano\mineralogy-wiki\mkdocs.yml'
 )
 
 $ErrorActionPreference = 'Stop';
@@ -38,6 +40,7 @@ $VaultPath = [System.IO.Path]::GetFullPath($VaultPath);
 $quartzContentDir = Join-Path -Path $quartzRepoDir -ChildPath 'content';
 $quartzConfigPath = Join-Path -Path $quartzRepoDir -ChildPath 'quartz.config.yaml';
 $obsidianVault = Join-Path $VaultPath 'compartidos';
+if (-not $MineralSourcePath) { $MineralSourcePath = Join-Path $obsidianVault 'second-brain\markdowns'; }
 $expectedBaseUrl = 'lucianoab10-web.github.io/my-notes';
 if ($DriveInventoryPath -and -not $PrepareOnly) { throw 'Un inventario de prueba solo se admite con -PrepareOnly.'; }
 foreach ($folderName in @($AdditionalFolders) + @($AdditionalRemoteFolder)) {
@@ -82,6 +85,18 @@ foreach ($carpeta in($carpetasASincronizar)) {
         throw "No se encuentra la carpeta de Obsidian '$($carpeta.Nombre)': $($carpeta.Ruta)";
     }
 }
+
+# Read the current vault directly: Quartz runs before the MkDocs mirror in the
+# main chain. This also refreshes names, redirects and heading anchors when the
+# Quartz publisher is run on its own. Failure stops before replacing content.
+$mineralMapGenerator = Join-Path $quartzRepoDir 'scripts\generate-mineralogy-map.mjs';
+if (-not (Test-Path -LiteralPath $mineralMapGenerator -PathType Leaf)) { throw "Falta el generador de conexiones: $mineralMapGenerator"; }
+Write-Host 'Actualizando conexiones y redirecciones a Mineralogy Wiki...' -ForegroundColor Cyan;
+Push-Location -LiteralPath $quartzRepoDir;
+try {
+    & node $mineralMapGenerator --source $MineralSourcePath --config $MineralConfigPath --output (Join-Path $quartzRepoDir 'site-data\mineralogy-links.json');
+    if ($LASTEXITCODE -ne 0) { throw 'No se pudo actualizar el mapa de Mineralogy Wiki; no se publica.'; }
+} finally { Pop-Location; }
 
 Write-Host '1. Obteniendo PDFs y sus IDs de Google Drive...' -ForegroundColor Cyan;
 
@@ -553,7 +568,7 @@ function Invoke-Git([string[]]$GitArgs, [switch]$Silencioso) {
 # work that happens to be in the same checkout.
 Invoke-Git @('diff', '--cached', '--quiet') -Silencioso;
 if ($script:CodigoGit -ne 0) { throw 'Hay cambios preparados previamente en Git. Se conservan para que los revises antes de publicar.'; }
-Invoke-Git @('add', '--all', '--', 'content', 'quartz.config.yaml', 'publish-notes-visible.ps1');
+Invoke-Git @('add', '--all', '--', 'content', 'quartz.config.yaml', 'publish-notes-visible.ps1', 'site-data/mineralogy-links.json');
 if ($script:CodigoGit -ne 0) { throw 'git add fallo. No se publico nada.'; }
 
 Invoke-Git @('diff', '--cached', '--name-only') -Silencioso;
