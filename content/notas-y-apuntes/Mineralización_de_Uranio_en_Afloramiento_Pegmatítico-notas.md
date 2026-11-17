@@ -1,6 +1,6 @@
 ﻿# Notas: Mineralización_de_Uranio_en_Afloramiento_Pegmatítico
 
-> Generado automaticamente desde Zotero - 2026-11-17 13:52
+> Generado automaticamente desde Zotero - 2026-11-17 13:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]

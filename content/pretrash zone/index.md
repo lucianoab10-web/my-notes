@@ -9,11 +9,11 @@ title: "pretrash zone"
 - [Albita](pretrash%20zone/Albita.md)
 - [Anortita](pretrash%20zone/Anortita.md)
 - [Detrítos](pretrash%20zone/Detr%C3%ADtos.md)
-- [fex8_datos_y_resultados](pretrash%20zone/fex8_datos_y_resultados.md)
 - [fex8](pretrash%20zone/fex8.md)
+- [fex8_datos_y_resultados](pretrash%20zone/fex8_datos_y_resultados.md)
 - [Lista silicatos](pretrash%20zone/Lista%20silicatos.md)
 - [rocas sedimentarias](pretrash%20zone/rocas%20sedimentarias.md)
-- [Tabla I datos de tiempo y posición (Tracker)](pretrash%20zone/Tabla%20I%20datos%20de%20tiempo%20y%20posici%C3%B3n%20%28Tracker%29.md)
+- [Tabla I datos de tiempo y posición (Tracker)](pretrash%20zone/Tabla%20I%20datos%20de%20tiempo%20y%20posici%C3%B3n%20(Tracker).md)
 
 ## Archivos
 
