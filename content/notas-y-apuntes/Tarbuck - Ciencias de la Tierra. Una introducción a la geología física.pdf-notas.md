@@ -1,9 +1,10 @@
 ﻿# Notas: Tarbuck - Ciencias de la Tierra. Una introducción a la geología física.pdf
 
-> Generado automaticamente desde Zotero - 2026-11-16 21:22
+> Generado automaticamente desde Zotero - 2026-11-16 21:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
+
 
 > Foliación  El término foliación (foliatus en forma de hoja) se refiere a cualquier disposición planar (casi plana) de los granos minerales o los rasgos estructurales del interior de una roca. Aunque hay foliación en algunas rocas sedimentarias e incluso en unos pocos tipos de rocas ígneas, es una característica fundamental de las rocas que han experimentado metamorfismo regional, es decir, unidades rocosas que se han plegado y se han deformado enormemente - p. 233
 
