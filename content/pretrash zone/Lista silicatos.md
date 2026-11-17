@@ -37,9 +37,9 @@ Ciclosilicatos
 30. [x] [[Cordierita]]
 31. [x] [[Berilo]]
 Tectosilicatos
-32. [ ] [[Crisocola]]
-33. [ ] [[Cuarzo]]
-34. [ ] [[Calcedonia]]
+32. [x] [[Crisocola]]
+33. [x] [[Cuarzo]]
+34. [x] [[Calcedonia]]
 35. [ ] [[Ortoclasa]]
 36. [ ] [[Microclina]]
 37. [x] [[Plagioclasa]] / [[Albita]] - [[Anortita]]
