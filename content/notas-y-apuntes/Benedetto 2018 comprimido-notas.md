@@ -1,6 +1,6 @@
-﻿# Notas: Benedetto 2018 comprimido
+# Notas: Benedetto 2018 comprimido
 
-> Generado automaticamente desde Zotero - 2026-11-16 22:02
+> Generado automaticamente desde Zotero - 2026-11-17 07:57
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
