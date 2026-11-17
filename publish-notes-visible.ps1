@@ -6,7 +6,17 @@
 # Codigos de salida: 0 = ok (puede haber avisos de PDF sin enlazar), 1 = error, 2 = ya habia otra publicacion en curso
 # ============================================================================
 
-param([switch]$NoPause)
+param(
+    [switch]$NoPause,
+    [string]$QuartzRepoDir = 'C:\Users\Luciano\Documents\my-notes-quartz',
+    [string]$VaultPath = 'C:\Users\Luciano\iCloudDrive\iCloud~md~obsidian\my-notes',
+    [string]$RclonePath = 'C:\Users\Luciano\Tools\rclone\rclone.exe',
+    [string]$RemotePath = 'gdrive:compartidos-varios',
+    [string[]]$AdditionalFolders = @('pretrash zone', 'Synthesis', 'Reviews', 'Flashcards'),
+    [string]$AdditionalRemoteFolder = '_vault',
+    [switch]$PrepareOnly,
+    [string]$DriveInventoryPath = ''
+)
 
 $ErrorActionPreference = 'Stop';
 
@@ -23,11 +33,26 @@ if (-not $tengoLock) {
 
 try {
 
-$quartzRepoDir = 'C:\Users\Luciano\Documents\my-notes-quartz';
+$quartzRepoDir = [System.IO.Path]::GetFullPath($QuartzRepoDir);
+$VaultPath = [System.IO.Path]::GetFullPath($VaultPath);
 $quartzContentDir = Join-Path -Path $quartzRepoDir -ChildPath 'content';
 $quartzConfigPath = Join-Path -Path $quartzRepoDir -ChildPath 'quartz.config.yaml';
-$obsidianVault = 'C:\Users\Luciano\iCloudDrive\iCloud~md~obsidian\my-notes\compartidos';$RclonePath = 'C:\Users\Luciano\Tools\rclone\rclone.exe';
-$RemotePath = 'gdrive:compartidos-varios';$expectedBaseUrl = 'lucianoab10-web.github.io/my-notes';
+$obsidianVault = Join-Path $VaultPath 'compartidos';
+$expectedBaseUrl = 'lucianoab10-web.github.io/my-notes';
+if ($DriveInventoryPath -and -not $PrepareOnly) { throw 'Un inventario de prueba solo se admite con -PrepareOnly.'; }
+foreach ($folderName in @($AdditionalFolders) + @($AdditionalRemoteFolder)) {
+    if ([string]::IsNullOrWhiteSpace($folderName) -or $folderName -match '[/\\:]' -or $folderName.StartsWith('.') -or $folderName -ne $folderName.Trim()) { throw "Nombre de carpeta no valido: $folderName"; }
+}
+$allowedAdditionalFolders = @('pretrash zone', 'Synthesis', 'Reviews', 'Flashcards');
+$canonicalAdditionalFolders = @();
+foreach ($folderName in $AdditionalFolders) {
+    $canonical = @($allowedAdditionalFolders | Where-Object { $_ -ieq $folderName });
+    if ($canonical.Count -ne 1) { throw "La carpeta '$folderName' no pertenece a las cuatro carpetas autorizadas."; }
+    $canonicalAdditionalFolders += $canonical[0];
+}
+$AdditionalFolders = $canonicalAdditionalFolders;
+if (@($AdditionalFolders | Select-Object -Unique).Count -ne $AdditionalFolders.Count) { throw 'No se permiten carpetas adicionales repetidas.'; }
+if ($AdditionalFolders | Where-Object { $_ -in @('compartidos','personal','clases','clases-pasadas','notas-y-apuntes','sincronizador') }) { throw 'Una carpeta adicional coincide con una seccion reservada.'; }
 
 # Decision de privacidad del usuario: estos PDF de personal/trabajos nunca se enlazan
 # en la web, aunque exista un archivo con el mismo nombre en el inventario de Drive.
@@ -43,11 +68,14 @@ $carpetasASincronizar = @(
     [pscustomobject]@{ Nombre = 'clases-pasadas'; Ruta = $clasesPasadasOrigen };
     [pscustomobject]@{ Nombre = 'notas-y-apuntes'; Ruta = $notasOrigen }
 );
+foreach ($folderName in $AdditionalFolders) {
+    $carpetasASincronizar += [pscustomobject]@{ Nombre = $folderName; Ruta = (Join-Path $VaultPath $folderName) };
+}
 
 if (-not (Test-Path -LiteralPath $quartzRepoDir -PathType Container)) { throw "No se encuentra el repositorio Quartz: $quartzRepoDir"; }
 if (-not (Test-Path -LiteralPath $quartzConfigPath -PathType Leaf)) { throw "No se encuentra quartz.config.yaml: $quartzConfigPath"; }
 if (-not (Test-Path -LiteralPath $obsidianVault -PathType Container)) { throw "No se encuentra el vault de Obsidian: $obsidianVault"; }
-if (-not (Test-Path -LiteralPath $RclonePath -PathType Leaf)) { throw "No se encuentra rclone.exe: $RclonePath"; }
+if (-not $DriveInventoryPath -and -not (Test-Path -LiteralPath $RclonePath -PathType Leaf)) { throw "No se encuentra rclone.exe: $RclonePath"; }
 
 foreach ($carpeta in($carpetasASincronizar)) {
     if (-not (Test-Path -LiteralPath $carpeta.Ruta -PathType Container)) {
@@ -81,8 +109,12 @@ try {
     # IMPORTANTE: la salida de rclone va DIRECTO a ConvertFrom-Json, sin envolverla en @(...).
     # En Windows PowerShell 5.1, ConvertFrom-Json entrega la lista completa como UN solo objeto y @(...)
     # la dejaba anidada: todos los archivos de Drive quedaban fundidos en uno y ninguna referencia se resolvia.
-    $archivosDrive = & $RclonePath --log-level ERROR lsjson $RemotePath --files-only --recursive | ConvertFrom-Json;
-    $rcloneExitCode = $LASTEXITCODE;
+    if ($DriveInventoryPath) {
+        $archivosDrive = Get-Content -LiteralPath $DriveInventoryPath -Raw -Encoding UTF8 | ConvertFrom-Json;
+    } else {
+        $archivosDrive = & $RclonePath --log-level ERROR lsjson $RemotePath --files-only --recursive | ConvertFrom-Json;
+        $rcloneExitCode = $LASTEXITCODE;
+    }
 }
 catch {
     throw "No pude leer la lista de Drive: $($_.Exception.Message)";
@@ -103,6 +135,7 @@ foreach ($elemento in @($archivosDrive)) {
 if ($listaDrive.Count -eq 0) { throw "rclone no devolvió archivos para '$RemotePath'."; }
 
 $pdfUrlByPath = @{};
+$pdfUrlByVaultPath = @{};
 $pdfUrlByName = @{};
 $duplicatePdfNames = @{};
 $pdfUrlByCleanName = @{};
@@ -117,6 +150,12 @@ foreach ($archivoDrive in($listaDrive)) {
         if ([string]::IsNullOrWhiteSpace($relativePath)) { $relativePath = [string]$archivoDrive.Name; }
         $relativePath = $relativePath.Replace('\', '/').TrimStart('/');
         $pdfUrlByPath[$relativePath] = $urlDrive;
+        # Keep both the legacy shared path and an unambiguous vault path.
+        if ($relativePath.StartsWith($AdditionalRemoteFolder + '/', [System.StringComparison]::OrdinalIgnoreCase)) {
+            $pdfUrlByVaultPath[$relativePath.Substring($AdditionalRemoteFolder.Length + 1)] = $urlDrive;
+        } else {
+            $pdfUrlByVaultPath['compartidos/' + $relativePath] = $urlDrive;
+        }
 
         $name = [string]$archivoDrive.Name;
         if ($pdfUrlByName.ContainsKey($name)) {
@@ -148,6 +187,8 @@ if ($pdfCount -eq 0) { throw "No se encontró ningún PDF en '$RemotePath'. Revi
 Write-Host "   Encontrados $pdfCount PDF(s), incluyendo subcarpetas." -ForegroundColor Gray;
 
 Write-Host '2. Limpiando directorio content antiguo...' -ForegroundColor Cyan;
+$resolvedContent = [System.IO.Path]::GetFullPath($quartzContentDir);
+if ($resolvedContent -ne [System.IO.Path]::GetFullPath((Join-Path $quartzRepoDir 'content')) -or -not $resolvedContent.StartsWith($quartzRepoDir.TrimEnd('\','/') + [System.IO.Path]::DirectorySeparatorChar, [System.StringComparison]::OrdinalIgnoreCase)) { throw 'La limpieza debe permanecer dentro de content del repositorio Quartz.'; }
 if (Test-Path -LiteralPath $quartzContentDir -PathType Container) {
     Get-ChildItem -LiteralPath $quartzContentDir -Force | Remove-Item -Recurse -Force;
 } else {
@@ -163,6 +204,19 @@ Get-ChildItem -LiteralPath $clasesOrigen -Force |
 
 Copy-Item -LiteralPath $clasesPasadasOrigen -Destination $quartzContentDir -Recurse -Force;
 Copy-Item -LiteralPath $notasOrigen -Destination $quartzContentDir -Recurse -Force;
+foreach ($folderName in $AdditionalFolders) {
+    Copy-Item -LiteralPath (Join-Path $VaultPath $folderName) -Destination $quartzContentDir -Recurse -Force;
+}
+
+# Relate every published note to its original location, before rewriting links.
+$sourceNoteByContent = @{};
+foreach ($section in $carpetasASincronizar) {
+    $sectionContent = Join-Path $quartzContentDir $section.Nombre;
+    foreach ($note in @(Get-ChildItem -LiteralPath $sectionContent -Filter '*.md' -File -Recurse)) {
+        $relative = $note.FullName.Substring($sectionContent.Length).TrimStart('\','/');
+        $sourceNoteByContent[$note.FullName] = Join-Path $section.Ruta $relative;
+    }
+}
 
 # Las paginas informativas de OAuth viven fuera de content para conservarlas
 # cuando la publicacion regenera las notas. No se modifica el vault de Obsidian.
@@ -203,14 +257,18 @@ if (Test-Path -LiteralPath $notasPath) {
         if ($archivo.BaseName -ne 'index') {$indexContent += "- [[notas-y-apuntes/$($archivo.BaseName)]]`n"; }
     }
 }
+foreach ($folderName in $AdditionalFolders) {
+    $indexContent += "`n## $folderName`n- [[$folderName/index|Ver $folderName]]`n";
+}
 [System.IO.File]::WriteAllText((Join-Path -Path $quartzContentDir -ChildPath 'index.md'), $indexContent, [System.Text.UTF8Encoding]::new($false));
 
 Write-Host '5. Convirtiendo enlaces PDF a Google Drive...' -ForegroundColor Cyan;
 
 # Busca un PDF de la nota en la lista de Drive. Orden: ruta exacta, nombre exacto, nombre aproximado.
 # Si el nombre se repite en Drive (o hay varios parecidos) NO adivina: lo deja sin enlazar y lo avisa.
-function Resolve-PdfUrl([string]$Target) {
+function Resolve-PdfUrl([string]$Target, [string]$SourceNote = '', [switch]$RequireExactVaultPath) {
     $normalizado = [Uri]::UnescapeDataString($Target).Replace('\', '/');
+    $normalizado = ($normalizado -split '#', 2)[0].Trim('<','>');
     $normalizado = ($normalizado -replace '^\./', '').TrimStart('/');
     $nombre = [System.IO.Path]::GetFileName($normalizado);
     $resultado = @{ Url = $null; Aproximado = $false; Motivo = 'no esta en Drive'; Privado = $false };
@@ -221,6 +279,26 @@ function Resolve-PdfUrl([string]$Target) {
         return $resultado;
     }
 
+    if ($RequireExactVaultPath) {
+        if ($pdfUrlByVaultPath.ContainsKey($normalizado)) { $resultado.Url = $pdfUrlByVaultPath[$normalizado]; }
+        else { $resultado.Motivo = 'falta la copia exacta de esta carpeta en Drive'; }
+        return $resultado;
+    }
+
+    # Resolve against the source note first, so ../ and same-name PDFs in
+    # different sections keep their own Drive IDs.
+    if ($SourceNote) {
+        foreach ($baseFolder in @((Split-Path -Parent $SourceNote), $VaultPath, $obsidianVault)) {
+            try {
+                $candidate = [System.IO.Path]::GetFullPath((Join-Path $baseFolder $normalizado));
+                if ($candidate.StartsWith($VaultPath.TrimEnd('\','/') + [System.IO.Path]::DirectorySeparatorChar, [System.StringComparison]::OrdinalIgnoreCase)) {
+                    $vaultRelative = $candidate.Substring($VaultPath.Length).TrimStart('\','/').Replace('\','/');
+                    if ($pdfUrlByVaultPath.ContainsKey($vaultRelative)) { $resultado.Url = $pdfUrlByVaultPath[$vaultRelative]; return $resultado; }
+                }
+            } catch { }
+        }
+    }
+    if ($pdfUrlByVaultPath.ContainsKey($normalizado)) { $resultado.Url = $pdfUrlByVaultPath[$normalizado]; return $resultado; }
     if ($pdfUrlByPath.ContainsKey($normalizado)) { $resultado.Url = $pdfUrlByPath[$normalizado]; return $resultado; }
     if ($duplicatePdfNames.ContainsKey($nombre)) { $resultado.Motivo = 'nombre repetido en Drive: pon la ruta en el enlace'; return $resultado; }
     if ($pdfUrlByName.ContainsKey($nombre)) { $resultado.Url = $pdfUrlByName[$nombre]; return $resultado; }
@@ -233,20 +311,107 @@ function Resolve-PdfUrl([string]$Target) {
     return $resultado;
 }
 
+function Get-MarkdownLink([string]$Label, [string]$Path) {
+    $encoded = (($Path.Replace('\','/') -split '/') | ForEach-Object { [Uri]::EscapeDataString($_) }) -join '/';
+    return '[' + $Label.Replace('[','\[').Replace(']','\]') + '](' + $encoded + ')';
+}
+
+# Give loose PDFs a visible entry as well as rewriting links from notes.
+$additionalPdfLinks = 0;
+foreach ($folderName in $AdditionalFolders) {
+    $sourceFolder = Join-Path $VaultPath $folderName;
+    $destinationFolder = Join-Path $quartzContentDir $folderName;
+    $folderLines = @('---', ('title: "' + $folderName.Replace('"','\"') + '"'), '---', '', "# $folderName", '', '## Notas', '');
+    $attachments = @();
+    foreach ($entry in @(Get-ChildItem -LiteralPath $sourceFolder -File -Recurse | Sort-Object FullName)) {
+        $relative = $entry.FullName.Substring($sourceFolder.Length).TrimStart('\','/').Replace('\','/');
+        if ($entry.Extension -ieq '.md') {
+            if ($relative -ine 'index.md') { $folderLines += '- ' + (Get-MarkdownLink $entry.BaseName ($folderName + '/' + $relative)); }
+        } elseif ($entry.Extension -ieq '.pdf') {
+            $resolution = Resolve-PdfUrl ($folderName + '/' + $relative) -RequireExactVaultPath;
+            if ($resolution.Privado) { continue; }
+            if (-not $resolution.Url) { throw "No se publica: el PDF '$folderName/$relative' aun no tiene una copia identificada en Drive. Ejecuta primero Sincronizar-y-Publicar.ps1."; }
+            $attachments += '- [' + $entry.BaseName.Replace('[','\[').Replace(']','\]') + ' — Abrir PDF en Drive](' + $resolution.Url + ')';
+            $additionalPdfLinks++;
+        } else {
+            $attachments += '- ' + (Get-MarkdownLink $entry.Name ($folderName + '/' + $relative));
+        }
+    }
+    if ($attachments.Count) { $folderLines += @('', '## Archivos', '') + $attachments; }
+    $sourceIndex = Join-Path $sourceFolder 'index.md';
+    $folderIndex = Join-Path $destinationFolder 'index.md';
+    if (Test-Path -LiteralPath $sourceIndex -PathType Leaf) {
+        # Preserve a user's index and append only the generated file listing.
+        $folderText = [System.IO.File]::ReadAllText($sourceIndex) + "`n`n## Archivos de esta carpeta`n`n" + (($folderLines | Select-Object -Skip 8) -join "`n");
+    } else { $folderText = $folderLines -join "`n"; }
+    [System.IO.File]::WriteAllText($folderIndex, $folderText, [System.Text.UTF8Encoding]::new($false));
+}
+
+$assetRoots = @($obsidianVault) + @($AdditionalFolders | ForEach-Object { Join-Path $VaultPath $_ });
+$assetFiles = @();
+$imageExtensions = @('.png','.jpg','.jpeg','.gif','.svg','.webp','.avif','.heic','.heif');
+foreach ($assetRoot in $assetRoots) {
+    $assetFiles += @(Get-ChildItem -LiteralPath $assetRoot -File -Recurse | Where-Object { $imageExtensions -contains $_.Extension.ToLowerInvariant() });
+}
+function Resolve-ImageAsset([string]$Target, [string]$SourceNote) {
+    if ($Target -match '^(?i:https?://|data:|//)') { return $null; }
+    $targetPath = ([Uri]::UnescapeDataString($Target.Trim('<','>')) -split '#', 2)[0].Replace('\','/');
+    $candidates = @();
+    foreach ($baseFolder in @((Split-Path -Parent $SourceNote), $VaultPath, $obsidianVault)) {
+        if (-not $baseFolder) { continue; }
+        try {
+            $fullPath = [System.IO.Path]::GetFullPath((Join-Path $baseFolder $targetPath));
+            $allowed = @($assetRoots | Where-Object { $fullPath.StartsWith($_.TrimEnd('\','/') + [System.IO.Path]::DirectorySeparatorChar, [System.StringComparison]::OrdinalIgnoreCase) }).Count -gt 0;
+            if ($allowed -and (Test-Path -LiteralPath $fullPath -PathType Leaf)) { $candidates = @($fullPath); break; }
+        } catch { }
+    }
+    if (-not $candidates.Count) {
+        $fileName = [System.IO.Path]::GetFileName($targetPath);
+        $candidates = @($assetFiles | Where-Object Name -IEQ $fileName | Select-Object -ExpandProperty FullName -Unique);
+    }
+    if ($candidates.Count -ne 1) { return $null; }
+    $vaultRelative = $candidates[0].Substring($VaultPath.Length).TrimStart('\','/').Replace('\','/');
+    $publishedPath = $vaultRelative;
+    if (-not (Test-Path -LiteralPath (Join-Path $quartzContentDir $publishedPath) -PathType Leaf)) {
+        $publishedPath = 'assets/vault/' + $vaultRelative;
+        $assetDestination = Join-Path $quartzContentDir $publishedPath;
+        New-Item -ItemType Directory -Path (Split-Path -Parent $assetDestination) -Force | Out-Null;
+        Copy-Item -LiteralPath $candidates[0] -Destination $assetDestination -Force;
+    }
+    return $publishedPath;
+}
+
 $unresolvedPdfLinks = [System.Collections.Generic.List[string]]::new();
 $enlacesResueltos = 0;
 $enlacesAproximados = 0;
 $enlacesPrivados = 0;
-$wikilinkPattern = '(?i)!?\[\[(?<target>[^\]|#]+\.pdf)(?:\|(?<alias>[^\]]+))?\]\]';
-$markdownPdfPattern = '(?i)\[(?<label>[^\]]+)\]\((?<target>(?!https?://|mailto:)[^)\s]+\.pdf)(?:\s+"[^"]*")?\)';
+$wikilinkPattern = '(?i)!?\[\[(?<target>[^\]|#]+\.pdf(?:#[^\]|]+)?)(?:\|(?<alias>[^\]]+))?\]\]';
+$markdownPdfPattern = '(?i)!?\[(?<label>[^\]]+)\]\((?<target>(?!https?://|mailto:)(?:<[^<>\r\n]+\.pdf(?:#[^<>\r\n]*)?>|(?:[^()\r\n]|\([^()\r\n]*\))+?\.pdf(?:#[^\s)]*)?))(?:\s+"[^"]*")?\)';
+$wikiImagePattern = '(?i)!\[\[(?<target>[^\]|#]+\.(?:png|jpe?g|gif|svg|webp|avif|heic|heif))(?:\|(?<alias>[^\]]+))?\]\]';
+$markdownImagePattern = '(?i)!\[(?<label>[^\]]*)\]\((?<target>(?!https?://|data:)(?:<[^<>\r\n]+\.(?:png|jpe?g|gif|svg|webp|avif|heic|heif)>|(?:[^()\r\n]|\([^()\r\n]*\))+?\.(?:png|jpe?g|gif|svg|webp|avif|heic|heif)))(?:\s+"[^"]*")?\)';
 
 foreach ($archivo in(Get-ChildItem -LiteralPath $quartzContentDir -Filter '*.md' -File -Recurse)) {
     $contenido = [System.IO.File]::ReadAllText($archivo.FullName, [System.Text.Encoding]::UTF8);
     $original = $contenido;
+    $sourceNote = $sourceNoteByContent[$archivo.FullName];
+
+    if ($sourceNote) {
+        foreach ($imageMatch in [regex]::Matches($contenido, $wikiImagePattern)) {
+            $assetPath = Resolve-ImageAsset $imageMatch.Groups['target'].Value $sourceNote;
+            if ($assetPath) {
+                $aliasPart = if ($imageMatch.Groups['alias'].Success) { '|' + $imageMatch.Groups['alias'].Value } else { '' };
+                $contenido = $contenido.Replace($imageMatch.Value, '![[' + $assetPath + $aliasPart + ']]');
+            }
+        }
+        foreach ($imageMatch in [regex]::Matches($contenido, $markdownImagePattern)) {
+            $assetPath = Resolve-ImageAsset $imageMatch.Groups['target'].Value $sourceNote;
+            if ($assetPath) { $contenido = $contenido.Replace($imageMatch.Value, '!' + (Get-MarkdownLink $imageMatch.Groups['label'].Value $assetPath)); }
+        }
+    }
 
     foreach ($m in [regex]::Matches($contenido, $wikilinkPattern)) {
         $target = $m.Groups['target'].Value.Trim();
-        $resultado = Resolve-PdfUrl $target;
+        $resultado = Resolve-PdfUrl $target $sourceNote;
         if ($resultado.Privado) {
             $alias = $m.Groups['alias'].Value.Trim();
             if ([string]::IsNullOrWhiteSpace($alias)) { $alias = [System.IO.Path]::GetFileName([Uri]::UnescapeDataString($target).Replace('\', '/')); }
@@ -268,7 +433,7 @@ foreach ($archivo in(Get-ChildItem -LiteralPath $quartzContentDir -Filter '*.md'
 
     foreach ($m in [regex]::Matches($contenido, $markdownPdfPattern)) {
         $target = $m.Groups['target'].Value.Trim();
-        $resultado = Resolve-PdfUrl $target;
+        $resultado = Resolve-PdfUrl $target $sourceNote;
         if ($resultado.Privado) {
             $label = $m.Groups['label'].Value.Trim();
             $contenido = $contenido.Replace($m.Value, "$label (archivo privado)");
@@ -293,6 +458,7 @@ foreach ($archivo in(Get-ChildItem -LiteralPath $quartzContentDir -Filter '*.md'
 }
 
 Write-Host "   $enlacesResueltos enlace(s) a PDF convertidos a Drive." -ForegroundColor Gray;
+Write-Host "   $additionalPdfLinks PDF(s) incluidos en los indices de las nuevas carpetas." -ForegroundColor Gray;
 if ($enlacesPrivados -gt 0) { Write-Host "   $enlacesPrivados referencia(s) privadas mostradas solo como texto (archivo privado)." -ForegroundColor Gray; }
 if ($enlacesAproximados -gt 0) { Write-Host "   ($enlacesAproximados se resolvieron por nombre aproximado: sin tildes ni simbolos)" -ForegroundColor Gray; }
 
@@ -343,6 +509,11 @@ if ($explorerMatch.Success) {$restStart = $explorerMatch.Index +$explorerMatch.L
 Write-Host '7. Eliminando archivos PDF físicos para no saturar GitHub...' -ForegroundColor Cyan;
 Get-ChildItem -LiteralPath $quartzContentDir -Filter '*.pdf' -File -Recurse | Remove-Item -Force;
 
+if ($PrepareOnly) {
+    Write-Host 'Contenido preparado y comprobado. -PrepareOnly no ejecuta git ni publica en Internet.' -ForegroundColor Green;
+    return;
+}
+
 Write-Host '8. Subiendo a GitHub...' -ForegroundColor Cyan;
 Set-Location -LiteralPath $quartzRepoDir;
 
@@ -365,14 +536,18 @@ function Invoke-Git([string[]]$GitArgs, [switch]$Silencioso) {
     }
 }
 
-Invoke-Git @('add', '.');
+# Commit the generated content and this workflow only. Never pick up unrelated
+# work that happens to be in the same checkout.
+Invoke-Git @('diff', '--cached', '--quiet') -Silencioso;
+if ($script:CodigoGit -ne 0) { throw 'Hay cambios preparados previamente en Git. Se conservan para que los revises antes de publicar.'; }
+Invoke-Git @('add', '--all', '--', 'content', 'quartz.config.yaml', 'publish-notes-visible.ps1');
 if ($script:CodigoGit -ne 0) { throw 'git add fallo. No se publico nada.'; }
 
-Invoke-Git @('status', '--porcelain') -Silencioso;
+Invoke-Git @('diff', '--cached', '--name-only') -Silencioso;
 $cambiosPendientes = @($script:SalidaGit | Where-Object { $_.Trim() });
 
 if ($cambiosPendientes.Count -gt 0) {
-    Invoke-Git @('commit', '-m', 'Actualizacion automatica: enlaces Drive, Explorer e indice');
+    Invoke-Git @('commit', '-m', 'Actualizar notas y secciones del vault con enlaces PDF de Drive');
     if ($script:CodigoGit -ne 0) { throw 'git commit fallo. No se publico nada.'; }
 } else {
     Write-Host '   No hay cambios nuevos respecto a lo ya publicado.' -ForegroundColor Gray;

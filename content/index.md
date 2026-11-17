@@ -10,9 +10,11 @@
 ## Ramos Pasados
 
 ## Compartidos y Otros Apuntes
+- [[notas-y-apuntes/[International Union of Crystallography Texts on Crystallography 21] Hammond, Christopher - The Basi-notas-2]]
+- [[notas-y-apuntes/[International Union of Crystallography Texts on Crystallography 21] Hammond, Christopher - The Basi-notas]]
 - [[notas-y-apuntes/10.1029@GD018p0097-notas]]
-- [[notas-y-apuntes/Benedetto 2018 comprimido-notas(1)]]
 - [[notas-y-apuntes/Benedetto 2018 comprimido-notas]]
+- [[notas-y-apuntes/Benedetto 2018 comprimido-notas(1)]]
 - [[notas-y-apuntes/carta-geologica-concepcion-talcahuano-notas]]
 - [[notas-y-apuntes/cerny2012-notas]]
 - [[notas-y-apuntes/Ciencias de la tierra (2a_ ed_) -- Pérez Riobo, Analía & Vrba, Ana -- 2a_ edición ampliada, Ituzaing-notas-2]]
@@ -42,9 +44,9 @@
 - [[notas-y-apuntes/nhess-24-4267-2024-notas]]
 - [[notas-y-apuntes/Ore Deposit Geology -- John     Ridley -- 1, 2013 -- Cambridge University Press (Virtual Publishing)-notas-2]]
 - [[notas-y-apuntes/Ore Deposit Geology -- John     Ridley -- 1, 2013 -- Cambridge University Press (Virtual Publishing)-notas]]
-- [[notas-y-apuntes/Paleontología -- García, Pedro & Sour, Francisco -- 2024 -- Universidad Nacional Autónoma de México-notas(1)]]
 - [[notas-y-apuntes/Paleontología -- García, Pedro & Sour, Francisco -- 2024 -- Universidad Nacional Autónoma de México-notas-2]]
 - [[notas-y-apuntes/Paleontología -- García, Pedro & Sour, Francisco -- 2024 -- Universidad Nacional Autónoma de México-notas]]
+- [[notas-y-apuntes/Paleontología -- García, Pedro & Sour, Francisco -- 2024 -- Universidad Nacional Autónoma de México-notas(1)]]
 - [[notas-y-apuntes/PDF-notas-2]]
 - [[notas-y-apuntes/PDF-notas]]
 - [[notas-y-apuntes/Pegmatiteclassification-notas]]
@@ -60,8 +62,18 @@
 - [[notas-y-apuntes/The blue planet _ an introduction to earth system science _ -- Brian J_ Skinner, Barbara W_ Murck ---notas-2]]
 - [[notas-y-apuntes/The blue planet _ an introduction to earth system science _ -- Brian J_ Skinner, Barbara W_ Murck ---notas]]
 - [[notas-y-apuntes/whitney_p185_10-notas]]
-- [[notas-y-apuntes/Winter y Winter - 2010 - Principles of igneous and metamorphic petrology.PDF-notas(1)]]
 - [[notas-y-apuntes/Winter y Winter - 2010 - Principles of igneous and metamorphic petrology.PDF-notas-2]]
 - [[notas-y-apuntes/Winter y Winter - 2010 - Principles of igneous and metamorphic petrology.PDF-notas]]
-- [[notas-y-apuntes/[International Union of Crystallography Texts on Crystallography 21] Hammond, Christopher - The Basi-notas-2]]
-- [[notas-y-apuntes/[International Union of Crystallography Texts on Crystallography 21] Hammond, Christopher - The Basi-notas]]
+- [[notas-y-apuntes/Winter y Winter - 2010 - Principles of igneous and metamorphic petrology.PDF-notas(1)]]
+
+## pretrash zone
+- [[pretrash zone/index|Ver pretrash zone]]
+
+## Synthesis
+- [[Synthesis/index|Ver Synthesis]]
+
+## Reviews
+- [[Reviews/index|Ver Reviews]]
+
+## Flashcards
+- [[Flashcards/index|Ver Flashcards]]
