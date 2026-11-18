@@ -50,6 +50,28 @@
       "anchors": {}
     },
     {
+      "source": "Amazonita.md",
+      "url": "https://lucianoab10-web.github.io/mineralogy-wiki/Amazonita/",
+      "keys": [
+        "Amazonita",
+        "Amazonita.md",
+        "amazonita",
+        "compartidos/second-brain/markdowns/Amazonita",
+        "compartidos/second-brain/markdowns/Amazonita.md",
+        "compartidos/second-brain/markdowns/amazonita",
+        "markdowns/Amazonita",
+        "markdowns/Amazonita.md",
+        "markdowns/amazonita",
+        "second-brain/markdowns/Amazonita",
+        "second-brain/markdowns/Amazonita.md",
+        "second-brain/markdowns/amazonita"
+      ],
+      "redirects": [
+        "amazonita"
+      ],
+      "anchors": {}
+    },
+    {
       "source": "ambientes metamorficos.md",
       "url": "https://lucianoab10-web.github.io/mineralogy-wiki/ambientes%20metamorficos/",
       "keys": [
@@ -4343,6 +4365,28 @@
       ],
       "redirects": [
         "moscovita"
+      ],
+      "anchors": {}
+    },
+    {
+      "source": "Nefelina.md",
+      "url": "https://lucianoab10-web.github.io/mineralogy-wiki/Nefelina/",
+      "keys": [
+        "Nefelina",
+        "Nefelina.md",
+        "compartidos/second-brain/markdowns/Nefelina",
+        "compartidos/second-brain/markdowns/Nefelina.md",
+        "compartidos/second-brain/markdowns/nefelina",
+        "markdowns/Nefelina",
+        "markdowns/Nefelina.md",
+        "markdowns/nefelina",
+        "nefelina",
+        "second-brain/markdowns/Nefelina",
+        "second-brain/markdowns/Nefelina.md",
+        "second-brain/markdowns/nefelina"
+      ],
+      "redirects": [
+        "nefelina"
       ],
       "anchors": {}
     },
