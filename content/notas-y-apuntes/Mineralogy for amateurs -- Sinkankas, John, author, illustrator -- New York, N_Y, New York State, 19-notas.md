@@ -1,6 +1,6 @@
 ﻿# Notas: Mineralogy for amateurs -- Sinkankas, John, author, illustrator -- New York, N_Y, New York State, 1964 -- Princeton, N_J_, Van Nostrand -- isbn13 9780
 
-> Generado automaticamente desde Zotero - 2026-11-17 21:07
+> Generado automaticamente desde Zotero - 2026-11-17 21:17
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
