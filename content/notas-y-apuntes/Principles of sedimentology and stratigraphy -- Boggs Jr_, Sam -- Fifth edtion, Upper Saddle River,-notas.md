@@ -1,6 +1,6 @@
 ﻿# Notas: Principles of sedimentology and stratigraphy -- Boggs Jr_, Sam -- Fifth edtion, Upper Saddle River, N_J, ©2012 -- Boston _ Pearson -- isbn13 9780321643186
 
-> Generado automaticamente desde Zotero - 2026-11-17 21:17
+> Generado automaticamente desde Zotero - 2026-11-18 16:11
 > Coleccion: GEOLOGIA
 
 ## [Amarillo]
