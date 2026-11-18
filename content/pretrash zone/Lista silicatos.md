@@ -1,7 +1,7 @@
 ---
 tags:
 ---
-Filosilicatos
+- Filosilicatos
 1. [x] [[Moscovita]]
 2. [x] [[Biotita]]
 3. [x] [[Clorita]]
@@ -18,31 +18,31 @@ Filosilicatos
 14. [x] [[Augita]]
 15. [x] [[Diópsido]]
 16. [x] [[Wollastonita]]
-Nesosilicatos
-17. [x] [[Olivino]]
-18. [x] [[Forsterita]]
-19. [x] [[Granate]]
-20. [x] [[Circón]]
-21. [x] [[Topacio]]
-22. [x] [[Estaurolita]]
-23. [x] [[Andalucita]
-24. [x] [[Kyonita-Distena-Cianita]]]
-25. [x] [[Sillimanita]]
-Sorosilicatos
-26. [x] [[Vesubianita]]
-27. [x] [[Epidota]]
-28. [x] [[Zoisita]]
-Ciclosilicatos
-29. [x] [[Turmalina]]
-30. [x] [[Cordierita]]
-31. [x] [[Berilo]]
-Tectosilicatos
-32. [x] [[Crisocola]]
-33. [x] [[Cuarzo]]
-34. [x] [[Calcedonia]]
-35. [x] [[Ortoclasa]]
-36. [x] [[Microclina]]
-37. [x] [[Plagioclasa]] / [[Albita]] - [[Anortita]]
-38. [x] [[Amazonita]]
-39. [x] [[Ópalo]]
-40. [ ] [[Nefelina]]
+- Nesosilicatos
+1. [x] [[Olivino]]
+2. [x] [[Forsterita]]
+3. [x] [[Granate]]
+4. [x] [[Circón]]
+5. [x] [[Topacio]]
+6. [x] [[Estaurolita]]
+7. [x] [[Andalucita]]
+8. [x] [[Kyonita-Distena-Cianita]]]
+9. [x] [[Sillimanita]]
+- Sorosilicatos
+1. [x] [[Vesubianita]]
+2. [x] [[Epidota]]
+3. [x] [[Zoisita]]
+- Ciclosilicatos
+1. [x] [[Turmalina]]
+2. [x] [[Cordierita]]
+3. [x] [[Berilo]]
+- Tectosilicatos
+1. [x] [[Crisocola]]
+2. [x] [[Cuarzo]]
+3. [x] [[Calcedonia]]
+4. [x] [[Ortoclasa]]
+5. [x] [[Microclina]]
+6. [x] [[Plagioclasa]] / [[Albita]] - [[Anortita]]
+7. [x] [[Amazonita]]
+8. [x] [[Ópalo]]
+9. [x] [[Nefelina]]
